@@ -1,0 +1,259 @@
+[
+  {
+    "catalogKey": "A",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "B",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "C",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "D",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "E",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "F",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "G",
+    "count": 1,
+    "games": [
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Teen",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Mild Language",
+              "name": "ESRB_MILD_LANGUAGE"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_TEEN",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
+        },
+        "conceptId": 10008048,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10008048",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ADVENTURE"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202404/1120/64a12b89992b8e34ecace3e5c7d1d39b954c2ab1d73de70a.png",
+        "name": "Grounded PS4® & PS5®",
+        "nameEn": "Grounded PS4® & PS5®",
+        "productId": "UP6312-PPSA15547_00-OGUNQUIT00000000",
+        "releaseDate": "2024-04-16T15:00:00Z",
+        "streamingSupported": true
+      }
+    ]
+  },
+  {
+    "catalogKey": "H",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "I",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "J",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "K",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "L",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "M",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "N",
+    "count": 1,
+    "games": [
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Everyone 10+",
+          "descriptors": [
+            {
+              "description": "Comic Mischief",
+              "name": "ESRB_COMIC_MISCHIEF"
+            },
+            {
+              "description": "Fantasy Violence",
+              "name": "ESRB_FANTASY_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            }
+          ],
+          "name": "ESRB_EVERYONE_10",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e10.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e10.png"
+        },
+        "conceptId": 10008091,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10008091",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "FIGHTING",
+          "FIGHTING"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202308/1614/1055968351b6dce7f43579788b031e590a3d2c62600c177e.png",
+        "name": "Nickelodeon All-Star Brawl 2",
+        "nameEn": "Nickelodeon All-Star Brawl 2",
+        "productId": "UP0283-PPSA16744_00-NALLSTARBRAWLTWO",
+        "releaseDate": "2023-11-07T05:00:00Z",
+        "streamingSupported": true
+      }
+    ]
+  },
+  {
+    "catalogKey": "O",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "P",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "Q",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "R",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "S",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "T",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "U",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "V",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "W",
+    "count": 1,
+    "games": [
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 10010263,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10010263",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202409/1318/c955588303d70c85f6cc2d5aed46c096c4d6c4b34187d0d6.png",
+        "name": "Warhammer 40,000: Darktide",
+        "nameEn": "Warhammer 40,000: Darktide",
+        "productId": "EP4122-PPSA21255_00-0888672453602469",
+        "releaseDate": "2024-12-03T10:00:00Z",
+        "streamingSupported": true
+      }
+    ]
+  },
+  {
+    "catalogKey": "X",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "Y",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "Z",
+    "count": 0,
+    "games": []
+  },
+  {
+    "catalogKey": "0-9",
+    "count": 0,
+    "games": []
+  }
+]
