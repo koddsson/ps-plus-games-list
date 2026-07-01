@@ -7,6 +7,21 @@ endpoints once a day and commits the results to [`data/`](./data). Because the
 job only commits when something actually changed, the git history becomes a
 log of catalog additions and removals over time.
 
+## This month's games
+
+The table below is regenerated from `data/plus-monthly-games-list.json` on each
+sync, so it always reflects the current monthly line-up.
+
+<!-- BEGIN MONTHLY GAMES -->
+
+| Game | Platforms | Genre |
+| --- | --- | --- |
+| [Grounded PS4® & PS5®](https://store.playstation.com/en-us/concept/10008048) | PS4, PS5 | Adventure |
+| [Nickelodeon All-Star Brawl 2](https://store.playstation.com/en-us/concept/10008091) | PS4, PS5 | Fighting |
+| [Warhammer 40,000: Darktide](https://store.playstation.com/en-us/concept/10010263) | PS5 | Action |
+
+<!-- END MONTHLY GAMES -->
+
 ## Tracked categories
 
 | File | Category | Source |

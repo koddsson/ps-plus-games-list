@@ -23,7 +23,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "lts/*"
 
       - name: Fetch games data
         run: node scripts/fetch-games.mjs
@@ -35,7 +35,7 @@ jobs:
 
           # Stage first so newly-created (untracked) files are detected too;
           # `git diff` alone ignores untracked files and would miss the first run.
-          git add data
+          git add data README.md
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0

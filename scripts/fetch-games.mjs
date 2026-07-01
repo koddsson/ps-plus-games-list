@@ -6,14 +6,20 @@
 // recursively so that the committed files produce clean, meaningful diffs
 // even if the upstream API reorders keys between requests.
 //
+// It also refreshes the "This month's games" table in the README, between the
+// MONTHLY_GAMES markers, so the listing tracks the monthly catalog. No
+// timestamp is written, so the README only changes when the line-up changes.
+//
 // Run with: node scripts/fetch-games.mjs
 
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, writeFile, readFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = join(__dirname, "..", "data");
+const ROOT_DIR = join(__dirname, "..");
+const DATA_DIR = join(ROOT_DIR, "data");
+const README_PATH = join(ROOT_DIR, "README.md");
 
 const LOCALE = process.env.PS_LOCALE ?? "en-us";
 const BASE_URL = "https://www.playstation.com/bin/imagic/gameslist";
@@ -24,6 +30,12 @@ const CATEGORIES = [
   "plus-classics-list",
   "plus-games-list",
 ];
+
+// The category whose games are rendered into the README table.
+const MONTHLY_CATEGORY = "plus-monthly-games-list";
+
+const MONTHLY_MARKER_START = "<!-- BEGIN MONTHLY GAMES -->";
+const MONTHLY_MARKER_END = "<!-- END MONTHLY GAMES -->";
 
 const MAX_RETRIES = 4;
 
@@ -93,10 +105,83 @@ async function fetchCategory(category) {
   );
 }
 
+// Turn "ACTION" / "ROLE_PLAYING_GAMES" into "Action" / "Role Playing Games".
+function titleCase(value) {
+  return value
+    .toLowerCase()
+    .split(/[\s_]+/)
+    .filter(Boolean)
+    .map((word) => word[0].toUpperCase() + word.slice(1))
+    .join(" ");
+}
+
+function escapeCell(value) {
+  return value.replace(/\|/g, "\\|");
+}
+
+// The monthly payload is an array of alphabetical buckets, each with a
+// `games` array. Flatten it into the games that are actually available.
+function flattenGames(data) {
+  if (!Array.isArray(data)) return [];
+  return data.flatMap((bucket) => bucket?.games ?? []);
+}
+
+function renderMonthlyTable(data) {
+  const games = flattenGames(data);
+
+  if (games.length === 0) {
+    return "_No monthly games are currently listed._";
+  }
+
+  const rows = games.map((game) => {
+    const name = escapeCell(game.name ?? game.nameEn ?? "Unknown");
+    const link = game.conceptUrl ? `[${name}](${game.conceptUrl})` : name;
+    const platforms = Array.isArray(game.device) ? game.device.join(", ") : "";
+    const genres = Array.isArray(game.genre)
+      ? [...new Set(game.genre)].map(titleCase).join(", ")
+      : "";
+    return `| ${link} | ${escapeCell(platforms)} | ${escapeCell(genres)} |`;
+  });
+
+  return [
+    "| Game | Platforms | Genre |",
+    "| --- | --- | --- |",
+    ...rows,
+  ].join("\n");
+}
+
+async function updateReadme(monthlyData) {
+  let readme;
+  try {
+    readme = await readFile(README_PATH, "utf8");
+  } catch (error) {
+    console.warn(`  skipping README update: ${error.message}`);
+    return;
+  }
+
+  const startIdx = readme.indexOf(MONTHLY_MARKER_START);
+  const endIdx = readme.indexOf(MONTHLY_MARKER_END);
+  if (startIdx === -1 || endIdx === -1 || endIdx < startIdx) {
+    console.warn("  skipping README update: monthly-games markers not found");
+    return;
+  }
+
+  const table = renderMonthlyTable(monthlyData);
+  const before = readme.slice(0, startIdx + MONTHLY_MARKER_START.length);
+  const after = readme.slice(endIdx);
+  const updated = `${before}\n\n${table}\n\n${after}`;
+
+  if (updated !== readme) {
+    await writeFile(README_PATH, updated, "utf8");
+    console.log("  updated README monthly games table");
+  }
+}
+
 async function main() {
   await mkdir(DATA_DIR, { recursive: true });
 
   let failures = 0;
+  let monthlyData;
   for (const category of CATEGORIES) {
     console.log(`Fetching ${category}...`);
     try {
@@ -105,10 +190,17 @@ async function main() {
       const outPath = join(DATA_DIR, `${category}.json`);
       await writeFile(outPath, JSON.stringify(sorted, null, 2) + "\n", "utf8");
       console.log(`  wrote ${outPath}`);
+      if (category === MONTHLY_CATEGORY) {
+        monthlyData = data;
+      }
     } catch (error) {
       failures++;
       console.error(`  ${error.message}`);
     }
+  }
+
+  if (monthlyData !== undefined) {
+    await updateReadme(monthlyData);
   }
 
   if (failures > 0) {
