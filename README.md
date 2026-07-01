@@ -14,11 +14,11 @@ sync, so it always reflects the current monthly line-up.
 
 <!-- BEGIN MONTHLY GAMES -->
 
-| Game | Platforms | Genre |
-| --- | --- | --- |
-| [Grounded PS4® & PS5®](https://store.playstation.com/en-us/concept/10008048) | PS4, PS5 | Adventure |
-| [Nickelodeon All-Star Brawl 2](https://store.playstation.com/en-us/concept/10008091) | PS4, PS5 | Fighting |
-| [Warhammer 40,000: Darktide](https://store.playstation.com/en-us/concept/10010263) | PS5 | Action |
+| Cover | Game | Platforms | Genre |
+| --- | --- | --- | --- |
+| <a href="https://store.playstation.com/en-us/concept/10008048"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202404/1120/64a12b89992b8e34ecace3e5c7d1d39b954c2ab1d73de70a.png" width="120" alt="Grounded PS4® &amp; PS5®"></a> | [Grounded PS4® & PS5®](https://store.playstation.com/en-us/concept/10008048) | PS4, PS5 | Adventure |
+| <a href="https://store.playstation.com/en-us/concept/10008091"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202308/1614/1055968351b6dce7f43579788b031e590a3d2c62600c177e.png" width="120" alt="Nickelodeon All-Star Brawl 2"></a> | [Nickelodeon All-Star Brawl 2](https://store.playstation.com/en-us/concept/10008091) | PS4, PS5 | Fighting |
+| <a href="https://store.playstation.com/en-us/concept/10010263"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202409/1318/c955588303d70c85f6cc2d5aed46c096c4d6c4b34187d0d6.png" width="120" alt="Warhammer 40,000: Darktide"></a> | [Warhammer 40,000: Darktide](https://store.playstation.com/en-us/concept/10010263) | PS5 | Action |
 
 <!-- END MONTHLY GAMES -->
 
@@ -30,28 +30,7 @@ sync, so it always reflects the current monthly line-up.
 | `data/plus-classics-list.json` | Classics catalog | [`plus-classics-list`](https://www.playstation.com/bin/imagic/gameslist?locale=en-us&categoryList=plus-classics-list) |
 | `data/plus-games-list.json` | Games catalog | [`plus-games-list`](https://www.playstation.com/bin/imagic/gameslist?locale=en-us&categoryList=plus-games-list) |
 
-## How it works
+## Contributing
 
-1. `.github/workflows/update-games.yml` runs daily at 08:00 UTC (and can be
-   triggered manually via **Run workflow**).
-2. It runs `node scripts/fetch-games.mjs`, which fetches each category and
-   writes it to `data/<category>.json`.
-3. Object keys are sorted recursively so the committed JSON is deterministic
-   and diffs reflect real catalog changes rather than key reordering.
-4. If any file changed, the workflow commits and pushes the update.
-
-## Running locally
-
-Requires Node.js 18+ (uses the built-in `fetch`, no dependencies).
-
-```sh
-npm run fetch
-# or
-node scripts/fetch-games.mjs
-```
-
-Set `PS_LOCALE` to fetch a different locale (defaults to `en-us`):
-
-```sh
-PS_LOCALE=en-gb node scripts/fetch-games.mjs
-```
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for how the sync works and how to run
+it locally.

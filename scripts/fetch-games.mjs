@@ -119,6 +119,16 @@ function escapeCell(value) {
   return value.replace(/\|/g, "\\|");
 }
 
+// Escape a value for use inside an HTML attribute within a Markdown table cell.
+function htmlAttr(value) {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/\|/g, "&#124;");
+}
+
 // The monthly payload is an array of alphabetical buckets, each with a
 // `games` array. Flatten it into the games that are actually available.
 function flattenGames(data) {
@@ -134,18 +144,26 @@ function renderMonthlyTable(data) {
   }
 
   const rows = games.map((game) => {
-    const name = escapeCell(game.name ?? game.nameEn ?? "Unknown");
+    const rawName = game.name ?? game.nameEn ?? "Unknown";
+    const name = escapeCell(rawName);
     const link = game.conceptUrl ? `[${name}](${game.conceptUrl})` : name;
     const platforms = Array.isArray(game.device) ? game.device.join(", ") : "";
     const genres = Array.isArray(game.genre)
       ? [...new Set(game.genre)].map(titleCase).join(", ")
       : "";
-    return `| ${link} | ${escapeCell(platforms)} | ${escapeCell(genres)} |`;
+
+    let cover = "";
+    if (game.imageUrl) {
+      const img = `<img src="${game.imageUrl}" width="120" alt="${htmlAttr(rawName)}">`;
+      cover = game.conceptUrl ? `<a href="${game.conceptUrl}">${img}</a>` : img;
+    }
+
+    return `| ${cover} | ${link} | ${escapeCell(platforms)} | ${escapeCell(genres)} |`;
   });
 
   return [
-    "| Game | Platforms | Genre |",
-    "| --- | --- | --- |",
+    "| Cover | Game | Platforms | Genre |",
+    "| --- | --- | --- | --- |",
     ...rows,
   ].join("\n");
 }
