@@ -34,6 +34,18 @@ const CATEGORIES = [
 // The category whose games are rendered into the README table.
 const MONTHLY_CATEGORY = "plus-monthly-games-list";
 
+// Categories to announce on Discord when their line-up changes, in the order
+// they appear in the message. Classics are intentionally excluded.
+const NOTIFY_CATEGORIES = [
+  ["plus-monthly-games-list", "Monthly games"],
+  ["plus-games-list", "Games catalog"],
+];
+const NOTIFY_LABELS = new Map(NOTIFY_CATEGORIES);
+
+// Where the change summary is written for the workflow to post to Discord.
+const MESSAGE_FILE =
+  process.env.DISCORD_MESSAGE_FILE ?? join(ROOT_DIR, "discord-message.txt");
+
 const MONTHLY_MARKER_START = "<!-- BEGIN MONTHLY GAMES -->";
 const MONTHLY_MARKER_END = "<!-- END MONTHLY GAMES -->";
 
@@ -129,11 +141,78 @@ function htmlAttr(value) {
     .replace(/\|/g, "&#124;");
 }
 
-// The monthly payload is an array of alphabetical buckets, each with a
-// `games` array. Flatten it into the games that are actually available.
+// The payload is an array of alphabetical buckets, each with a `games` array.
+// Flatten it into the games that are actually available.
 function flattenGames(data) {
   if (!Array.isArray(data)) return [];
   return data.flatMap((bucket) => bucket?.games ?? []);
+}
+
+// A stable identity for a game, preferring the immutable store identifiers.
+function gameKey(game) {
+  return (
+    game.productId ??
+    (game.conceptId != null ? String(game.conceptId) : game.name) ??
+    game.name
+  );
+}
+
+function indexGames(data) {
+  const map = new Map();
+  for (const game of flattenGames(data)) {
+    map.set(gameKey(game), game.name ?? game.nameEn ?? "Unknown");
+  }
+  return map;
+}
+
+// Compare two payloads and return the display names added/removed.
+function diffGames(previous, next) {
+  const before = indexGames(previous);
+  const after = indexGames(next);
+  const added = [...after]
+    .filter(([key]) => !before.has(key))
+    .map(([, name]) => name)
+    .sort();
+  const removed = [...before]
+    .filter(([key]) => !after.has(key))
+    .map(([, name]) => name)
+    .sort();
+  return { added, removed };
+}
+
+function formatList(names, cap = 20) {
+  if (names.length <= cap) return names.join(", ");
+  return `${names.slice(0, cap).join(", ")}, …and ${names.length - cap} more`;
+}
+
+// Build a Discord message from the collected changes and write it to
+// MESSAGE_FILE. Writes nothing when there are no changes to announce.
+async function writeNotification(changes) {
+  if (changes.size === 0) return;
+
+  const lines = ["📅 **PlayStation Plus catalog updated**"];
+  for (const [category, label] of NOTIFY_CATEGORIES) {
+    const diff = changes.get(category);
+    if (!diff) continue;
+    lines.push("", `**${label}**`);
+    if (diff.added.length) {
+      lines.push(`➕ Added (${diff.added.length}): ${formatList(diff.added)}`);
+    }
+    if (diff.removed.length) {
+      lines.push(
+        `➖ Removed (${diff.removed.length}): ${formatList(diff.removed)}`,
+      );
+    }
+  }
+
+  let message = lines.join("\n");
+  const LIMIT = 1900; // Discord hard-caps message content at 2000 characters.
+  if (message.length > LIMIT) {
+    message = `${message.slice(0, LIMIT - 1)}…`;
+  }
+
+  await writeFile(MESSAGE_FILE, message, "utf8");
+  console.log(`  wrote change summary to ${MESSAGE_FILE}`);
 }
 
 function renderMonthlyTable(data) {
@@ -200,16 +279,37 @@ async function main() {
 
   let failures = 0;
   let monthlyData;
+  const changes = new Map(); // category -> { added, removed }
   for (const category of CATEGORIES) {
     console.log(`Fetching ${category}...`);
+    const outPath = join(DATA_DIR, `${category}.json`);
     try {
+      // Read the previously-committed data before overwriting, so we can
+      // report what changed for the categories we announce.
+      let previous = null;
+      if (NOTIFY_LABELS.has(category)) {
+        try {
+          previous = JSON.parse(await readFile(outPath, "utf8"));
+        } catch {
+          previous = null;
+        }
+      }
+
       const data = await fetchCategory(category);
       const sorted = sortKeys(data);
-      const outPath = join(DATA_DIR, `${category}.json`);
       await writeFile(outPath, JSON.stringify(sorted, null, 2) + "\n", "utf8");
       console.log(`  wrote ${outPath}`);
+
       if (category === MONTHLY_CATEGORY) {
         monthlyData = data;
+      }
+      // Only diff when there was a prior file, so the first population of a
+      // category stays silent instead of announcing the entire catalog.
+      if (NOTIFY_LABELS.has(category) && previous !== null) {
+        const diff = diffGames(previous, data);
+        if (diff.added.length || diff.removed.length) {
+          changes.set(category, diff);
+        }
       }
     } catch (error) {
       failures++;
@@ -220,6 +320,8 @@ async function main() {
   if (monthlyData !== undefined) {
     await updateReadme(monthlyData);
   }
+
+  await writeNotification(changes);
 
   if (failures > 0) {
     console.error(`\n${failures} categor(y/ies) failed to update.`);

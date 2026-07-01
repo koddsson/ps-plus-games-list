@@ -43,3 +43,16 @@ jobs:
 
           git commit -m "Update PS Plus games list ($(date -u +%Y-%m-%d))"
           git push
+
+      - name: Notify Discord of changes
+        if: ${{ hashFiles('discord-message.txt') != '' }}
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [ -z "${DISCORD_WEBHOOK_URL}" ]; then
+            echo "DISCORD_WEBHOOK_URL secret is not set; skipping notification."
+            exit 0
+          fi
+          payload=$(jq -Rs '{content: .}' discord-message.txt)
+          curl -sS -X POST -H "Content-Type: application/json" \
+            -d "$payload" "$DISCORD_WEBHOOK_URL"
