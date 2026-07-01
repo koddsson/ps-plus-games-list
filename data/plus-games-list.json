@@ -1519,7 +1519,7 @@
   },
   {
     "catalogKey": "B",
-    "count": 21,
+    "count": 23,
     "games": [
       {
         "ageRating": {
@@ -1853,6 +1853,101 @@
         "nameEn": "Biped",
         "productId": "UP6007-PPSA24590_00-0607604799725823",
         "releaseDate": "2024-12-17T17:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Teen",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Mild Language",
+              "name": "ESRB_MILD_LANGUAGE"
+            },
+            {
+              "description": "Suggestive Themes",
+              "name": "ESRB_SUGGESTIVE_THEMES"
+            },
+            {
+              "description": "Use of Alcohol and Tobacco",
+              "name": "ESRB_USE_OF_ALCOHOL_AND_TOBACCO"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases (Includes Random Items)",
+              "name": "ESRB_IN_GAME_PURCHASES_RANDOM"
+            },
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_TEEN",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
+        },
+        "conceptId": 233032,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/233032",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "ACTION",
+          "ROLE_PLAYING_GAMES",
+          "ADVENTURE"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202606/0322/6c5b321746b4697a004cfa20a85ce8bef404953c59ba6063.png",
+        "name": "Black Desert",
+        "nameEn": "Black Desert",
+        "productId": "UP4162-PPSA22500_00-0558223561392206",
+        "releaseDate": "2026-06-30T16:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature 17+",
+          "descriptors": [
+            {
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_MATURE_17",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m17.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m17.png"
+        },
+        "conceptId": 10011854,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10011854",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "ADVENTURE"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202602/1110/8b770aff70dddf61684eb46f9f135fa513bff7d054db28c1.png",
+        "name": "Blades of Fire",
+        "nameEn": "Blades of Fire",
+        "productId": "UP4040-PPSA26312_00-0000BLADESOFFIRE",
+        "releaseDate": "2025-05-22T15:00:00Z",
         "streamingSupported": true
       },
       {
@@ -5546,7 +5641,7 @@
   },
   {
     "catalogKey": "F",
-    "count": 26,
+    "count": 27,
     "games": [
       {
         "ageRating": {
@@ -6083,6 +6178,40 @@
         "nameEn": "FARCRY 6",
         "productId": "UP0001-PPSA01876_00-FC6EDSTANDARD000",
         "releaseDate": "2021-10-07T04:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Everyone",
+          "descriptors": [],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            },
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_EVERYONE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
+        },
+        "conceptId": 10009612,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10009612",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "SIMULATOR"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202406/1221/5e7b5321408d56da66ffbb45abae3d2f812b0a1dd03cee5d.png",
+        "name": "Farming Simulator 25",
+        "nameEn": "Farming Simulator 25",
+        "productId": "EP4399-PPSA19644_00-FARMSIMULAT25PS5",
+        "releaseDate": "2024-11-12T12:00:00Z",
         "streamingSupported": true
       },
       {
@@ -9359,7 +9488,8 @@
         "conceptId": 233202,
         "conceptUrl": "https://store.playstation.com/en-us/concept/233202",
         "device": [
-          "PS4"
+          "PS4",
+          "PS5"
         ],
         "genre": [
           "ACTION",
@@ -9369,8 +9499,8 @@
         "imageUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA14538_00/7/i_1dbc60bd015bfb1ecb0990b9484ad19b4ba86ea0e8d183138bfbf89d78d18d98/i/icon0.png",
         "name": "Maneater PS4 & PS5",
         "nameEn": "Maneater PS4 & PS5",
-        "productId": "UP0115-CUSA14519_00-MANEATER00000001",
-        "releaseDate": "2020-05-22T04:00:00Z",
+        "productId": "UP0115-PPSA01861_00-MANEATER00000001",
+        "releaseDate": "2020-11-12T05:00:00Z",
         "streamingSupported": true
       },
       {
