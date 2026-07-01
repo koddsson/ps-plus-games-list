@@ -32,6 +32,18 @@ Set `PS_LOCALE` to fetch a different locale (defaults to `en-us`):
 PS_LOCALE=en-gb node scripts/fetch-games.mjs
 ```
 
+## Discord notifications
+
+When the **monthly** or **games catalog** line-up changes (classics are
+excluded), the script writes a summary of the added/removed games to
+`discord-message.txt`, and the workflow posts it to a Discord channel.
+
+To enable it, create a channel webhook in Discord (**Channel → Edit → 
+Integrations → Webhooks → New Webhook → Copy Webhook URL**) and add it as a
+repository secret named `DISCORD_WEBHOOK_URL` (**Settings → Secrets and
+variables → Actions → New repository secret**). If the secret is absent the
+notify step is skipped, so the sync keeps working without it.
+
 ## Adding a category
 
 Add the category slug to the `CATEGORIES` array in
