@@ -1,4 +1,4 @@
 node_modules/
 *.log
 .DS_Store
-discord-message.txt
+discord-payload.json

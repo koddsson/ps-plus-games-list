@@ -42,9 +42,12 @@ const NOTIFY_CATEGORIES = [
 ];
 const NOTIFY_LABELS = new Map(NOTIFY_CATEGORIES);
 
-// Where the change summary is written for the workflow to post to Discord.
+// Where the Discord payload is written for the workflow to post.
 const MESSAGE_FILE =
-  process.env.DISCORD_MESSAGE_FILE ?? join(ROOT_DIR, "discord-message.txt");
+  process.env.DISCORD_MESSAGE_FILE ?? join(ROOT_DIR, "discord-payload.json");
+
+const EMBED_LIMIT = 10; // Discord allows at most 10 embeds per message.
+const PS_BLUE = 0x0070d1; // Embed accent colour.
 
 const MONTHLY_MARKER_START = "<!-- BEGIN MONTHLY GAMES -->";
 const MONTHLY_MARKER_END = "<!-- END MONTHLY GAMES -->";
@@ -165,18 +168,23 @@ function indexGames(data) {
   return map;
 }
 
-// Compare two payloads and return the display names added/removed.
+const gameName = (game) => game.name ?? game.nameEn ?? "Unknown";
+
+// Compare two payloads: `added` keeps the new game objects (so we can show
+// cover art), `removed` keeps display names of games no longer listed.
 function diffGames(previous, next) {
-  const before = indexGames(previous);
-  const after = indexGames(next);
-  const added = [...after]
-    .filter(([key]) => !before.has(key))
+  const beforeKeys = new Set(indexGames(previous).keys());
+  const nextGames = flattenGames(next);
+  const afterKeys = new Set(nextGames.map(gameKey));
+
+  const added = nextGames
+    .filter((game) => !beforeKeys.has(gameKey(game)))
+    .sort((a, b) => gameName(a).localeCompare(gameName(b)));
+  const removed = [...indexGames(previous)]
+    .filter(([key]) => !afterKeys.has(key))
     .map(([, name]) => name)
     .sort();
-  const removed = [...before]
-    .filter(([key]) => !after.has(key))
-    .map(([, name]) => name)
-    .sort();
+
   return { added, removed };
 }
 
@@ -185,34 +193,61 @@ function formatList(names, cap = 20) {
   return `${names.slice(0, cap).join(", ")}, …and ${names.length - cap} more`;
 }
 
-// Build a Discord message from the collected changes and write it to
-// MESSAGE_FILE. Writes nothing when there are no changes to announce.
+// A Discord embed for a single game, with cover thumbnail and store link.
+function gameEmbed(game, label) {
+  const platforms = Array.isArray(game.device) ? game.device.join(", ") : "";
+  const genres = Array.isArray(game.genre)
+    ? [...new Set(game.genre)].map(titleCase).join(", ")
+    : "";
+  const embed = {
+    title: gameName(game),
+    color: PS_BLUE,
+    description: [label, platforms, genres].filter(Boolean).join(" · "),
+  };
+  if (game.conceptUrl) embed.url = game.conceptUrl;
+  if (game.imageUrl) embed.thumbnail = { url: game.imageUrl };
+  return embed;
+}
+
+// Build a Discord payload (summary text + an embed per added game) from the
+// collected changes and write it to MESSAGE_FILE. Writes nothing when there
+// are no changes to announce.
 async function writeNotification(changes) {
   if (changes.size === 0) return;
 
   const lines = ["📅 **PlayStation Plus catalog updated**"];
+  const embeds = [];
   for (const [category, label] of NOTIFY_CATEGORIES) {
     const diff = changes.get(category);
     if (!diff) continue;
     lines.push("", `**${label}**`);
     if (diff.added.length) {
-      lines.push(`➕ Added (${diff.added.length}): ${formatList(diff.added)}`);
+      lines.push(
+        `➕ Added (${diff.added.length}): ${formatList(diff.added.map(gameName))}`,
+      );
     }
     if (diff.removed.length) {
       lines.push(
         `➖ Removed (${diff.removed.length}): ${formatList(diff.removed)}`,
       );
     }
+    for (const game of diff.added) {
+      if (embeds.length >= EMBED_LIMIT) break;
+      embeds.push(gameEmbed(game, label));
+    }
   }
 
-  let message = lines.join("\n");
+  let content = lines.join("\n");
   const LIMIT = 1900; // Discord hard-caps message content at 2000 characters.
-  if (message.length > LIMIT) {
-    message = `${message.slice(0, LIMIT - 1)}…`;
+  if (content.length > LIMIT) {
+    content = `${content.slice(0, LIMIT - 1)}…`;
   }
 
-  await writeFile(MESSAGE_FILE, message, "utf8");
-  console.log(`  wrote change summary to ${MESSAGE_FILE}`);
+  const payload = { content };
+  if (embeds.length) payload.embeds = embeds;
+
+  await writeFile(MESSAGE_FILE, JSON.stringify(payload), "utf8");
+  console.log(`  wrote Discord payload to ${MESSAGE_FILE}`);
 }
 
 function renderMonthlyTable(data) {

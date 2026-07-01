@@ -4,7 +4,12 @@ on:
   schedule:
     # Runs daily at 08:00 UTC.
     - cron: "0 8 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      test_notification:
+        description: "Send a sample Discord notification instead of syncing"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -15,6 +20,7 @@ concurrency:
 
 jobs:
   update:
+    if: ${{ !inputs.test_notification }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -45,7 +51,7 @@ jobs:
           git push
 
       - name: Notify Discord of changes
-        if: ${{ hashFiles('discord-message.txt') != '' }}
+        if: ${{ hashFiles('discord-payload.json') != '' }}
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
@@ -53,6 +59,22 @@ jobs:
             echo "DISCORD_WEBHOOK_URL secret is not set; skipping notification."
             exit 0
           fi
-          payload=$(jq -Rs '{content: .}' discord-message.txt)
           curl -sS -X POST -H "Content-Type: application/json" \
-            -d "$payload" "$DISCORD_WEBHOOK_URL"
+            -d @discord-payload.json "$DISCORD_WEBHOOK_URL"
+
+  # Manual-only: verify the webhook and see how change alerts render.
+  test-notification:
+    if: ${{ inputs.test_notification }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send sample Discord notification
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [ -z "${DISCORD_WEBHOOK_URL}" ]; then
+            echo "DISCORD_WEBHOOK_URL secret is not set."
+            exit 1
+          fi
+          curl -sS -X POST -H "Content-Type: application/json" \
+            -d '{"content":"✅ **Test notification** — the PS Plus sync webhook is working. Real change alerts will look like this:","embeds":[{"title":"Grounded PS4® & PS5®","color":28881,"description":"Monthly games · PS4, PS5 · Adventure","url":"https://store.playstation.com/en-us/concept/10008048","thumbnail":{"url":"https://image.api.playstation.com/vulcan/ap/rnd/202404/1120/64a12b89992b8e34ecace3e5c7d1d39b954c2ab1d73de70a.png"}}]}' \
+            "$DISCORD_WEBHOOK_URL"
