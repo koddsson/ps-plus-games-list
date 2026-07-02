@@ -1519,7 +1519,7 @@
   },
   {
     "catalogKey": "B",
-    "count": 23,
+    "count": 22,
     "games": [
       {
         "ageRating": {
@@ -1992,59 +1992,6 @@
         "nameEn": "Blasphemous 2",
         "productId": "UP4064-PPSA13580_00-BLASPHEMOUS20000",
         "releaseDate": "2023-08-24T04:00:00Z",
-        "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Teen",
-          "descriptors": [
-            {
-              "description": "Blood",
-              "name": "ESRB_BLOOD"
-            },
-            {
-              "description": "Mild Language",
-              "name": "ESRB_MILD_LANGUAGE"
-            },
-            {
-              "description": "Use of Alcohol",
-              "name": "ESRB_USE_OF_ALCOHOL"
-            },
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [
-            {
-              "description": "In-Game Purchases",
-              "name": "ESRB_IN_GAME_PURCHASES"
-            },
-            {
-              "description": "Users Interact",
-              "name": "ESRB_USERS_INTERACT"
-            }
-          ],
-          "name": "ESRB_TEEN",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
-        },
-        "conceptId": 10000371,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10000371",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "STRATEGY",
-          "SPORTS"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202602/0914/421391edbac75638d22bcacb9ff516cbb57b4b58b7cc8010.png",
-        "name": "Blood Bowl 3",
-        "nameEn": "Blood Bowl 3",
-        "productId": "UP6665-PPSA08556_00-BB30000000000000",
-        "releaseDate": "2023-02-20T17:00:00Z",
         "streamingSupported": true
       },
       {
@@ -12017,7 +11964,7 @@
   },
   {
     "catalogKey": "R",
-    "count": 25,
+    "count": 24,
     "games": [
       {
         "ageRating": {
@@ -12345,46 +12292,6 @@
         "nameEn": "ReadySet Heroes",
         "productId": "UP9000-CUSA15404_00-G2PGTINMAN000001",
         "releaseDate": "2019-10-01T04:00:00Z",
-        "streamingSupported": false
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Teen",
-          "descriptors": [
-            {
-              "description": "Drug Reference",
-              "name": "ESRB_DRUG_REFERENCE"
-            },
-            {
-              "description": "Language",
-              "name": "ESRB_LANGUAGE"
-            },
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_TEEN",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
-        },
-        "conceptId": 203666,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/203666",
-        "device": [
-          "PS4"
-        ],
-        "genre": [
-          "ADVENTURE",
-          "ROLE_PLAYING_GAMES",
-          "ACTION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/cdn/UP0224/CUSA02381_00/moQFrzgyQQ5tUhD3jWrQT2KPfMJxEaQs.png",
-        "name": "Rebel Galaxy",
-        "nameEn": "Rebel Galaxy",
-        "productId": "UP0224-CUSA02381_00-REBELGALAXY00000",
-        "releaseDate": "2016-01-05T05:00:00Z",
         "streamingSupported": false
       },
       {
