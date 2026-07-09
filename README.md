@@ -16,9 +16,9 @@ sync, so it always reflects the current monthly line-up.
 
 | Cover | Game | Platforms | Genre |
 | --- | --- | --- | --- |
-| <a href="https://store.playstation.com/en-us/concept/10008048"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202404/1120/64a12b89992b8e34ecace3e5c7d1d39b954c2ab1d73de70a.png" width="120" alt="Grounded PS4® &amp; PS5®"></a> | [Grounded PS4® & PS5®](https://store.playstation.com/en-us/concept/10008048) | PS4, PS5 | Adventure |
-| <a href="https://store.playstation.com/en-us/concept/10008091"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202308/1614/1055968351b6dce7f43579788b031e590a3d2c62600c177e.png" width="120" alt="Nickelodeon All-Star Brawl 2"></a> | [Nickelodeon All-Star Brawl 2](https://store.playstation.com/en-us/concept/10008091) | PS4, PS5 | Fighting |
-| <a href="https://store.playstation.com/en-us/concept/10010263"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202409/1318/c955588303d70c85f6cc2d5aed46c096c4d6c4b34187d0d6.png" width="120" alt="Warhammer 40,000: Darktide"></a> | [Warhammer 40,000: Darktide](https://store.playstation.com/en-us/concept/10010263) | PS5 | Action |
+| <a href="https://store.playstation.com/en-us/concept/10011645"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202407/0320/eb64ea35178d0f00577698a1b99ea3e91dca797a9dc21201.png" width="120" alt="Call of Duty®: Modern Warfare® III - Cross-Gen Bundle"></a> | [Call of Duty®: Modern Warfare® III - Cross-Gen Bundle](https://store.playstation.com/en-us/concept/10011645) | PS4, PS5 | Action |
+| <a href="https://store.playstation.com/en-us/concept/233619"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202006/1809/jLA6HPdLEXZjR8zv6BiHf7l0.png" width="120" alt="CrossCode"></a> | [CrossCode](https://store.playstation.com/en-us/concept/233619) | PS4, PS5 | Role Playing Games, Puzzle |
+| <a href="https://store.playstation.com/en-us/concept/10011010"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202411/1911/ad09aae201d797cc0c435475c33787bde37543acbd101873.png" width="120" alt="For The King II"></a> | [For The King II](https://store.playstation.com/en-us/concept/10011010) | PS5, PS4 | Strategy, Adventure, Role Playing Games |
 
 <!-- END MONTHLY GAMES -->
 

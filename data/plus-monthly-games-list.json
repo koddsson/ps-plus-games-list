@@ -11,8 +11,97 @@
   },
   {
     "catalogKey": "C",
-    "count": 0,
-    "games": []
+    "count": 2,
+    "games": [
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature 17+",
+          "descriptors": [
+            {
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Use of Drugs",
+              "name": "ESRB_USE_OF_DRUGS"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            },
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_MATURE_17",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m17.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m17.png"
+        },
+        "conceptId": 10011645,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10011645",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202407/0320/eb64ea35178d0f00577698a1b99ea3e91dca797a9dc21201.png",
+        "name": "Call of Duty®: Modern Warfare® III - Cross-Gen Bundle",
+        "nameEn": "Call of Duty®: Modern Warfare® III - Cross-Gen Bundle",
+        "productId": "UP0002-PPSA24263_00-CODMW3CROSSGEN01",
+        "releaseDate": "2024-07-24T17:00:00Z",
+        "streamingSupported": false
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Teen",
+          "descriptors": [
+            {
+              "description": "Fantasy Violence",
+              "name": "ESRB_FANTASY_VIOLENCE"
+            },
+            {
+              "description": "Language",
+              "name": "ESRB_LANGUAGE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_TEEN",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
+        },
+        "conceptId": 233619,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/233619",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ROLE_PLAYING_GAMES",
+          "PUZZLE"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202006/1809/jLA6HPdLEXZjR8zv6BiHf7l0.png",
+        "name": "CrossCode",
+        "nameEn": "CrossCode",
+        "productId": "UP0895-PPSA03235_00-3376510518243321",
+        "releaseDate": "2021-06-29T04:00:00Z",
+        "streamingSupported": true
+      }
+    ]
   },
   {
     "catalogKey": "D",
@@ -26,11 +115,6 @@
   },
   {
     "catalogKey": "F",
-    "count": 0,
-    "games": []
-  },
-  {
-    "catalogKey": "G",
     "count": 1,
     "games": [
       {
@@ -43,41 +127,47 @@
               "name": "ESRB_BLOOD"
             },
             {
+              "description": "Fantasy Violence",
+              "name": "ESRB_FANTASY_VIOLENCE"
+            },
+            {
               "description": "Mild Language",
               "name": "ESRB_MILD_LANGUAGE"
             },
             {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
+              "description": "Use of Alcohol",
+              "name": "ESRB_USE_OF_ALCOHOL"
             }
           ],
-          "interactiveElements": [
-            {
-              "description": "Users Interact",
-              "name": "ESRB_USERS_INTERACT"
-            }
-          ],
+          "interactiveElements": [],
           "name": "ESRB_TEEN",
           "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
           "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
         },
-        "conceptId": 10008048,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10008048",
+        "conceptId": 10011010,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10011010",
         "device": [
-          "PS4",
-          "PS5"
+          "PS5",
+          "PS4"
         ],
         "genre": [
-          "ADVENTURE"
+          "STRATEGY",
+          "ADVENTURE",
+          "ROLE_PLAYING_GAMES"
         ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202404/1120/64a12b89992b8e34ecace3e5c7d1d39b954c2ab1d73de70a.png",
-        "name": "Grounded PS4® & PS5®",
-        "nameEn": "Grounded PS4® & PS5®",
-        "productId": "UP6312-PPSA15547_00-OGUNQUIT00000000",
-        "releaseDate": "2024-04-16T15:00:00Z",
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202411/1911/ad09aae201d797cc0c435475c33787bde37543acbd101873.png",
+        "name": "For The King II",
+        "nameEn": "For The King II",
+        "productId": "UP4395-PPSA23088_00-FORTHEKING200000",
+        "releaseDate": "2024-12-12T18:00:00Z",
         "streamingSupported": true
       }
     ]
+  },
+  {
+    "catalogKey": "G",
+    "count": 0,
+    "games": []
   },
   {
     "catalogKey": "H",
@@ -111,50 +201,8 @@
   },
   {
     "catalogKey": "N",
-    "count": 1,
-    "games": [
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Everyone 10+",
-          "descriptors": [
-            {
-              "description": "Comic Mischief",
-              "name": "ESRB_COMIC_MISCHIEF"
-            },
-            {
-              "description": "Fantasy Violence",
-              "name": "ESRB_FANTASY_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [
-            {
-              "description": "In-Game Purchases",
-              "name": "ESRB_IN_GAME_PURCHASES"
-            }
-          ],
-          "name": "ESRB_EVERYONE_10",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e10.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e10.png"
-        },
-        "conceptId": 10008091,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10008091",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "FIGHTING",
-          "FIGHTING"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202308/1614/1055968351b6dce7f43579788b031e590a3d2c62600c177e.png",
-        "name": "Nickelodeon All-Star Brawl 2",
-        "nameEn": "Nickelodeon All-Star Brawl 2",
-        "productId": "UP0283-PPSA16744_00-NALLSTARBRAWLTWO",
-        "releaseDate": "2023-11-07T05:00:00Z",
-        "streamingSupported": true
-      }
-    ]
+    "count": 0,
+    "games": []
   },
   {
     "catalogKey": "O",
@@ -198,43 +246,8 @@
   },
   {
     "catalogKey": "W",
-    "count": 1,
-    "games": [
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Mature",
-          "descriptors": [
-            {
-              "description": "Blood and Gore",
-              "name": "ESRB_BLOOD_AND_GORE"
-            },
-            {
-              "description": "Intense Violence",
-              "name": "ESRB_INTENSE_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_MATURE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
-        },
-        "conceptId": 10010263,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10010263",
-        "device": [
-          "PS5"
-        ],
-        "genre": [
-          "ACTION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202409/1318/c955588303d70c85f6cc2d5aed46c096c4d6c4b34187d0d6.png",
-        "name": "Warhammer 40,000: Darktide",
-        "nameEn": "Warhammer 40,000: Darktide",
-        "productId": "EP4122-PPSA21255_00-0888672453602469",
-        "releaseDate": "2024-12-03T10:00:00Z",
-        "streamingSupported": true
-      }
-    ]
+    "count": 0,
+    "games": []
   },
   {
     "catalogKey": "X",
