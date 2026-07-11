@@ -5092,24 +5092,23 @@
           "description": "ESRB Teen",
           "descriptors": [
             {
-              "description": "Blood",
-              "name": "ESRB_BLOOD"
+              "description": "Alcohol Reference",
+              "name": "ESRB_ALCOHOL_REFERENCE"
+            },
+            {
+              "description": "Animated Blood",
+              "name": "ESRB_ANIMATED_BLOOD"
+            },
+            {
+              "description": "Fantasy Violence",
+              "name": "ESRB_FANTASY_VIOLENCE"
             },
             {
               "description": "Mild Language",
               "name": "ESRB_MILD_LANGUAGE"
-            },
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
             }
           ],
-          "interactiveElements": [
-            {
-              "description": "Users Interact",
-              "name": "ESRB_USERS_INTERACT"
-            }
-          ],
+          "interactiveElements": [],
           "name": "ESRB_TEEN",
           "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
           "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
@@ -5120,8 +5119,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
-          "SHOOTER"
+          "SHOOTER",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202104/1408/plZlXWLWKatmzGvJXrFYAJsu.png",
         "name": "EARTH DEFENSE FORCE:WORLD BROTHERS",
