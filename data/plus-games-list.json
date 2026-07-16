@@ -3475,8 +3475,8 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202310/1119/4b2bc50a0bb1fa4a27273cd583b59e922de33a3d9da23a59.png",
         "name": "Crow Country",
         "nameEn": "Crow Country",
-        "productId": "UP6093-PPSA19067_00-0438761103283229",
-        "releaseDate": "2024-05-09T15:00:00Z",
+        "productId": "UP6093-CUSA45567_00-0160994265024834",
+        "releaseDate": "2024-10-22T15:00:00Z",
         "streamingSupported": true
       },
       {
@@ -8038,7 +8038,7 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202212/1423/ceiwbi2grLMGYXWlZCduDvuI.png",
         "name": "HUMANITY",
         "nameEn": "HUMANITY",
-        "productId": "UP0751-CUSA14150_00-HUMANITYGAME0000",
+        "productId": "UP0751-PPSA03771_00-HUMANITYGAME0001",
         "releaseDate": "2023-05-16T14:00:00Z",
         "streamingSupported": true
       },
@@ -12169,13 +12169,15 @@
           "PS4"
         ],
         "genre": [
-          "SPORTS"
+          "SPORTS",
+          "SIMULATION",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP0283/CUSA08042_00/LRUw0rXlLAre9rirMz2dLxYAaxlQArGy.png",
         "name": "Rapala Fishing: Pro Series",
         "nameEn": "Rapala Fishing: Pro Series",
         "productId": "UP0283-CUSA08042_00-RAPALAFISHING000",
-        "releaseDate": "2017-10-24T00:00:00Z",
+        "releaseDate": "2017-10-24T04:00:00Z",
         "streamingSupported": false
       },
       {
@@ -18508,7 +18510,7 @@
         "conceptId": 234709,
         "conceptUrl": "https://store.playstation.com/en-us/concept/234709",
         "device": [
-          "PS5"
+          "PS4"
         ],
         "genre": [
           "UNIQUE"
@@ -18516,9 +18518,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202106/0715/VFixb2toiP73l3rExKbjGeH1.png",
         "name": "Werewolf: The Apocalypse – Earthblood",
         "nameEn": "Werewolf: The Apocalypse – Earthblood",
-        "productId": "UP4008-PPSA02114_00-WTASIEA000000000",
+        "productId": "UP4008-CUSA16865_00-WTASIEA000000000",
         "releaseDate": "2021-02-04T09:00:00Z",
-        "streamingSupported": true
+        "streamingSupported": false
       },
       {
         "ageRating": {
