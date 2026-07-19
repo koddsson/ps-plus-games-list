@@ -3475,8 +3475,8 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202310/1119/4b2bc50a0bb1fa4a27273cd583b59e922de33a3d9da23a59.png",
         "name": "Crow Country",
         "nameEn": "Crow Country",
-        "productId": "UP6093-PPSA19067_00-0438761103283229",
-        "releaseDate": "2024-05-09T15:00:00Z",
+        "productId": "UP6093-CUSA45567_00-0160994265024834",
+        "releaseDate": "2024-10-22T15:00:00Z",
         "streamingSupported": true
       },
       {
@@ -8038,7 +8038,7 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202212/1423/ceiwbi2grLMGYXWlZCduDvuI.png",
         "name": "HUMANITY",
         "nameEn": "HUMANITY",
-        "productId": "UP0751-CUSA14150_00-HUMANITYGAME0000",
+        "productId": "UP0751-PPSA03771_00-HUMANITYGAME0001",
         "releaseDate": "2023-05-16T14:00:00Z",
         "streamingSupported": true
       },
@@ -16459,7 +16459,16 @@
               "name": "ESRB_USE_OF_DRUGS"
             }
           ],
-          "interactiveElements": [],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            },
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
           "name": "ESRB_MATURE_17",
           "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m17.png",
           "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m17.png"
