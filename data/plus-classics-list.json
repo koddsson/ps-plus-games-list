@@ -1988,7 +1988,7 @@
   },
   {
     "catalogKey": "I",
-    "count": 1,
+    "count": 2,
     "games": [
       {
         "ageRating": {
@@ -2025,6 +2025,58 @@
         "productId": "UP1082-PPSA14388_00-0064394372965033",
         "releaseDate": "2025-01-21T17:00:00Z",
         "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Partial Nudity",
+              "name": "ESRB_PARTIAL_NUDITY"
+            },
+            {
+              "description": "Sexual Themes",
+              "name": "ESRB_SEXUAL_THEMES"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Use of Drugs and Alcohol",
+              "name": "ESRB_USE_OF_DRUGS_AND_ALCOHOL"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 221705,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/221705",
+        "device": [
+          "PS4"
+        ],
+        "genre": [
+          "ACTION",
+          "ADVENTURE",
+          "ADVENTURE"
+        ],
+        "imageUrl": "https://image.api.playstation.com/cdn/UP1642/CUSA04798_00/WJFDq83f1tcZ0E2PkEa1rXOba8laaZUV.png",
+        "name": "INDIGO PROPHECY",
+        "nameEn": "INDIGO PROPHECY",
+        "productId": "UP1642-CUSA04798_00-SLUS211960000001",
+        "releaseDate": "2016-08-09T04:00:00Z",
+        "streamingSupported": false
       }
     ]
   },
@@ -3251,7 +3303,7 @@
   },
   {
     "catalogKey": "P",
-    "count": 8,
+    "count": 9,
     "games": [
       {
         "ageRating": {
@@ -3452,6 +3504,45 @@
         "productId": "UP9000-CUSA02035_00-SCUS971420000001",
         "releaseDate": "2016-05-31T04:00:00Z",
         "streamingSupported": false
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 10016223,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10016223",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202606/0321/23cd398fe61319e659bc1b53789193ba0f2b3b4bbdd548b5.png",
+        "name": "Psi-Ops: The Mindgate Conspiracy",
+        "nameEn": "Psi-Ops: The Mindgate Conspiracy",
+        "productId": "UP1018-PPSA31935_00-PS2EMU00PSIOPSMC",
+        "releaseDate": "2026-07-21T16:00:00Z",
+        "streamingSupported": true
       },
       {
         "ageRating": {

@@ -1,7 +1,7 @@
 [
   {
     "catalogKey": "A",
-    "count": 36,
+    "count": 37,
     "games": [
       {
         "ageRating": {
@@ -1514,6 +1514,53 @@
         "productId": "UP4133-PPSA03390_00-AFREIGNOFSANDEE0",
         "releaseDate": "2024-08-06T16:00:00Z",
         "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Teen",
+          "descriptors": [
+            {
+              "description": "Language",
+              "name": "ESRB_LANGUAGE"
+            },
+            {
+              "description": "Mild Blood",
+              "name": "ESRB_MILD_BLOOD"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            },
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_TEEN",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
+        },
+        "conceptId": 235179,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/235179",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "UNIQUE"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202306/0113/38ad0cc5b92af440d46ccebf5d1f271213d656684fce3385.png",
+        "name": "Avatar: Frontiers of Pandora™",
+        "nameEn": "Avatar: Frontiers of Pandora™",
+        "productId": "UP0001-PPSA01576_00-AVATAR2GAME00001",
+        "releaseDate": "2023-12-07T05:00:00Z",
+        "streamingSupported": true
       }
     ]
   },
@@ -2362,7 +2409,7 @@
   },
   {
     "catalogKey": "C",
-    "count": 32,
+    "count": 31,
     "games": [
       {
         "ageRating": {
@@ -3475,8 +3522,8 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202310/1119/4b2bc50a0bb1fa4a27273cd583b59e922de33a3d9da23a59.png",
         "name": "Crow Country",
         "nameEn": "Crow Country",
-        "productId": "UP6093-PPSA19067_00-0438761103283229",
-        "releaseDate": "2024-05-09T15:00:00Z",
+        "productId": "UP6093-CUSA45567_00-0160994265024834",
+        "releaseDate": "2024-10-22T15:00:00Z",
         "streamingSupported": true
       },
       {
@@ -3520,37 +3567,6 @@
         "nameEn": "Crusader Kings III",
         "productId": "UP4139-PPSA02307_00-TTL0000000000001",
         "releaseDate": "2022-03-29T16:00:00Z",
-        "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Everyone",
-          "descriptors": [
-            {
-              "description": "Mild Language",
-              "name": "ESRB_MILD_LANGUAGE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_EVERYONE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
-        },
-        "conceptId": 10004926,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10004926",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "ACTION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202207/1812/lJA7xSnxU5fmQXpsxgLFZi6h.png",
-        "name": "Cursed to Golf",
-        "nameEn": "Cursed to Golf",
-        "productId": "UP5180-PPSA08411_00-CURSEDTOGOLFP5US",
-        "releaseDate": "2022-08-18T15:00:00Z",
         "streamingSupported": true
       },
       {
@@ -5587,7 +5603,7 @@
   },
   {
     "catalogKey": "F",
-    "count": 27,
+    "count": 28,
     "games": [
       {
         "ageRating": {
@@ -6426,6 +6442,49 @@
       {
         "ageRating": {
           "authority": "ESRB",
+          "description": "ESRB Everyone 10+",
+          "descriptors": [
+            {
+              "description": "Alcohol and Tobacco Reference",
+              "name": "ESRB_ALCOHOL_AND_TOBACCO_REFERENCE"
+            },
+            {
+              "description": "Mild Violence",
+              "name": "ESRB_MILD_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            },
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_EVERYONE_10",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e10.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e10.png"
+        },
+        "conceptId": 10008409,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10008409",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "SIMULATION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1911/44718863baaf28732bac7f9914aa06a1d7251364d3393f0d.png",
+        "name": "Firefighting Simulator: Ignite",
+        "nameEn": "Firefighting Simulator: Ignite",
+        "productId": "EP2430-PPSA17456_00-0206793519245545",
+        "releaseDate": "2025-09-09T15:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
           "description": "ESRB Teen",
           "descriptors": [
             {
@@ -6581,7 +6640,7 @@
         "genre": [
           "SPORTS"
         ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2506/be1db19930b2e96c6d6041161c5f8aa9ecd1a2dda7c27a65.png",
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202509/0112/e1a7a09b0d6a2adbcd22d206e82aefa406d34723c9eb2b38.png",
         "name": "Football Manager 26 Console",
         "nameEn": "Football Manager 26 Console",
         "productId": "EP0177-PPSA29707_00-FM26GLOBAL000000",
@@ -6745,52 +6804,8 @@
   },
   {
     "catalogKey": "G",
-    "count": 16,
+    "count": 15,
     "games": [
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Mature",
-          "descriptors": [
-            {
-              "description": "Blood",
-              "name": "ESRB_BLOOD"
-            },
-            {
-              "description": "Drug and Alcohol Reference",
-              "name": "ESRB_DRUG_AND_ALCOHOL_REFERENCE"
-            },
-            {
-              "description": "Sexual Themes",
-              "name": "ESRB_SEXUAL_THEMES"
-            },
-            {
-              "description": "Strong Language",
-              "name": "ESRB_STRONG_LANGUAGE"
-            },
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_MATURE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
-        },
-        "conceptId": 207361,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/207361",
-        "device": [
-          "PS4"
-        ],
-        "genre": [],
-        "imageUrl": "https://image.api.playstation.com/cdn/UP0700/CUSA07589_00/MPvXhk1gZBfuBujaZGt5o55crFNXpDOk.png",
-        "name": "Get Even",
-        "nameEn": "Get Even",
-        "productId": "UP0700-CUSA07589_00-GETEVENGAME00001",
-        "releaseDate": "2017-06-23T00:00:00Z",
-        "streamingSupported": false
-      },
       {
         "ageRating": {
           "authority": "ESRB",
@@ -7451,7 +7466,7 @@
   },
   {
     "catalogKey": "H",
-    "count": 18,
+    "count": 17,
     "games": [
       {
         "ageRating": {
@@ -8085,39 +8100,6 @@
         "nameEn": "HUMANKIND™ PS4 & PS5",
         "productId": "UP0177-PPSA06380_00-HUMANKINDNA00000",
         "releaseDate": "2023-08-22T15:00:00Z",
-        "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Everyone 10+",
-          "descriptors": [
-            {
-              "description": "Alcohol Reference",
-              "name": "ESRB_ALCOHOL_REFERENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_EVERYONE_10",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e10.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e10.png"
-        },
-        "conceptId": 10004524,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10004524",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "SIMULATOR",
-          "STRATEGY",
-          "SIMULATION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202201/2009/ihJrJj4t7cijlPj1UwCcVkLr.png",
-        "name": "Hundred Days - Winemaking Simulator",
-        "nameEn": "Hundred Days - Winemaking Simulator",
-        "productId": "UP3181-PPSA06576_00-1247449635969595",
-        "releaseDate": "2022-03-17T10:00:00Z",
         "streamingSupported": true
       },
       {
@@ -9434,7 +9416,8 @@
         "conceptId": 233202,
         "conceptUrl": "https://store.playstation.com/en-us/concept/233202",
         "device": [
-          "PS4"
+          "PS4",
+          "PS5"
         ],
         "genre": [
           "ACTION",
@@ -9444,8 +9427,8 @@
         "imageUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA14538_00/7/i_1dbc60bd015bfb1ecb0990b9484ad19b4ba86ea0e8d183138bfbf89d78d18d98/i/icon0.png",
         "name": "Maneater PS4 & PS5",
         "nameEn": "Maneater PS4 & PS5",
-        "productId": "UP0115-CUSA14519_00-MANEATER00000001",
-        "releaseDate": "2020-05-22T04:00:00Z",
+        "productId": "UP0115-PPSA01861_00-MANEATER00000001",
+        "releaseDate": "2020-11-12T05:00:00Z",
         "streamingSupported": true
       },
       {
@@ -11962,7 +11945,7 @@
   },
   {
     "catalogKey": "R",
-    "count": 25,
+    "count": 24,
     "games": [
       {
         "ageRating": {
@@ -12647,51 +12630,6 @@
       {
         "ageRating": {
           "authority": "ESRB",
-          "description": "ESRB Teen",
-          "descriptors": [
-            {
-              "description": "Blood",
-              "name": "ESRB_BLOOD"
-            },
-            {
-              "description": "Drug Reference",
-              "name": "ESRB_DRUG_REFERENCE"
-            },
-            {
-              "description": "Fantasy Violence",
-              "name": "ESRB_FANTASY_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [
-            {
-              "description": "Users Interact",
-              "name": "ESRB_USERS_INTERACT"
-            }
-          ],
-          "name": "ESRB_TEEN",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
-        },
-        "conceptId": 234386,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/234386",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "ACTION",
-          "ACTION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202010/2220/RfRnyMuPPdQraj09cluhX5yZ.png",
-        "name": "Risk of Rain 2",
-        "nameEn": "Risk of Rain 2",
-        "productId": "UP0292-PPSA06516_00-RISKOFRAIN2SIEA0",
-        "releaseDate": "2024-08-27T17:00:00Z",
-        "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
           "description": "ESRB Everyone 10+",
           "descriptors": [
             {
@@ -12951,7 +12889,7 @@
   },
   {
     "catalogKey": "S",
-    "count": 45,
+    "count": 44,
     "games": [
       {
         "ageRating": {
@@ -13871,40 +13809,6 @@
       {
         "ageRating": {
           "authority": "ESRB",
-          "description": "ESRB Teen",
-          "descriptors": [
-            {
-              "description": "Blood",
-              "name": "ESRB_BLOOD"
-            },
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_TEEN",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
-        },
-        "conceptId": 10004688,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10004688",
-        "device": [
-          "PS5"
-        ],
-        "genre": [
-          "ACTION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202204/2215/JtOugA1mmMe8K6QKWtyUqrUN.png",
-        "name": "Source of Madness",
-        "nameEn": "Source of Madness",
-        "productId": "UP5180-PPSA07018_00-SOURCEOFMADNEUS5",
-        "releaseDate": "2022-05-11T15:00:00Z",
-        "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
           "description": "ESRB Mature",
           "descriptors": [
             {
@@ -14745,7 +14649,7 @@
   },
   {
     "catalogKey": "T",
-    "count": 65,
+    "count": 62,
     "games": [
       {
         "ageRating": {
@@ -15487,60 +15391,6 @@
         "nameEn": "The Invincible",
         "productId": "UP6520-PPSA06425_00-8440883895336757",
         "releaseDate": "2023-11-06T15:00:00Z",
-        "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Teen",
-          "descriptors": [
-            {
-              "description": "Crude Humor",
-              "name": "ESRB_CRUDE_HUMOR"
-            },
-            {
-              "description": "Drug Reference",
-              "name": "ESRB_DRUG_REFERENCE"
-            },
-            {
-              "description": "Suggestive Themes",
-              "name": "ESRB_SUGGESTIVE_THEMES"
-            },
-            {
-              "description": "Use of Tobacco",
-              "name": "ESRB_USE_OF_TOBACCO"
-            },
-            {
-              "description": "Violent References",
-              "name": "ESRB_VIOLENT_REFERENCES"
-            }
-          ],
-          "interactiveElements": [
-            {
-              "description": "Users Interact",
-              "name": "ESRB_USERS_INTERACT"
-            }
-          ],
-          "name": "ESRB_TEEN",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
-        },
-        "conceptId": 10004969,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10004969",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "PARTY",
-          "FAMILY",
-          "CASUAL"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202209/1316/2ayccju5K4s34wCqv7R4GOoM.png",
-        "name": "The Jackbox Party Pack 9",
-        "nameEn": "The Jackbox Party Pack 9",
-        "productId": "UP2139-PPSA07636_00-JBGPARTYPACK9PS5",
-        "releaseDate": "2022-10-20T04:00:00Z",
         "streamingSupported": true
       },
       {
@@ -17299,103 +17149,6 @@
           "description": "ESRB Teen",
           "descriptors": [
             {
-              "description": "Drug Reference",
-              "name": "ESRB_DRUG_REFERENCE"
-            },
-            {
-              "description": "Mild Language",
-              "name": "ESRB_MILD_LANGUAGE"
-            },
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [
-            {
-              "description": "In-Game Purchases",
-              "name": "ESRB_IN_GAME_PURCHASES"
-            },
-            {
-              "description": "Users Interact",
-              "name": "ESRB_USERS_INTERACT"
-            }
-          ],
-          "name": "ESRB_TEEN",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
-        },
-        "conceptId": 228871,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/228871",
-        "device": [
-          "PS4"
-        ],
-        "genre": [
-          "STRATEGY",
-          "STRATEGY",
-          "SIMULATION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/img/cfn/11307rRvkOSpHdgACDUFc2DXgWi9bvYhvAwig8hoF7olz8Wo3hRpZcvoHjzs5mLYyRDNJn5pRGEKJOFFZ-knecnkkpIHJm-M.png",
-        "name": "Tropico 6",
-        "nameEn": "Tropico 6",
-        "productId": "UP2060-CUSA08217_00-TROPICO600000001",
-        "releaseDate": "2019-09-27T04:00:00Z",
-        "streamingSupported": false
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Teen",
-          "descriptors": [
-            {
-              "description": "Drug Reference",
-              "name": "ESRB_DRUG_REFERENCE"
-            },
-            {
-              "description": "Mild Language",
-              "name": "ESRB_MILD_LANGUAGE"
-            },
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [
-            {
-              "description": "In-Game Purchases",
-              "name": "ESRB_IN_GAME_PURCHASES"
-            },
-            {
-              "description": "Users Interact",
-              "name": "ESRB_USERS_INTERACT"
-            }
-          ],
-          "name": "ESRB_TEEN",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
-        },
-        "conceptId": 228871,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/228871",
-        "device": [
-          "PS5"
-        ],
-        "genre": [
-          "STRATEGY",
-          "SIMULATION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202201/0615/OUJ0BqHDXI2xThGdUhHp6GmH.png",
-        "name": "Tropico 6 - Next Gen Edition",
-        "nameEn": "Tropico 6 - Next Gen Edition",
-        "productId": "UP2060-PPSA05683_00-TROPICO600000001",
-        "releaseDate": "2022-03-31T00:00:00Z",
-        "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Teen",
-          "descriptors": [
-            {
               "description": "Crude Humor",
               "name": "ESRB_CRUDE_HUMOR"
             },
@@ -18562,7 +18315,7 @@
         "conceptId": 234709,
         "conceptUrl": "https://store.playstation.com/en-us/concept/234709",
         "device": [
-          "PS5"
+          "PS4"
         ],
         "genre": [
           "UNIQUE"
@@ -18570,9 +18323,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202106/0715/VFixb2toiP73l3rExKbjGeH1.png",
         "name": "Werewolf: The Apocalypse – Earthblood",
         "nameEn": "Werewolf: The Apocalypse – Earthblood",
-        "productId": "UP4008-PPSA02114_00-WTASIEA000000000",
+        "productId": "UP4008-CUSA16865_00-WTASIEA000000000",
         "releaseDate": "2021-02-04T09:00:00Z",
-        "streamingSupported": true
+        "streamingSupported": false
       },
       {
         "ageRating": {
