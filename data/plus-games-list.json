@@ -2409,7 +2409,7 @@
   },
   {
     "catalogKey": "C",
-    "count": 31,
+    "count": 32,
     "games": [
       {
         "ageRating": {
@@ -3021,6 +3021,40 @@
           "description": "ESRB Teen",
           "descriptors": [
             {
+              "description": "Language",
+              "name": "ESRB_LANGUAGE"
+            },
+            {
+              "description": "Violent References",
+              "name": "ESRB_VIOLENT_REFERENCES"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_TEEN",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
+        },
+        "conceptId": 10011288,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10011288",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "ROLE_PLAYING_GAMES"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202405/3107/041fdba8fed2b3a3f55482211f4d51b1390d01c446b98b22.png",
+        "name": "Citizen Sleeper 2: Starward Vector",
+        "nameEn": "Citizen Sleeper 2: Starward Vector",
+        "productId": "EP8921-PPSA23616_00-CITIZENSLEEPER20",
+        "releaseDate": "2025-01-31T16:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Teen",
+          "descriptors": [
+            {
               "description": "Violence",
               "name": "ESRB_VIOLENCE"
             }
@@ -3624,7 +3658,7 @@
   },
   {
     "catalogKey": "D",
-    "count": 28,
+    "count": 29,
     "games": [
       {
         "ageRating": {
@@ -4763,6 +4797,50 @@
         "productId": "UP4064-PPSA09077_00-0441220012296936",
         "releaseDate": "2023-03-30T04:00:00Z",
         "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature 17+",
+          "descriptors": [
+            {
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_MATURE_17",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m17.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m17.png"
+        },
+        "conceptId": 201129,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/201129",
+        "device": [
+          "PS4"
+        ],
+        "genre": [
+          "HORROR",
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202404/2512/d37a8e36cd19ffa6ee05894a8712e9d05c9591bd4eb9424e.png",
+        "name": "Dying Light",
+        "nameEn": "Dying Light",
+        "productId": "UP1018-CUSA00078_00-DL1BASEPSPLUS000",
+        "releaseDate": "2026-07-28T16:00:00Z",
+        "streamingSupported": false
       },
       {
         "ageRating": {
@@ -9262,7 +9340,7 @@
   },
   {
     "catalogKey": "M",
-    "count": 27,
+    "count": 28,
     "games": [
       {
         "ageRating": {
@@ -9867,6 +9945,37 @@
         "nameEn": "Metal Eden",
         "productId": "EP4062-PPSA16211_00-METALEDENPS5SIEE",
         "releaseDate": "2025-09-02T15:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Everyone 10+",
+          "descriptors": [
+            {
+              "description": "Fantasy Violence",
+              "name": "ESRB_FANTASY_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_EVERYONE_10",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e10.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e10.png"
+        },
+        "conceptId": 10009198,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10009198",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202410/2821/51d6eb5a4a96c0a546c0f7e475a6477a6c4a29196c95820b.png",
+        "name": "Mighty Morphin Power Rangers: Rita's Rewind",
+        "nameEn": "Mighty Morphin Power Rangers: Rita's Rewind",
+        "productId": "UP7818-PPSA18528_00-0444976593126924",
+        "releaseDate": "2024-12-10T05:00:00Z",
         "streamingSupported": true
       },
       {
@@ -12889,7 +12998,7 @@
   },
   {
     "catalogKey": "S",
-    "count": 44,
+    "count": 45,
     "games": [
       {
         "ageRating": {
@@ -13736,6 +13845,37 @@
         "nameEn": "Sniper Elite 5 PS4™ & PS5™",
         "productId": "UP4363-PPSA01685_00-SNIPERELITE50000",
         "releaseDate": "2022-05-26T00:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Everyone 10+",
+          "descriptors": [
+            {
+              "description": "Fantasy Violence",
+              "name": "ESRB_FANTASY_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_EVERYONE_10",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e10.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e10.png"
+        },
+        "conceptId": 10009300,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10009300",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202410/2915/7c7c2fd3c13d4e2e10353d380a1d1a790f8ef1120bb87e20.png",
+        "name": "Snow Bros. Wonderland",
+        "nameEn": "Snow Bros. Wonderland",
+        "productId": "UP6026-PPSA25703_00-SNOWBROSWL000000",
+        "releaseDate": "2024-11-28T12:00:00Z",
         "streamingSupported": true
       },
       {
@@ -18315,7 +18455,7 @@
         "conceptId": 234709,
         "conceptUrl": "https://store.playstation.com/en-us/concept/234709",
         "device": [
-          "PS4"
+          "PS5"
         ],
         "genre": [
           "UNIQUE"
@@ -18323,9 +18463,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202106/0715/VFixb2toiP73l3rExKbjGeH1.png",
         "name": "Werewolf: The Apocalypse – Earthblood",
         "nameEn": "Werewolf: The Apocalypse – Earthblood",
-        "productId": "UP4008-CUSA16865_00-WTASIEA000000000",
+        "productId": "UP4008-PPSA02114_00-WTASIEA000000000",
         "releaseDate": "2021-02-04T09:00:00Z",
-        "streamingSupported": false
+        "streamingSupported": true
       },
       {
         "ageRating": {
