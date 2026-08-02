@@ -8131,7 +8131,7 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202212/1423/ceiwbi2grLMGYXWlZCduDvuI.png",
         "name": "HUMANITY",
         "nameEn": "HUMANITY",
-        "productId": "UP0751-PPSA03771_00-HUMANITYGAME0001",
+        "productId": "UP0751-CUSA14150_00-HUMANITYGAME0000",
         "releaseDate": "2023-05-16T14:00:00Z",
         "streamingSupported": true
       },
@@ -9965,8 +9965,7 @@
         "conceptId": 10009198,
         "conceptUrl": "https://store.playstation.com/en-us/concept/10009198",
         "device": [
-          "PS4",
-          "PS5"
+          "PS4"
         ],
         "genre": [
           "ACTION"
@@ -9974,9 +9973,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202410/2821/51d6eb5a4a96c0a546c0f7e475a6477a6c4a29196c95820b.png",
         "name": "Mighty Morphin Power Rangers: Rita's Rewind",
         "nameEn": "Mighty Morphin Power Rangers: Rita's Rewind",
-        "productId": "UP7818-PPSA18528_00-0444976593126924",
+        "productId": "UP7818-CUSA45165_00-0153621143952723",
         "releaseDate": "2024-12-10T05:00:00Z",
-        "streamingSupported": true
+        "streamingSupported": false
       },
       {
         "ageRating": {
@@ -12998,7 +12997,7 @@
   },
   {
     "catalogKey": "S",
-    "count": 45,
+    "count": 44,
     "games": [
       {
         "ageRating": {
@@ -14197,36 +14196,6 @@
         "productId": "UP0001-CUSA14074_00-SPACEJUNKIESGAME",
         "releaseDate": "2019-03-26T04:00:00Z",
         "streamingSupported": false
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Teen",
-          "descriptors": [
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_TEEN",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
-        },
-        "conceptId": 10010627,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10010627",
-        "device": [
-          "PS5"
-        ],
-        "genre": [
-          "ACTION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202407/2922/806dbc9fc129686a537bfab37206a52a4be41eb7ec7cf668.png",
-        "name": "Squirrel with a Gun",
-        "nameEn": "Squirrel with a Gun",
-        "productId": "UP2080-PPSA22102_00-SWAGP50000000000",
-        "releaseDate": "2024-10-15T16:00:00Z",
-        "streamingSupported": true
       },
       {
         "ageRating": {
@@ -18455,7 +18424,7 @@
         "conceptId": 234709,
         "conceptUrl": "https://store.playstation.com/en-us/concept/234709",
         "device": [
-          "PS4"
+          "PS5"
         ],
         "genre": [
           "UNIQUE"
@@ -18463,9 +18432,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202106/0715/VFixb2toiP73l3rExKbjGeH1.png",
         "name": "Werewolf: The Apocalypse – Earthblood",
         "nameEn": "Werewolf: The Apocalypse – Earthblood",
-        "productId": "UP4008-CUSA16865_00-WTASIEA000000000",
+        "productId": "UP4008-PPSA02114_00-WTASIEA000000000",
         "releaseDate": "2021-02-04T09:00:00Z",
-        "streamingSupported": false
+        "streamingSupported": true
       },
       {
         "ageRating": {
