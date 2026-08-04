@@ -9965,8 +9965,7 @@
         "conceptId": 10009198,
         "conceptUrl": "https://store.playstation.com/en-us/concept/10009198",
         "device": [
-          "PS4",
-          "PS5"
+          "PS4"
         ],
         "genre": [
           "ACTION"
@@ -9974,9 +9973,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202410/2821/51d6eb5a4a96c0a546c0f7e475a6477a6c4a29196c95820b.png",
         "name": "Mighty Morphin Power Rangers: Rita's Rewind",
         "nameEn": "Mighty Morphin Power Rangers: Rita's Rewind",
-        "productId": "UP7818-PPSA18528_00-0444976593126924",
+        "productId": "UP7818-CUSA45165_00-0153621143952723",
         "releaseDate": "2024-12-10T05:00:00Z",
-        "streamingSupported": true
+        "streamingSupported": false
       },
       {
         "ageRating": {
@@ -18425,7 +18424,7 @@
         "conceptId": 234709,
         "conceptUrl": "https://store.playstation.com/en-us/concept/234709",
         "device": [
-          "PS4"
+          "PS5"
         ],
         "genre": [
           "UNIQUE"
@@ -18433,9 +18432,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202106/0715/VFixb2toiP73l3rExKbjGeH1.png",
         "name": "Werewolf: The Apocalypse – Earthblood",
         "nameEn": "Werewolf: The Apocalypse – Earthblood",
-        "productId": "UP4008-CUSA16865_00-WTASIEA000000000",
+        "productId": "UP4008-PPSA02114_00-WTASIEA000000000",
         "releaseDate": "2021-02-04T09:00:00Z",
-        "streamingSupported": false
+        "streamingSupported": true
       },
       {
         "ageRating": {
