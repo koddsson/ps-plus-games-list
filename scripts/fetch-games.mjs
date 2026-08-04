@@ -151,13 +151,15 @@ function flattenGames(data) {
   return data.flatMap((bucket) => bucket?.games ?? []);
 }
 
-// A stable identity for a game, preferring the immutable store identifiers.
+// A stable identity for a game. The upstream API flip-flops a game's
+// productId between its PS4 and PS5 SKUs, so productId alone is too
+// SKU-specific. conceptId is stable but shared across editions (e.g. a
+// remaster and the original), so pair it with the display name.
 function gameKey(game) {
-  return (
-    game.productId ??
-    (game.conceptId != null ? String(game.conceptId) : game.name) ??
-    game.name
-  );
+  if (game.conceptId != null) {
+    return `${game.conceptId}|${gameName(game)}`;
+  }
+  return game.productId ?? game.name;
 }
 
 function indexGames(data) {
