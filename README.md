@@ -16,9 +16,9 @@ sync, so it always reflects the current monthly line-up.
 
 | Cover | Game | Platforms | Genre |
 | --- | --- | --- | --- |
-| <a href="https://store.playstation.com/en-us/concept/10011645"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202407/0320/eb64ea35178d0f00577698a1b99ea3e91dca797a9dc21201.png" width="120" alt="Call of Duty®: Modern Warfare® III - Cross-Gen Bundle"></a> | [Call of Duty®: Modern Warfare® III - Cross-Gen Bundle](https://store.playstation.com/en-us/concept/10011645) | PS4, PS5 | Action |
-| <a href="https://store.playstation.com/en-us/concept/233619"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202006/1809/jLA6HPdLEXZjR8zv6BiHf7l0.png" width="120" alt="CrossCode"></a> | [CrossCode](https://store.playstation.com/en-us/concept/233619) | PS4, PS5 | Role Playing Games, Puzzle |
-| <a href="https://store.playstation.com/en-us/concept/10011010"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202411/1911/ad09aae201d797cc0c435475c33787bde37543acbd101873.png" width="120" alt="For The King II"></a> | [For The King II](https://store.playstation.com/en-us/concept/10011010) | PS5, PS4 | Strategy, Adventure, Role Playing Games |
+| <a href="https://store.playstation.com/en-us/concept/10017189"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202602/0421/fe1c88d7fe0aecfb99948e04096ed2e59479d65add3044e7.png" width="120" alt="Big Walk"></a> | [Big Walk](https://store.playstation.com/en-us/concept/10017189) | PS5 | Adventure |
+| <a href="https://store.playstation.com/en-us/concept/232374"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202501/3115/3c17bf3bb4c9b5b572f69217554f0afdebade3a37959bac3.png" width="120" alt="Dying Light 2 Stay Human PS4&amp;PS5"></a> | [Dying Light 2 Stay Human PS4&PS5](https://store.playstation.com/en-us/concept/232374) | PS4, PS5 | Unique |
+| <a href="https://store.playstation.com/en-us/concept/10005369"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202209/1922/a4qh6rFTIYn8HJ6hQjwoI4ZC.png" width="120" alt="SIGNALIS"></a> | [SIGNALIS](https://store.playstation.com/en-us/concept/10005369) | PS4 | Horror, Adventure |
 
 <!-- END MONTHLY GAMES -->
 
