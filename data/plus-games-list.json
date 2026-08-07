@@ -5921,7 +5921,7 @@
           "SHOOTER",
           "ACTION"
         ],
-        "imageUrl": "https://image.api.playstation.com/cdn/EP0001/CUSA05847_00/pEBJnRh6DeL2BfyZRa9jZRrNuSav42QPJIXyqo6Rgcr52o9kYLwY4EpouAzWh4Fu.png",
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202608/0521/15618b4627bb9e14016484379865574b6caf9041544946c8.png",
         "name": "Far Cry 5",
         "nameEn": "Far Cry 5",
         "productId": "UP0001-CUSA05904_00-FARCRY5GAME00000",
@@ -8131,7 +8131,7 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202212/1423/ceiwbi2grLMGYXWlZCduDvuI.png",
         "name": "HUMANITY",
         "nameEn": "HUMANITY",
-        "productId": "UP0751-PPSA03771_00-HUMANITYGAME0001",
+        "productId": "UP0751-CUSA14150_00-HUMANITYGAME0000",
         "releaseDate": "2023-05-16T14:00:00Z",
         "streamingSupported": true
       },
@@ -18424,7 +18424,7 @@
         "conceptId": 234709,
         "conceptUrl": "https://store.playstation.com/en-us/concept/234709",
         "device": [
-          "PS5"
+          "PS4"
         ],
         "genre": [
           "UNIQUE"
@@ -18432,9 +18432,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202106/0715/VFixb2toiP73l3rExKbjGeH1.png",
         "name": "Werewolf: The Apocalypse – Earthblood",
         "nameEn": "Werewolf: The Apocalypse – Earthblood",
-        "productId": "UP4008-PPSA02114_00-WTASIEA000000000",
+        "productId": "UP4008-CUSA16865_00-WTASIEA000000000",
         "releaseDate": "2021-02-04T09:00:00Z",
-        "streamingSupported": true
+        "streamingSupported": false
       },
       {
         "ageRating": {
