@@ -12096,7 +12096,7 @@
   },
   {
     "catalogKey": "R",
-    "count": 24,
+    "count": 23,
     "games": [
       {
         "ageRating": {
@@ -12285,33 +12285,6 @@
         "productId": "UP4989-PPSA21946_00-0159294138060851",
         "releaseDate": "2024-04-16T15:00:00Z",
         "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Everyone",
-          "descriptors": [],
-          "interactiveElements": [],
-          "name": "ESRB_EVERYONE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
-        },
-        "conceptId": 230220,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/230220",
-        "device": [
-          "PS4"
-        ],
-        "genre": [
-          "SPORTS",
-          "SIMULATION",
-          "ACTION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/cdn/UP0283/CUSA08042_00/LRUw0rXlLAre9rirMz2dLxYAaxlQArGy.png",
-        "name": "Rapala Fishing: Pro Series",
-        "nameEn": "Rapala Fishing: Pro Series",
-        "productId": "UP0283-CUSA08042_00-RAPALAFISHING000",
-        "releaseDate": "2017-10-24T04:00:00Z",
-        "streamingSupported": false
       },
       {
         "ageRating": {
@@ -18467,7 +18440,7 @@
         "conceptId": 234709,
         "conceptUrl": "https://store.playstation.com/en-us/concept/234709",
         "device": [
-          "PS4"
+          "PS5"
         ],
         "genre": [
           "UNIQUE"
@@ -18475,9 +18448,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202106/0715/VFixb2toiP73l3rExKbjGeH1.png",
         "name": "Werewolf: The Apocalypse – Earthblood",
         "nameEn": "Werewolf: The Apocalypse – Earthblood",
-        "productId": "UP4008-CUSA16865_00-WTASIEA000000000",
+        "productId": "UP4008-PPSA02114_00-WTASIEA000000000",
         "releaseDate": "2021-02-04T09:00:00Z",
-        "streamingSupported": false
+        "streamingSupported": true
       },
       {
         "ageRating": {
