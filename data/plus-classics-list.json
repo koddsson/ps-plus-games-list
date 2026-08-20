@@ -722,7 +722,7 @@
   },
   {
     "catalogKey": "D",
-    "count": 16,
+    "count": 17,
     "games": [
       {
         "ageRating": {
@@ -953,6 +953,37 @@
         "productId": "UP1003-CUSA02218_00-DISHONOREDGAMENA",
         "releaseDate": "2015-08-25T04:00:00Z",
         "streamingSupported": false
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Everyone 10+",
+          "descriptors": [
+            {
+              "description": "Fantasy Violence",
+              "name": "ESRB_FANTASY_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_EVERYONE_10",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e10.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e10.png"
+        },
+        "conceptId": 10007642,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10007642",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202601/2022/453e716b436cd900afc665fa90ec127e7b38ae4ddf127c53.png",
+        "name": "Disney's Atlantis: The Lost Empire",
+        "nameEn": "Disney's Atlantis: The Lost Empire",
+        "productId": "UP1082-PPSA14421_00-0097187703990152",
+        "releaseDate": "2026-08-18T15:00:00Z",
+        "streamingSupported": true
       },
       {
         "ageRating": {
@@ -3137,7 +3168,7 @@
   },
   {
     "catalogKey": "O",
-    "count": 4,
+    "count": 5,
     "games": [
       {
         "ageRating": {
@@ -3258,6 +3289,45 @@
         "productId": "UP9000-CUSA02199_00-SCUS971290000001",
         "releaseDate": "2016-03-22T04:00:00Z",
         "streamingSupported": false
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            },
+            {
+              "description": "Language",
+              "name": "ESRB_LANGUAGE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 10019710,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10019710",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202607/3004/d6b6f2ee4bdb5db2a32928b998f7f26e55e21f8f1b447345.png",
+        "name": "Onimusha: Dawn of Dreams",
+        "nameEn": "Onimusha: Dawn of Dreams",
+        "productId": "UP0102-PPSA38272_00-CLASSICONIMUSHA0",
+        "releaseDate": "2026-08-18T16:00:00Z",
+        "streamingSupported": true
       },
       {
         "ageRating": {
