@@ -10291,11 +10291,12 @@
         ],
         "genre": [
           "SIMULATION",
+          "UNIQUE",
           "RACING"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1116/5d430478c0e36f653c801b6ab5fa97f6039ad85393926cf5.png",
-        "name": "MudRunner [PS4 & PS5]",
-        "nameEn": "MudRunner [PS4 & PS5]",
+        "name": "MudRunner",
+        "nameEn": "MudRunner",
         "productId": "UP4133-CUSA09936_00-MUDRUNNERUS00000",
         "releaseDate": "2017-10-31T04:00:00Z",
         "streamingSupported": false
