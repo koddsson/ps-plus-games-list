@@ -3770,7 +3770,7 @@
           "HORROR",
           "ACTION"
         ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202203/1520/e6VbPQ56CBzVPgKmWdMMrICz.png",
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2514/26c99fcc3c281ffcac505a75fa110c2023eea0e26f90a56d.png",
         "name": "Dead by Daylight PS4® & PS5®",
         "nameEn": "Dead by Daylight PS4® & PS5®",
         "productId": "UP3509-PPSA02048_00-DEADBYDAYLIGHT00",
@@ -7379,7 +7379,7 @@
   },
   {
     "catalogKey": "H",
-    "count": 17,
+    "count": 18,
     "games": [
       {
         "ageRating": {
@@ -7437,6 +7437,53 @@
         "productId": "UP1014-CUSA09973_00-HARVESTMOONLOHSE",
         "releaseDate": "2018-05-29T04:00:00Z",
         "streamingSupported": false
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature 17+",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Drug Reference",
+              "name": "ESRB_DRUG_REFERENCE"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Suggestive Themes",
+              "name": "ESRB_SUGGESTIVE_THEMES"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_MATURE_17",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m17.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m17.png"
+        },
+        "conceptId": 10005051,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10005051",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "ACTION",
+          "ADVENTURE"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202505/1208/881d62059f98b7d5191eae48029004d5052df238da708d5b.png",
+        "name": "Hell is Us",
+        "nameEn": "Hell is Us",
+        "productId": "EP6665-PPSA09259_00-HIU0000000000000",
+        "releaseDate": "2025-09-04T08:00:00Z",
+        "streamingSupported": true
       },
       {
         "ageRating": {
@@ -9233,7 +9280,7 @@
   },
   {
     "catalogKey": "M",
-    "count": 28,
+    "count": 29,
     "games": [
       {
         "ageRating": {
@@ -9838,6 +9885,64 @@
         "nameEn": "Metal Eden",
         "productId": "EP4062-PPSA16211_00-METALEDENPS5SIEE",
         "releaseDate": "2025-09-02T15:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            },
+            {
+              "description": "Partial Nudity",
+              "name": "ESRB_PARTIAL_NUDITY"
+            },
+            {
+              "description": "Sexual Themes",
+              "name": "ESRB_SEXUAL_THEMES"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Use of Drugs",
+              "name": "ESRB_USE_OF_DRUGS"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            }
+          ],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 231769,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/231769",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "SHOOTER",
+          "ADVENTURE",
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202010/2814/jhNIE3yH1SNEe9CmxTVHAdme.png",
+        "name": "Metro Exodus",
+        "nameEn": "Metro Exodus",
+        "productId": "UP2047-PPSA02395_00-METROEXODUS0GEN9",
+        "releaseDate": "2021-06-18T00:00:00Z",
         "streamingSupported": true
       },
       {
@@ -14513,7 +14618,7 @@
   },
   {
     "catalogKey": "T",
-    "count": 62,
+    "count": 63,
     "games": [
       {
         "ageRating": {
@@ -17118,13 +17223,91 @@
         "productId": "UP0177-CUSA16081_00-TWOPOINTHOSNA000",
         "releaseDate": "2020-02-25T05:00:00Z",
         "streamingSupported": false
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Everyone",
+          "descriptors": [
+            {
+              "description": "Crude Humor",
+              "name": "ESRB_CRUDE_HUMOR"
+            },
+            {
+              "description": "Mild Language",
+              "name": "ESRB_MILD_LANGUAGE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            }
+          ],
+          "name": "ESRB_EVERYONE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
+        },
+        "conceptId": 10009660,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10009660",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "SIMULATION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202407/3014/0494ed5040dbb383906f4bab12de9411722c247d769c1f05.png",
+        "name": "Two Point Museum",
+        "nameEn": "Two Point Museum",
+        "productId": "EP0177-PPSA19769_00-TWOPOINTMUSEUM00",
+        "releaseDate": "2025-03-04T17:00:00Z",
+        "streamingSupported": true
       }
     ]
   },
   {
     "catalogKey": "U",
-    "count": 9,
+    "count": 10,
     "games": [
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Everyone",
+          "descriptors": [
+            {
+              "description": "Alcohol Reference",
+              "name": "ESRB_ALCOHOL_REFERENCE"
+            },
+            {
+              "description": "Mild Fantasy Violence",
+              "name": "ESRB_MILD_FANTASY_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_EVERYONE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
+        },
+        "conceptId": 10008192,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10008192",
+        "device": [
+          "PS4"
+        ],
+        "genre": [
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202407/1106/2ab8887fe4699ea1e7da810ed15421cda0846c58c927be9d.png",
+        "name": "Umamusume: Pretty Derby – Party Dash",
+        "nameEn": "Umamusume: Pretty Derby – Party Dash",
+        "productId": "UP5460-CUSA43179_00-UMAMUSUMEUS10000",
+        "releaseDate": "2024-08-30T04:00:00Z",
+        "streamingSupported": false
+      },
       {
         "ageRating": {
           "authority": "ESRB",
