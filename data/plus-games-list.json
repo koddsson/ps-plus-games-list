@@ -8016,7 +8016,7 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202212/1423/ceiwbi2grLMGYXWlZCduDvuI.png",
         "name": "HUMANITY",
         "nameEn": "HUMANITY",
-        "productId": "UP0751-CUSA14150_00-HUMANITYGAME0000",
+        "productId": "UP0751-PPSA03771_00-HUMANITYGAME0001",
         "releaseDate": "2023-05-16T14:00:00Z",
         "streamingSupported": true
       },
@@ -10400,11 +10400,11 @@
           "RACING"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1116/5d430478c0e36f653c801b6ab5fa97f6039ad85393926cf5.png",
-        "name": "MudRunner",
-        "nameEn": "MudRunner",
+        "name": "MudRunner [PS4 & PS5]",
+        "nameEn": "MudRunner [PS4 & PS5]",
         "productId": "UP4133-CUSA09936_00-MUDRUNNERUS00000",
         "releaseDate": "2017-10-31T04:00:00Z",
-        "streamingSupported": false
+        "streamingSupported": true
       },
       {
         "ageRating": {
