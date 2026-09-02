@@ -3589,7 +3589,7 @@
   },
   {
     "catalogKey": "D",
-    "count": 28,
+    "count": 29,
     "games": [
       {
         "ageRating": {
@@ -4719,6 +4719,49 @@
         "productId": "UP1018-CUSA00078_00-DL1BASEPSPLUS000",
         "releaseDate": "2026-07-28T16:00:00Z",
         "streamingSupported": false
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Suggestive Themes",
+              "name": "ESRB_SUGGESTIVE_THEMES"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 232374,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/232374",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "UNIQUE"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202501/3115/3c17bf3bb4c9b5b572f69217554f0afdebade3a37959bac3.png",
+        "name": "Dying Light 2 Stay Human PS4&PS5",
+        "nameEn": "Dying Light 2 Stay Human PS4&PS5",
+        "productId": "UP3050-PPSA02261_00-DL2GAME0000000US",
+        "releaseDate": "2022-02-04T05:00:00Z",
+        "streamingSupported": true
       },
       {
         "ageRating": {
@@ -8016,7 +8059,7 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202212/1423/ceiwbi2grLMGYXWlZCduDvuI.png",
         "name": "HUMANITY",
         "nameEn": "HUMANITY",
-        "productId": "UP0751-CUSA14150_00-HUMANITYGAME0000",
+        "productId": "UP0751-PPSA03771_00-HUMANITYGAME0001",
         "releaseDate": "2023-05-16T14:00:00Z",
         "streamingSupported": true
       },
