@@ -16,9 +16,11 @@ sync, so it always reflects the current monthly line-up.
 
 | Cover | Game | Platforms | Genre |
 | --- | --- | --- | --- |
-| <a href="https://store.playstation.com/en-us/concept/10017189"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202602/0421/fe1c88d7fe0aecfb99948e04096ed2e59479d65add3044e7.png" width="120" alt="Big Walk"></a> | [Big Walk](https://store.playstation.com/en-us/concept/10017189) | PS5 | Adventure |
-| <a href="https://store.playstation.com/en-us/concept/232374"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202501/3115/3c17bf3bb4c9b5b572f69217554f0afdebade3a37959bac3.png" width="120" alt="Dying Light 2 Stay Human PS4&amp;PS5"></a> | [Dying Light 2 Stay Human PS4&PS5](https://store.playstation.com/en-us/concept/232374) | PS4, PS5 | Unique |
-| <a href="https://store.playstation.com/en-us/concept/10005369"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202209/1922/a4qh6rFTIYn8HJ6hQjwoI4ZC.png" width="120" alt="SIGNALIS"></a> | [SIGNALIS](https://store.playstation.com/en-us/concept/10005369) | PS4 | Horror, Adventure |
+| <a href="https://store.playstation.com/en-us/concept/10003362"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202211/1611/6O2jAYhTUqhcJYYJeNex5oKJ.png" width="120" alt="Chained Echoes"></a> | [Chained Echoes](https://store.playstation.com/en-us/concept/10003362) | PS4 | Role Playing Games |
+| <a href="https://store.playstation.com/en-us/concept/10015430"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202607/0816/791b0f1880e27c1d8f52187daea36abfe5fd3b0ff1144007.png" width="120" alt="MLB® The Show™ 26"></a> | [MLB® The Show™ 26](https://store.playstation.com/en-us/concept/10015430) | PS5 | Sports |
+| <a href="https://store.playstation.com/en-us/concept/10015430"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202608/2100/035494835cd93a14cb0ecdc160adcf2c6cbce92fff15c738.png" width="120" alt="MLB® The Show™ 26 Jump Start Bundle"></a> | [MLB® The Show™ 26 Jump Start Bundle](https://store.playstation.com/en-us/concept/10015430) |  | Sports |
+| <a href="https://store.playstation.com/en-us/concept/10008716"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202408/1309/05d041f5216b1cd55a4587729534ce8ac8c557877b4d1483.png" width="120" alt="Sniper Elite: Resistance PS4™ &amp; PS5™"></a> | [Sniper Elite: Resistance PS4™ & PS5™](https://store.playstation.com/en-us/concept/10008716) | PS4, PS5 | Shooter, Action |
+| <a href="https://store.playstation.com/en-us/concept/10004896"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202212/0810/iCrnQDLqgGBSnHkTFbOzQX2Q.png" width="120" alt="Wobbly Life"></a> | [Wobbly Life](https://store.playstation.com/en-us/concept/10004896) | PS4, PS5 | Casual, Family, Adventure |
 
 <!-- END MONTHLY GAMES -->
 
