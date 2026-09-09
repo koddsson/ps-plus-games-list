@@ -17144,8 +17144,8 @@
           "PS4"
         ],
         "genre": [
-          "SIMULATION",
           "STRATEGY",
+          "SIMULATION",
           "SIMULATION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP2060/CUSA01216_00/4Xwg1M7ZIPl768YsuujciE8wmNvqtBod.png",
@@ -18399,7 +18399,7 @@
         "conceptId": 234709,
         "conceptUrl": "https://store.playstation.com/en-us/concept/234709",
         "device": [
-          "PS4"
+          "PS5"
         ],
         "genre": [
           "UNIQUE"
@@ -18407,9 +18407,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202106/0715/VFixb2toiP73l3rExKbjGeH1.png",
         "name": "Werewolf: The Apocalypse – Earthblood",
         "nameEn": "Werewolf: The Apocalypse – Earthblood",
-        "productId": "UP4008-CUSA16865_00-WTASIEA000000000",
+        "productId": "UP4008-PPSA02114_00-WTASIEA000000000",
         "releaseDate": "2021-02-04T09:00:00Z",
-        "streamingSupported": false
+        "streamingSupported": true
       },
       {
         "ageRating": {
