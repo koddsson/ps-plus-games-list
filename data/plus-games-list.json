@@ -3487,8 +3487,8 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202310/1119/4b2bc50a0bb1fa4a27273cd583b59e922de33a3d9da23a59.png",
         "name": "Crow Country",
         "nameEn": "Crow Country",
-        "productId": "UP6093-CUSA45567_00-0160994265024834",
-        "releaseDate": "2024-10-22T15:00:00Z",
+        "productId": "UP6093-PPSA19067_00-0438761103283229",
+        "releaseDate": "2024-05-09T15:00:00Z",
         "streamingSupported": true
       },
       {
@@ -3589,7 +3589,7 @@
   },
   {
     "catalogKey": "D",
-    "count": 29,
+    "count": 30,
     "games": [
       {
         "ageRating": {
@@ -3682,6 +3682,48 @@
         "nameEn": "Darkest Dungeon II PS4 & PS5",
         "productId": "UP2619-PPSA19590_00-0191103846959805",
         "releaseDate": "2024-07-15T04:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature 17+",
+          "descriptors": [
+            {
+              "description": "Drug Reference",
+              "name": "ESRB_DRUG_REFERENCE"
+            },
+            {
+              "description": "Partial Nudity",
+              "name": "ESRB_PARTIAL_NUDITY"
+            },
+            {
+              "description": "Sexual Themes",
+              "name": "ESRB_SEXUAL_THEMES"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_MATURE_17",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m17.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m17.png"
+        },
+        "conceptId": 10010892,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10010892",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "SIMULATION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202506/1715/3441b62cd05c46b21dab1daa92e99cb44df3883fa01c84c2.png",
+        "name": "Date Everything!",
+        "nameEn": "Date Everything!",
+        "productId": "EP4064-PPSA22788_00-0687926157599588",
+        "releaseDate": "2025-06-17T04:00:00Z",
         "streamingSupported": true
       },
       {
@@ -18399,7 +18441,7 @@
         "conceptId": 234709,
         "conceptUrl": "https://store.playstation.com/en-us/concept/234709",
         "device": [
-          "PS5"
+          "PS4"
         ],
         "genre": [
           "UNIQUE"
@@ -18407,9 +18449,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202106/0715/VFixb2toiP73l3rExKbjGeH1.png",
         "name": "Werewolf: The Apocalypse – Earthblood",
         "nameEn": "Werewolf: The Apocalypse – Earthblood",
-        "productId": "UP4008-PPSA02114_00-WTASIEA000000000",
+        "productId": "UP4008-CUSA16865_00-WTASIEA000000000",
         "releaseDate": "2021-02-04T09:00:00Z",
-        "streamingSupported": true
+        "streamingSupported": false
       },
       {
         "ageRating": {
