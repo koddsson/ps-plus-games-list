@@ -12058,7 +12058,7 @@
   },
   {
     "catalogKey": "R",
-    "count": 22,
+    "count": 23,
     "games": [
       {
         "ageRating": {
@@ -12361,6 +12361,46 @@
         "nameEn": "ReadySet Heroes",
         "productId": "UP9000-CUSA15404_00-G2PGTINMAN000001",
         "releaseDate": "2019-10-01T04:00:00Z",
+        "streamingSupported": false
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Teen",
+          "descriptors": [
+            {
+              "description": "Drug Reference",
+              "name": "ESRB_DRUG_REFERENCE"
+            },
+            {
+              "description": "Language",
+              "name": "ESRB_LANGUAGE"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_TEEN",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
+        },
+        "conceptId": 203666,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/203666",
+        "device": [
+          "PS4"
+        ],
+        "genre": [
+          "ADVENTURE",
+          "ROLE_PLAYING_GAMES",
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/cdn/UP0224/CUSA02381_00/moQFrzgyQQ5tUhD3jWrQT2KPfMJxEaQs.png",
+        "name": "Rebel Galaxy",
+        "nameEn": "Rebel Galaxy",
+        "productId": "UP0224-CUSA02381_00-REBELGALAXY00000",
+        "releaseDate": "2016-01-05T05:00:00Z",
         "streamingSupported": false
       },
       {
@@ -18408,7 +18448,7 @@
         "conceptId": 234709,
         "conceptUrl": "https://store.playstation.com/en-us/concept/234709",
         "device": [
-          "PS5"
+          "PS4"
         ],
         "genre": [
           "UNIQUE"
@@ -18416,9 +18456,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202106/0715/VFixb2toiP73l3rExKbjGeH1.png",
         "name": "Werewolf: The Apocalypse – Earthblood",
         "nameEn": "Werewolf: The Apocalypse – Earthblood",
-        "productId": "UP4008-PPSA02114_00-WTASIEA000000000",
+        "productId": "UP4008-CUSA16865_00-WTASIEA000000000",
         "releaseDate": "2021-02-04T09:00:00Z",
-        "streamingSupported": true
+        "streamingSupported": false
       },
       {
         "ageRating": {
