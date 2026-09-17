@@ -1566,7 +1566,7 @@
   },
   {
     "catalogKey": "B",
-    "count": 21,
+    "count": 20,
     "games": [
       {
         "ageRating": {
@@ -2309,34 +2309,6 @@
         "productId": "UP4456-PPSA21480_00-0379307469449570",
         "releaseDate": "2024-09-19T04:00:00Z",
         "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Everyone",
-          "descriptors": [
-            {
-              "description": "Mild Cartoon Violence",
-              "name": "ESRB_MILD_CARTOON_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_EVERYONE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
-        },
-        "conceptId": 228948,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/228948",
-        "device": [
-          "PS4"
-        ],
-        "genre": [],
-        "imageUrl": "https://image.api.playstation.com/cdn/UP2035/CUSA09452_00/J5AhITjqrCl7nSDvsAeYXwz5zsz9bEUu.png",
-        "name": "Bubsy: The Woolies Strike Back",
-        "nameEn": "Bubsy: The Woolies Strike Back",
-        "productId": "UP2035-CUSA09452_00-BUBSY00000000001",
-        "releaseDate": "2017-10-31T00:00:00Z",
-        "streamingSupported": false
       },
       {
         "ageRating": {
@@ -3487,8 +3459,8 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202310/1119/4b2bc50a0bb1fa4a27273cd583b59e922de33a3d9da23a59.png",
         "name": "Crow Country",
         "nameEn": "Crow Country",
-        "productId": "UP6093-CUSA45567_00-0160994265024834",
-        "releaseDate": "2024-10-22T15:00:00Z",
+        "productId": "UP6093-PPSA19067_00-0438761103283229",
+        "releaseDate": "2024-05-09T15:00:00Z",
         "streamingSupported": true
       },
       {
@@ -4899,47 +4871,8 @@
   },
   {
     "catalogKey": "E",
-    "count": 18,
+    "count": 17,
     "games": [
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Everyone",
-          "descriptors": [
-            {
-              "description": "Mild Lyrics",
-              "name": "ESRB_MILD_LYRICS"
-            }
-          ],
-          "interactiveElements": [
-            {
-              "description": "In-Game Purchases (Includes Random Items)",
-              "name": "ESRB_IN_GAME_PURCHASES_RANDOM"
-            },
-            {
-              "description": "Users Interact",
-              "name": "ESRB_USERS_INTERACT"
-            }
-          ],
-          "name": "ESRB_EVERYONE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
-        },
-        "conceptId": 10012604,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10012604",
-        "device": [
-          "PS5"
-        ],
-        "genre": [
-          "SPORTS"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202505/2813/91b39d9b05c4a3284df3a6ef5b34768e3bd4301d354e1a85.png",
-        "name": "EA SPORTS™ Madden NFL 26",
-        "nameEn": "EA SPORTS™ Madden NFL 26",
-        "productId": "UP0006-PPSA26127_00-MADDENNFL26GAME0",
-        "releaseDate": "2025-08-07T16:00:00Z",
-        "streamingSupported": false
-      },
       {
         "ageRating": {
           "authority": "ESRB",
@@ -5738,17 +5671,18 @@
         "conceptId": 232248,
         "conceptUrl": "https://store.playstation.com/en-us/concept/232248",
         "device": [
-          "PS4"
+          "PS4",
+          "PS5"
         ],
         "genre": [
           "ROLE_PLAYING_GAMES"
         ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2616/b46faa41cc6ab008be4f7369ad52df51403b012e951346c5.png",
-        "name": "Fallout 76",
-        "nameEn": "Fallout 76",
-        "productId": "UP1003-CUSA12057_00-PRJMTN0000000000",
-        "releaseDate": "2018-11-14T05:00:00Z",
-        "streamingSupported": false
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202608/1214/4240708e955c460e92bcaa1f453f1e50567f29fce6636431.png",
+        "name": "Fallout 76 PS4 & PS5",
+        "nameEn": "Fallout 76 PS4 & PS5",
+        "productId": "UP1003-PPSA30932_00-PROJECTSYMES0000",
+        "releaseDate": "2026-09-15T16:00:00Z",
+        "streamingSupported": true
       },
       {
         "ageRating": {
@@ -11122,7 +11056,7 @@
   },
   {
     "catalogKey": "P",
-    "count": 24,
+    "count": 23,
     "games": [
       {
         "ageRating": {
@@ -11395,57 +11329,6 @@
         "nameEn": "Persona 5 Royal",
         "productId": "UP0177-PPSA05109_00-P5RGAME000000000",
         "releaseDate": "2022-10-21T04:00:00Z",
-        "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Teen",
-          "descriptors": [
-            {
-              "description": "Blood",
-              "name": "ESRB_BLOOD"
-            },
-            {
-              "description": "Language",
-              "name": "ESRB_LANGUAGE"
-            },
-            {
-              "description": "Partial Nudity",
-              "name": "ESRB_PARTIAL_NUDITY"
-            },
-            {
-              "description": "Suggestive Themes",
-              "name": "ESRB_SUGGESTIVE_THEMES"
-            },
-            {
-              "description": "Use of Alcohol",
-              "name": "ESRB_USE_OF_ALCOHOL"
-            },
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_TEEN",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
-        },
-        "conceptId": 10005896,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10005896",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "STRATEGY"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202305/2417/c633c1b79cab71e09a81e4857e8cc07c8e5691a65c6acb5a.png",
-        "name": "Persona 5 Tactica PS4 & PS5",
-        "nameEn": "Persona 5 Tactica PS4 & PS5",
-        "productId": "UP0177-PPSA16195_00-P5TPS5NA00000000",
-        "releaseDate": "2023-11-17T05:00:00Z",
         "streamingSupported": true
       },
       {
@@ -12866,46 +12749,6 @@
       {
         "ageRating": {
           "authority": "ESRB",
-          "description": "ESRB Everyone 10+",
-          "descriptors": [
-            {
-              "description": "Language",
-              "name": "ESRB_LANGUAGE"
-            },
-            {
-              "description": "Mild Violence",
-              "name": "ESRB_MILD_VIOLENCE"
-            },
-            {
-              "description": "Use of Alcohol",
-              "name": "ESRB_USE_OF_ALCOHOL"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_EVERYONE_10",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e10.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e10.png"
-        },
-        "conceptId": 214004,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/214004",
-        "device": [
-          "PS4"
-        ],
-        "genre": [
-          "STRATEGY",
-          "SIMULATION",
-          "ACTION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/cdn/UP4108/CUSA05071_00/z74QVSClq2MkInTeb502w2PBTDKBK0oo.png",
-        "name": "Romance of The Three Kingdoms 13",
-        "nameEn": "Romance of The Three Kingdoms 13",
-        "productId": "UP4108-CUSA05071_00-SAN13GAMENA00000",
-        "releaseDate": "2016-07-05T04:00:00Z",
-        "streamingSupported": false
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
           "description": "ESRB Everyone",
           "descriptors": [],
           "interactiveElements": [
@@ -12975,12 +12818,59 @@
         "productId": "UP1023-CUSA27918_00-RUNEFACTORY4SP00",
         "releaseDate": "2021-12-07T08:00:00Z",
         "streamingSupported": false
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Teen",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Mild Language",
+              "name": "ESRB_MILD_LANGUAGE"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            },
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_TEEN",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
+        },
+        "conceptId": 10017405,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10017405",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "ADVENTURE"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202609/1117/252b7056c5ed89c910b3182d8ca3bc60e21ffa136fb8d96f.png",
+        "name": "RuneScape: Dragonwilds",
+        "nameEn": "RuneScape: Dragonwilds",
+        "productId": "EP5300-PPSA34114_00-0779566544583078",
+        "releaseDate": "2026-09-15T09:00:00Z",
+        "streamingSupported": true
       }
     ]
   },
   {
     "catalogKey": "S",
-    "count": 43,
+    "count": 40,
     "games": [
       {
         "ageRating": {
@@ -13462,147 +13352,6 @@
         "productId": "UP3643-CUSA05617_00-SHADOWWARRIOR200",
         "releaseDate": "2017-05-19T04:00:00Z",
         "streamingSupported": false
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Mature",
-          "descriptors": [
-            {
-              "description": "Blood",
-              "name": "ESRB_BLOOD"
-            },
-            {
-              "description": "Drug Reference",
-              "name": "ESRB_DRUG_REFERENCE"
-            },
-            {
-              "description": "Sexual Themes",
-              "name": "ESRB_SEXUAL_THEMES"
-            },
-            {
-              "description": "Strong Language",
-              "name": "ESRB_STRONG_LANGUAGE"
-            },
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_MATURE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
-        },
-        "conceptId": 10002084,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10002084",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "STRATEGY"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202203/1708/knBij8Oq7vTNesu6u5uHGrOg.png",
-        "name": "Shadowrun Returns",
-        "nameEn": "Shadowrun Returns",
-        "productId": "UP4139-PPSA04121_00-SHADOWRUNRETNA01",
-        "releaseDate": "2022-06-21T16:00:00Z",
-        "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Mature",
-          "descriptors": [
-            {
-              "description": "Blood and Gore",
-              "name": "ESRB_BLOOD_AND_GORE"
-            },
-            {
-              "description": "Drug Reference",
-              "name": "ESRB_DRUG_REFERENCE"
-            },
-            {
-              "description": "Sexual Themes",
-              "name": "ESRB_SEXUAL_THEMES"
-            },
-            {
-              "description": "Strong Language",
-              "name": "ESRB_STRONG_LANGUAGE"
-            },
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_MATURE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
-        },
-        "conceptId": 10002084,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10002084",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "STRATEGY"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202203/1610/GyoABeZOiCOaBUwPnkoK7Ego.png",
-        "name": "Shadowrun: Dragonfall - Director's Cut",
-        "nameEn": "Shadowrun: Dragonfall - Director's Cut",
-        "productId": "UP4139-PPSA04111_00-SHADOWDRAGONNA01",
-        "releaseDate": "2022-06-21T16:00:00Z",
-        "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Mature",
-          "descriptors": [
-            {
-              "description": "Blood and Gore",
-              "name": "ESRB_BLOOD_AND_GORE"
-            },
-            {
-              "description": "Drug Reference",
-              "name": "ESRB_DRUG_REFERENCE"
-            },
-            {
-              "description": "Sexual Themes",
-              "name": "ESRB_SEXUAL_THEMES"
-            },
-            {
-              "description": "Strong Language",
-              "name": "ESRB_STRONG_LANGUAGE"
-            },
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_MATURE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
-        },
-        "conceptId": 10002084,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10002084",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "STRATEGY"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202204/0814/yXOVvmn3J2PMJY9wwf5YVmpD.png",
-        "name": "Shadowrun: Hong Kong - Extended Edition",
-        "nameEn": "Shadowrun: Hong Kong - Extended Edition",
-        "productId": "UP4139-PPSA04113_00-SHADOWHKEXTENDNA",
-        "releaseDate": "2022-06-21T16:00:00Z",
-        "streamingSupported": true
       },
       {
         "ageRating": {
@@ -14710,7 +14459,7 @@
   },
   {
     "catalogKey": "T",
-    "count": 63,
+    "count": 62,
     "games": [
       {
         "ageRating": {
@@ -16740,60 +16489,6 @@
       {
         "ageRating": {
           "authority": "ESRB",
-          "description": "ESRB Teen",
-          "descriptors": [
-            {
-              "description": "Alcohol Reference",
-              "name": "ESRB_ALCOHOL_REFERENCE"
-            },
-            {
-              "description": "Blood and Gore",
-              "name": "ESRB_BLOOD_AND_GORE"
-            },
-            {
-              "description": "Game Experience May Change During Online Play",
-              "name": "ESRB_GAME_EXPERIENCE_MAY_CHANGE_DURING_ONLINE_PLAY"
-            },
-            {
-              "description": "Mild Language",
-              "name": "ESRB_MILD_LANGUAGE"
-            },
-            {
-              "description": "Mild Suggestive Themes",
-              "name": "ESRB_MILD_SUGGESTIVETHEMES"
-            },
-            {
-              "description": "Partial Nudity",
-              "name": "ESRB_PARTIAL_NUDITY"
-            },
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_TEEN",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
-        },
-        "conceptId": 210894,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/210894",
-        "device": [
-          "PS4"
-        ],
-        "genre": [
-          "ACTION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/cdn/UP4108/CUSA05797_00/8HkCzZWpDNSJWbqnjqN8QC3mb525kgsB.png",
-        "name": "Toukiden 2",
-        "nameEn": "Toukiden 2",
-        "productId": "UP4108-CUSA05797_00-TOUKIDEN20000000",
-        "releaseDate": "2017-03-21T04:00:00Z",
-        "streamingSupported": false
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
           "description": "ESRB Everyone 10+",
           "descriptors": [
             {
@@ -18022,7 +17717,7 @@
   },
   {
     "catalogKey": "W",
-    "count": 22,
+    "count": 23,
     "games": [
       {
         "ageRating": {
@@ -19002,6 +18697,57 @@
         "nameEn": "WRC Generations – The FIA WRC Official Game",
         "productId": "UP6665-PPSA07580_00-WRCG000000000000",
         "releaseDate": "2022-11-03T09:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Teen",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Language",
+              "name": "ESRB_LANGUAGE"
+            },
+            {
+              "description": "Suggestive Themes",
+              "name": "ESRB_SUGGESTIVE_THEMES"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases (Includes Random Items)",
+              "name": "ESRB_IN_GAME_PURCHASES_RANDOM"
+            },
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_TEEN",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
+        },
+        "conceptId": 10015300,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10015300",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "SPORTS"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202511/2716/a1a698c1912cbafeaec1744f804491492af00a1c359d5806.png",
+        "name": "WWE 2K26 Standard Edition",
+        "nameEn": "WWE 2K26 Standard Edition",
+        "productId": "UP1001-PPSA34299_00-WWE2K26000000000",
+        "releaseDate": "2026-03-13T04:00:00Z",
         "streamingSupported": true
       }
     ]

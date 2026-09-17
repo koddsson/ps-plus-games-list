@@ -722,7 +722,7 @@
   },
   {
     "catalogKey": "D",
-    "count": 17,
+    "count": 15,
     "games": [
       {
         "ageRating": {
@@ -1015,68 +1015,6 @@
         "nameEn": "Disney•Pixar Buzz Lightyear of Star Command",
         "productId": "UP1082-PPSA14381_00-0570380917000461",
         "releaseDate": "2023-12-19T16:00:00Z",
-        "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Everyone",
-          "descriptors": [
-            {
-              "description": "Mild Fantasy Violence",
-              "name": "ESRB_MILD_FANTASY_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_EVERYONE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
-        },
-        "conceptId": 10004933,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10004933",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "ADVENTURE"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202205/0416/YpPh5Nt0hfFsgJGsIW7oOcPn.png",
-        "name": "Disney•Pixar Toy Story 2: Buzz Lightyear to the Rescue!",
-        "nameEn": "Disney•Pixar Toy Story 2: Buzz Lightyear to the Rescue!",
-        "productId": "UP1082-PPSA07371_00-1681045715813978",
-        "releaseDate": "2025-03-14T13:00:00Z",
-        "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Everyone",
-          "descriptors": [
-            {
-              "description": "Mild Cartoon Violence",
-              "name": "ESRB_MILD_CARTOON_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_EVERYONE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
-        },
-        "conceptId": 10004937,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10004937",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "ACTION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202205/0322/kmpzvkulop0RWjOf5yHyG8yd.png",
-        "name": "Disney•Pixar Toy Story 3",
-        "nameEn": "Disney•Pixar Toy Story 3",
-        "productId": "UP1082-PPSA07373_00-7790102558097475",
-        "releaseDate": "2025-03-14T13:00:00Z",
         "streamingSupported": true
       },
       {
@@ -2855,7 +2793,7 @@
   },
   {
     "catalogKey": "M",
-    "count": 7,
+    "count": 9,
     "games": [
       {
         "ageRating": {
@@ -2977,6 +2915,84 @@
         "productId": "UP9000-PPSA07550_00-UCUS986200000000",
         "releaseDate": "2025-03-07T17:00:00Z",
         "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Everyone",
+          "descriptors": [],
+          "interactiveElements": [],
+          "name": "ESRB_EVERYONE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
+        },
+        "conceptId": 10019857,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10019857",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ROLE_PLAYING_GAMES"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2705/80b571b0c68ba3840f22cc1ea374a2a9a60883e78c6ccf68.png",
+        "name": "Mega Man X: Command Mission",
+        "nameEn": "Mega Man X: Command Mission",
+        "productId": "UP0102-PPSA38464_00-CLASSICMXCM00001",
+        "releaseDate": "2026-09-15T16:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            },
+            {
+              "description": "Nudity",
+              "name": "ESRB_NUDITY"
+            },
+            {
+              "description": "Sexual Content",
+              "name": "ESRB_SEXUAL_CONTENT"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Use of Drugs and Alcohol",
+              "name": "ESRB_USE_OF_DRUGS_AND_ALCOHOL"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 202806,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/202806",
+        "device": [
+          "PS4"
+        ],
+        "genre": [
+          "SHOOTER",
+          "ACTION",
+          "SHOOTER"
+        ],
+        "imageUrl": "https://image.api.playstation.com/cdn/UP2047/CUSA00683_00/Zk20vUGkH6bRUC1io2L7wZMj2boRIH5l.png",
+        "name": "Metro Redux",
+        "nameEn": "Metro Redux",
+        "productId": "UP2047-CUSA00683_00-MCOMPLREDUXDISC1",
+        "releaseDate": "2014-08-26T04:00:00Z",
+        "streamingSupported": false
       },
       {
         "ageRating": {
@@ -6177,8 +6193,8 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202204/2813/OR4HwTYY1fUjHtPVgtYHtRcg.png",
         "name": "Worms Armageddon [PS1 Emulation]",
         "nameEn": "Worms Armageddon [PS1 Emulation]",
-        "productId": "UP4064-PPSA07309_00-SLUS008880000000",
-        "releaseDate": "2025-07-24T09:00:00Z",
+        "productId": "UP4064-CUSA33246_00-SLUS008880000000",
+        "releaseDate": "2022-06-13T12:00:00Z",
         "streamingSupported": true
       },
       {
