@@ -61,8 +61,40 @@
   },
   {
     "catalogKey": "M",
-    "count": 0,
-    "games": []
+    "count": 1,
+    "games": [
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Everyone",
+          "descriptors": [
+            {
+              "description": "Mild Fantasy Violence",
+              "name": "ESRB_MILD_FANTASY_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_EVERYONE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
+        },
+        "conceptId": 10019857,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10019857",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ROLE_PLAYING_GAMES"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2705/80b571b0c68ba3840f22cc1ea374a2a9a60883e78c6ccf68.png",
+        "name": "Mega Man X: Command Mission",
+        "nameEn": "Mega Man X: Command Mission",
+        "productId": "UP0102-PPSA38464_00-CLASSICMXCM00001",
+        "releaseDate": "2026-09-15T16:00:00Z",
+        "streamingSupported": true
+      }
+    ]
   },
   {
     "catalogKey": "N",
