@@ -61,8 +61,69 @@
   },
   {
     "catalogKey": "F",
-    "count": 0,
-    "games": []
+    "count": 1,
+    "games": [
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
+            },
+            {
+              "description": "Drug Reference",
+              "name": "ESRB_DRUG_REFERENCE"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Suggestive Themes",
+              "name": "ESRB_SUGGESTIVE_THEMES"
+            },
+            {
+              "description": "Use of Alcohol",
+              "name": "ESRB_USE_OF_ALCOHOL"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            },
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 232248,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/232248",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ROLE_PLAYING_GAMES"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202608/1214/4240708e955c460e92bcaa1f453f1e50567f29fce6636431.png",
+        "name": "Fallout 76 PS4 & PS5",
+        "nameEn": "Fallout 76 PS4 & PS5",
+        "productId": "UP1003-PPSA30932_00-PROJECTSYMES0000",
+        "releaseDate": "2026-09-15T16:00:00Z",
+        "streamingSupported": true
+      }
+    ]
   },
   {
     "catalogKey": "G",
