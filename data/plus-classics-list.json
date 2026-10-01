@@ -722,7 +722,7 @@
   },
   {
     "catalogKey": "D",
-    "count": 15,
+    "count": 14,
     "games": [
       {
         "ageRating": {
@@ -983,38 +983,6 @@
         "nameEn": "Disney's Atlantis: The Lost Empire",
         "productId": "UP1082-PPSA14421_00-0097187703990152",
         "releaseDate": "2026-08-18T15:00:00Z",
-        "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Everyone 10+",
-          "descriptors": [
-            {
-              "description": "Fantasy Violence",
-              "name": "ESRB_FANTASY_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_EVERYONE_10",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e10.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e10.png"
-        },
-        "conceptId": 10007631,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10007631",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "ACTION",
-          "ADVENTURE"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202307/2521/48e4a4ba9b51dc69a334c7f5dd65d25de6803b23bfb9238a.png",
-        "name": "Disney•Pixar Buzz Lightyear of Star Command",
-        "nameEn": "Disney•Pixar Buzz Lightyear of Star Command",
-        "productId": "UP1082-PPSA14381_00-0570380917000461",
-        "releaseDate": "2023-12-19T16:00:00Z",
         "streamingSupported": true
       },
       {
@@ -6290,8 +6258,8 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202306/0716/e41d253b508f813b83efe92920a463d24fcfd40f93061bb5.png",
         "name": "Worms [PS1 Emulation]",
         "nameEn": "Worms [PS1 Emulation]",
-        "productId": "UP4064-CUSA33244_00-SLUS003360000000",
-        "releaseDate": "2023-06-20T15:00:00Z",
+        "productId": "UP4064-PPSA07307_00-SLUS003360000000",
+        "releaseDate": "2025-07-24T09:00:00Z",
         "streamingSupported": true
       }
     ]

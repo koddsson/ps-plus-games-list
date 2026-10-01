@@ -3494,8 +3494,8 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202310/1119/4b2bc50a0bb1fa4a27273cd583b59e922de33a3d9da23a59.png",
         "name": "Crow Country",
         "nameEn": "Crow Country",
-        "productId": "UP6093-PPSA19067_00-0438761103283229",
-        "releaseDate": "2024-05-09T15:00:00Z",
+        "productId": "UP6093-CUSA45567_00-0160994265024834",
+        "releaseDate": "2024-10-22T15:00:00Z",
         "streamingSupported": true
       },
       {
@@ -3596,7 +3596,7 @@
   },
   {
     "catalogKey": "D",
-    "count": 30,
+    "count": 31,
     "games": [
       {
         "ageRating": {
@@ -4723,6 +4723,50 @@
         "nameEn": "DREDGE",
         "productId": "UP4064-PPSA09077_00-0441220012296936",
         "releaseDate": "2023-03-30T04:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Everyone 10+",
+          "descriptors": [
+            {
+              "description": "Alcohol Reference",
+              "name": "ESRB_ALCOHOL_REFERENCE"
+            },
+            {
+              "description": "Animated Blood",
+              "name": "ESRB_ANIMATED_BLOOD"
+            },
+            {
+              "description": "Fantasy Violence",
+              "name": "ESRB_FANTASY_VIOLENCE"
+            },
+            {
+              "description": "Language",
+              "name": "ESRB_LANGUAGE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_EVERYONE_10",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e10.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e10.png"
+        },
+        "conceptId": 10007196,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10007196",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ADVENTURE",
+          "ROLE_PLAYING_GAMES"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202502/0410/8894997dc458874120ac0980acb192485e9f2400004475ea.png",
+        "name": "Dungeons of Hinterberg",
+        "nameEn": "Dungeons of Hinterberg",
+        "productId": "UP4395-PPSA13408_00-DUNGEONSOFHPS5US",
+        "releaseDate": "2025-03-13T15:00:00Z",
         "streamingSupported": true
       },
       {
@@ -9488,7 +9532,8 @@
         "conceptId": 233202,
         "conceptUrl": "https://store.playstation.com/en-us/concept/233202",
         "device": [
-          "PS4"
+          "PS4",
+          "PS5"
         ],
         "genre": [
           "ACTION",
@@ -9498,8 +9543,8 @@
         "imageUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA14538_00/7/i_1dbc60bd015bfb1ecb0990b9484ad19b4ba86ea0e8d183138bfbf89d78d18d98/i/icon0.png",
         "name": "Maneater PS4 & PS5",
         "nameEn": "Maneater PS4 & PS5",
-        "productId": "UP0115-CUSA14519_00-MANEATER00000001",
-        "releaseDate": "2020-05-22T04:00:00Z",
+        "productId": "UP0115-PPSA01861_00-MANEATER00000001",
+        "releaseDate": "2020-11-12T05:00:00Z",
         "streamingSupported": true
       },
       {
@@ -10016,8 +10061,7 @@
         "conceptId": 10009198,
         "conceptUrl": "https://store.playstation.com/en-us/concept/10009198",
         "device": [
-          "PS4",
-          "PS5"
+          "PS4"
         ],
         "genre": [
           "ACTION"
@@ -10025,9 +10069,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202410/2821/51d6eb5a4a96c0a546c0f7e475a6477a6c4a29196c95820b.png",
         "name": "Mighty Morphin Power Rangers: Rita's Rewind",
         "nameEn": "Mighty Morphin Power Rangers: Rita's Rewind",
-        "productId": "UP7818-PPSA18528_00-0444976593126924",
+        "productId": "UP7818-CUSA45165_00-0153621143952723",
         "releaseDate": "2024-12-10T05:00:00Z",
-        "streamingSupported": true
+        "streamingSupported": false
       },
       {
         "ageRating": {
@@ -10488,7 +10532,7 @@
   },
   {
     "catalogKey": "N",
-    "count": 5,
+    "count": 6,
     "games": [
       {
         "ageRating": {
@@ -10557,6 +10601,49 @@
         "nameEn": "NEW MONOPOLY®",
         "productId": "EP0001-PPSA17419_00-GAME000000000000",
         "releaseDate": "2024-09-26T04:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Teen",
+          "descriptors": [
+            {
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
+            },
+            {
+              "description": "Mild Language",
+              "name": "ESRB_MILD_LANGUAGE"
+            },
+            {
+              "description": "Mild Suggestive Themes",
+              "name": "ESRB_MILD_SUGGESTIVETHEMES"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_TEEN",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
+        },
+        "conceptId": 10013857,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10013857",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202504/1616/b1a631440844715c22c91b314777a0ecacfe24f2a5e1ade3.png",
+        "name": "NINJA GAIDEN: Ragebound",
+        "nameEn": "NINJA GAIDEN: Ragebound",
+        "productId": "EP1470-PPSA28002_00-NINJAGAIDENRBPS5",
+        "releaseDate": "2025-07-31T15:00:00Z",
         "streamingSupported": true
       },
       {
