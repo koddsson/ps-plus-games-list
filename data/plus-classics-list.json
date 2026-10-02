@@ -2761,7 +2761,7 @@
   },
   {
     "catalogKey": "M",
-    "count": 9,
+    "count": 11,
     "games": [
       {
         "ageRating": {
@@ -2950,6 +2950,58 @@
           "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
           "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
         },
+        "conceptId": 202807,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/202807",
+        "device": [
+          "PS4"
+        ],
+        "genre": [
+          "SHOOTER",
+          "ACTION",
+          "SHOOTER"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202103/0313/0XmesVquzTiWkjPy0vJlxrzZ.png",
+        "name": "Metro 2033 Redux",
+        "nameEn": "Metro 2033 Redux",
+        "productId": "UP2047-CUSA00623_00-M33REDUXDIGITAL1",
+        "releaseDate": "2014-08-26T04:00:00Z",
+        "streamingSupported": false
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            },
+            {
+              "description": "Nudity",
+              "name": "ESRB_NUDITY"
+            },
+            {
+              "description": "Sexual Content",
+              "name": "ESRB_SEXUAL_CONTENT"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Use of Drugs and Alcohol",
+              "name": "ESRB_USE_OF_DRUGS_AND_ALCOHOL"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
         "conceptId": 202806,
         "conceptUrl": "https://store.playstation.com/en-us/concept/202806",
         "device": [
@@ -2964,6 +3016,58 @@
         "name": "Metro Redux",
         "nameEn": "Metro Redux",
         "productId": "UP2047-CUSA00683_00-MCOMPLREDUXDISC1",
+        "releaseDate": "2014-08-26T04:00:00Z",
+        "streamingSupported": false
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            },
+            {
+              "description": "Nudity",
+              "name": "ESRB_NUDITY"
+            },
+            {
+              "description": "Sexual Content",
+              "name": "ESRB_SEXUAL_CONTENT"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Use of Drugs and Alcohol",
+              "name": "ESRB_USE_OF_DRUGS_AND_ALCOHOL"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 226459,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/226459",
+        "device": [
+          "PS4"
+        ],
+        "genre": [
+          "SHOOTER",
+          "ACTION",
+          "SHOOTER"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202103/0313/xRBuhxOu8IbVAV32S8Ow9Eiv.png",
+        "name": "Metro: Last Light Redux",
+        "nameEn": "Metro: Last Light Redux",
+        "productId": "UP2047-CUSA00624_00-MLLREDUXDIGITAL1",
         "releaseDate": "2014-08-26T04:00:00Z",
         "streamingSupported": false
       },
