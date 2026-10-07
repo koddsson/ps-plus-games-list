@@ -12993,7 +12993,7 @@
   },
   {
     "catalogKey": "S",
-    "count": 41,
+    "count": 42,
     "games": [
       {
         "ageRating": {
@@ -13750,6 +13750,55 @@
         "nameEn": "Sniper Elite 5 PS4™ & PS5™",
         "productId": "UP4363-PPSA01685_00-SNIPERELITE50000",
         "releaseDate": "2022-05-26T00:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            },
+            {
+              "description": "Language",
+              "name": "ESRB_LANGUAGE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            },
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 10008716,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10008716",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "SHOOTER",
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202408/1309/05d041f5216b1cd55a4587729534ce8ac8c557877b4d1483.png",
+        "name": "Sniper Elite: Resistance PS4™ & PS5™",
+        "nameEn": "Sniper Elite: Resistance PS4™ & PS5™",
+        "productId": "UP4363-PPSA17232_00-SNIPERELITERES00",
+        "releaseDate": "2025-01-30T14:00:00Z",
         "streamingSupported": true
       },
       {
