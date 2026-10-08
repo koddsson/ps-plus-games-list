@@ -3494,8 +3494,8 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202310/1119/4b2bc50a0bb1fa4a27273cd583b59e922de33a3d9da23a59.png",
         "name": "Crow Country",
         "nameEn": "Crow Country",
-        "productId": "UP6093-PPSA19067_00-0438761103283229",
-        "releaseDate": "2024-05-09T15:00:00Z",
+        "productId": "UP6093-CUSA45567_00-0160994265024834",
+        "releaseDate": "2024-10-22T15:00:00Z",
         "streamingSupported": true
       },
       {
@@ -3819,7 +3819,7 @@
           "HORROR",
           "ACTION"
         ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2514/26c99fcc3c281ffcac505a75fa110c2023eea0e26f90a56d.png",
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0113/e98238835ada32e22b4e21455b4206cacd19070ea359763f.png",
         "name": "Dead by Daylight PS4® & PS5®",
         "nameEn": "Dead by Daylight PS4® & PS5®",
         "productId": "UP3509-PPSA02048_00-DEADBYDAYLIGHT00",
@@ -18366,7 +18366,7 @@
         "conceptId": 234709,
         "conceptUrl": "https://store.playstation.com/en-us/concept/234709",
         "device": [
-          "PS5"
+          "PS4"
         ],
         "genre": [
           "UNIQUE"
@@ -18374,9 +18374,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202106/0715/VFixb2toiP73l3rExKbjGeH1.png",
         "name": "Werewolf: The Apocalypse – Earthblood",
         "nameEn": "Werewolf: The Apocalypse – Earthblood",
-        "productId": "UP4008-PPSA02114_00-WTASIEA000000000",
+        "productId": "UP4008-CUSA16865_00-WTASIEA000000000",
         "releaseDate": "2021-02-04T09:00:00Z",
-        "streamingSupported": true
+        "streamingSupported": false
       },
       {
         "ageRating": {

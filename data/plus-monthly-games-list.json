@@ -11,43 +11,8 @@
   },
   {
     "catalogKey": "C",
-    "count": 1,
-    "games": [
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Mature",
-          "descriptors": [
-            {
-              "description": "Sexual Themes",
-              "name": "ESRB_SEXUAL_THEMES"
-            },
-            {
-              "description": "Strong Language",
-              "name": "ESRB_STRONG_LANGUAGE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_MATURE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
-        },
-        "conceptId": 10003362,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10003362",
-        "device": [
-          "PS4"
-        ],
-        "genre": [
-          "ROLE_PLAYING_GAMES"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202211/1611/6O2jAYhTUqhcJYYJeNex5oKJ.png",
-        "name": "Chained Echoes",
-        "nameEn": "Chained Echoes",
-        "productId": "UP0895-CUSA29546_00-2504169688645730",
-        "releaseDate": "2022-12-08T05:00:00Z",
-        "streamingSupported": false
-      }
-    ]
+    "count": 0,
+    "games": []
   },
   {
     "catalogKey": "D",
@@ -56,8 +21,52 @@
   },
   {
     "catalogKey": "E",
-    "count": 0,
-    "games": []
+    "count": 1,
+    "games": [
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Teen",
+          "descriptors": [
+            {
+              "description": "Alcohol Reference",
+              "name": "ESRB_ALCOHOL_REFERENCE"
+            },
+            {
+              "description": "Animated Blood",
+              "name": "ESRB_ANIMATED_BLOOD"
+            },
+            {
+              "description": "Fantasy Violence",
+              "name": "ESRB_FANTASY_VIOLENCE"
+            },
+            {
+              "description": "Mild Language",
+              "name": "ESRB_MILD_LANGUAGE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_TEEN",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
+        },
+        "conceptId": 10008165,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10008165",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202402/0803/e9b205a3007e3dab6c7e35d9a18a580393450c7abf15d048.png",
+        "name": "EARTH DEFENSE FORCE: WORLD BROTHERS 2　PS4 & PS5",
+        "nameEn": "EARTH DEFENSE FORCE: WORLD BROTHERS 2　PS4 & PS5",
+        "productId": "UP3177-PPSA15927_00-EDFWORLDBROTHER2",
+        "releaseDate": "2024-09-26T04:00:00Z",
+        "streamingSupported": true
+      }
+    ]
   },
   {
     "catalogKey": "F",
@@ -66,27 +75,11 @@
       {
         "ageRating": {
           "authority": "ESRB",
-          "description": "ESRB Mature",
+          "description": "ESRB Everyone",
           "descriptors": [
             {
-              "description": "Blood and Gore",
-              "name": "ESRB_BLOOD_AND_GORE"
-            },
-            {
-              "description": "Drug Reference",
-              "name": "ESRB_DRUG_REFERENCE"
-            },
-            {
-              "description": "Intense Violence",
-              "name": "ESRB_INTENSE_VIOLENCE"
-            },
-            {
-              "description": "Strong Language",
-              "name": "ESRB_STRONG_LANGUAGE"
-            },
-            {
-              "description": "Suggestive Themes",
-              "name": "ESRB_SUGGESTIVE_THEMES"
+              "description": "Mild Language",
+              "name": "ESRB_MILD_LANGUAGE"
             },
             {
               "description": "Use of Alcohol",
@@ -103,24 +96,23 @@
               "name": "ESRB_USERS_INTERACT"
             }
           ],
-          "name": "ESRB_MATURE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+          "name": "ESRB_EVERYONE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
         },
-        "conceptId": 232248,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/232248",
+        "conceptId": 10011830,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10011830",
         "device": [
-          "PS4",
           "PS5"
         ],
         "genre": [
-          "ROLE_PLAYING_GAMES"
+          "RACING"
         ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202608/1214/4240708e955c460e92bcaa1f453f1e50567f29fce6636431.png",
-        "name": "Fallout 76 PS4 & PS5",
-        "nameEn": "Fallout 76 PS4 & PS5",
-        "productId": "UP1003-PPSA30932_00-PROJECTSYMES0000",
-        "releaseDate": "2026-09-15T16:00:00Z",
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202505/1521/44c15449fbe9485987e27e2fa2c86008a7b4a89d9ab7e0a8.png",
+        "name": "F1® 25",
+        "nameEn": "F1® 25",
+        "productId": "UP0006-PPSA24662_00-F12025PS5GAME000",
+        "releaseDate": "2025-05-30T15:00:00Z",
         "streamingSupported": true
       }
     ]
@@ -132,8 +124,54 @@
   },
   {
     "catalogKey": "H",
-    "count": 0,
-    "games": []
+    "count": 1,
+    "games": [
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            },
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 234014,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/234014",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "SHOOTER",
+          "SHOOTER",
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202608/0612/f0d1886b7061d7ab5e084580a3e29cc3910e2644f357fbb5.png",
+        "name": "Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
+        "nameEn": "Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
+        "productId": "UP4291-PPSA16358_00-THEHUNTGAME00083",
+        "releaseDate": "2026-10-06T13:00:00Z",
+        "streamingSupported": false
+      }
+    ]
   },
   {
     "catalogKey": "I",
@@ -157,85 +195,8 @@
   },
   {
     "catalogKey": "M",
-    "count": 2,
-    "games": [
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Everyone",
-          "descriptors": [
-            {
-              "description": "No Descriptors",
-              "name": "ESRB_NO_DESCRIPTORS"
-            }
-          ],
-          "interactiveElements": [
-            {
-              "description": "In-Game Purchases (Includes Random Items)",
-              "name": "ESRB_IN_GAME_PURCHASES_RANDOM"
-            },
-            {
-              "description": "Users Interact",
-              "name": "ESRB_USERS_INTERACT"
-            }
-          ],
-          "name": "ESRB_EVERYONE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
-        },
-        "conceptId": 10015430,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10015430",
-        "device": [
-          "PS5"
-        ],
-        "genre": [
-          "SPORTS"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202607/0816/791b0f1880e27c1d8f52187daea36abfe5fd3b0ff1144007.png",
-        "name": "MLB® The Show™ 26",
-        "nameEn": "MLB® The Show™ 26",
-        "productId": "UP9000-PPSA30630_00-MLBTHESHOW26PLUS",
-        "releaseDate": "2026-09-01T19:00:00Z",
-        "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Everyone",
-          "descriptors": [
-            {
-              "description": "No Descriptors",
-              "name": "ESRB_NO_DESCRIPTORS"
-            }
-          ],
-          "interactiveElements": [
-            {
-              "description": "In-Game Purchases (Includes Random Items)",
-              "name": "ESRB_IN_GAME_PURCHASES_RANDOM"
-            },
-            {
-              "description": "Users Interact",
-              "name": "ESRB_USERS_INTERACT"
-            }
-          ],
-          "name": "ESRB_EVERYONE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
-        },
-        "conceptId": 10015430,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10015430",
-        "device": [],
-        "genre": [
-          "SPORTS"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2100/035494835cd93a14cb0ecdc160adcf2c6cbce92fff15c738.png",
-        "name": "MLB® The Show™ 26 Jump Start Bundle",
-        "nameEn": "MLB® The Show™ 26 Jump Start Bundle",
-        "productId": "UP9000-PPSA30630_00-JMSBN01000000000",
-        "releaseDate": "2026-09-01T16:00:00Z",
-        "streamingSupported": false
-      }
-    ]
+    "count": 0,
+    "games": []
   },
   {
     "catalogKey": "N",
@@ -264,58 +225,8 @@
   },
   {
     "catalogKey": "S",
-    "count": 1,
-    "games": [
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Mature",
-          "descriptors": [
-            {
-              "description": "Blood and Gore",
-              "name": "ESRB_BLOOD_AND_GORE"
-            },
-            {
-              "description": "Intense Violence",
-              "name": "ESRB_INTENSE_VIOLENCE"
-            },
-            {
-              "description": "Language",
-              "name": "ESRB_LANGUAGE"
-            }
-          ],
-          "interactiveElements": [
-            {
-              "description": "In-Game Purchases",
-              "name": "ESRB_IN_GAME_PURCHASES"
-            },
-            {
-              "description": "Users Interact",
-              "name": "ESRB_USERS_INTERACT"
-            }
-          ],
-          "name": "ESRB_MATURE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
-        },
-        "conceptId": 10008716,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10008716",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "SHOOTER",
-          "ACTION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202408/1309/05d041f5216b1cd55a4587729534ce8ac8c557877b4d1483.png",
-        "name": "Sniper Elite: Resistance PS4™ & PS5™",
-        "nameEn": "Sniper Elite: Resistance PS4™ & PS5™",
-        "productId": "UP4363-PPSA17232_00-SNIPERELITERES00",
-        "releaseDate": "2025-01-30T14:00:00Z",
-        "streamingSupported": true
-      }
-    ]
+    "count": 0,
+    "games": []
   },
   {
     "catalogKey": "T",
