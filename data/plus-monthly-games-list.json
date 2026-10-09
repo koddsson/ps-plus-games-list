@@ -124,8 +124,53 @@
   },
   {
     "catalogKey": "H",
-    "count": 1,
+    "count": 2,
     "games": [
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            },
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 234014,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/234014",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "SHOOTER",
+          "SHOOTER",
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0715/8d589eb7d8efc65df7430505f95c270040659e6d75fcb13c.png",
+        "name": "Hunt: Showdown 1896",
+        "nameEn": "Hunt: Showdown 1896",
+        "productId": "UP4291-PPSA16358_00-0708166676236847",
+        "releaseDate": "2024-08-15T07:00:00Z",
+        "streamingSupported": true
+      },
       {
         "ageRating": {
           "authority": "ESRB",
@@ -245,46 +290,8 @@
   },
   {
     "catalogKey": "W",
-    "count": 1,
-    "games": [
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Everyone",
-          "descriptors": [
-            {
-              "description": "Crude Humor",
-              "name": "ESRB_CRUDE_HUMOR"
-            },
-            {
-              "description": "Mild Fantasy Violence",
-              "name": "ESRB_MILD_FANTASY_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_EVERYONE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
-        },
-        "conceptId": 10004896,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10004896",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "CASUAL",
-          "FAMILY",
-          "ADVENTURE"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202212/0810/iCrnQDLqgGBSnHkTFbOzQX2Q.png",
-        "name": "Wobbly Life",
-        "nameEn": "Wobbly Life",
-        "productId": "UP7742-PPSA29413_00-0632159817352246",
-        "releaseDate": "2025-09-18T17:00:00Z",
-        "streamingSupported": true
-      }
-    ]
+    "count": 0,
+    "games": []
   },
   {
     "catalogKey": "X",

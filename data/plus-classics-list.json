@@ -2941,7 +2941,12 @@
               "name": "ESRB_VIOLENCE"
             }
           ],
-          "interactiveElements": [],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            }
+          ],
           "name": "ESRB_MATURE",
           "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
           "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
