@@ -1416,7 +1416,7 @@
   },
   {
     "catalogKey": "G",
-    "count": 9,
+    "count": 8,
     "games": [
       {
         "ageRating": {
@@ -1558,53 +1558,6 @@
         "productId": "JP0106-PPSA34548_00-GITAROOMAN000000",
         "releaseDate": "2026-06-16T16:00:00Z",
         "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Mature",
-          "descriptors": [
-            {
-              "description": "Blood and Gore",
-              "name": "ESRB_BLOOD_AND_GORE"
-            },
-            {
-              "description": "Intense Violence",
-              "name": "ESRB_INTENSE_VIOLENCE"
-            },
-            {
-              "description": "Nudity",
-              "name": "ESRB_NUDITY"
-            },
-            {
-              "description": "Strong Language",
-              "name": "ESRB_STRONG_LANGUAGE"
-            },
-            {
-              "description": "Strong Sexual Content",
-              "name": "ESRB_STRONG_SEXUAL_CONTENT"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_MATURE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
-        },
-        "conceptId": 228618,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/228618",
-        "device": [
-          "PS4"
-        ],
-        "genre": [
-          "ACTION",
-          "ADVENTURE"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202011/0711/p8JCvA8692BICXAPoyylh7ed.png",
-        "name": "God of War III Remastered",
-        "nameEn": "God of War III Remastered",
-        "productId": "UP9000-CUSA01623_00-0000GODOFWAR3PS4",
-        "releaseDate": "2015-07-14T04:00:00Z",
-        "streamingSupported": false
       },
       {
         "ageRating": {
@@ -6011,60 +5964,8 @@
   },
   {
     "catalogKey": "U",
-    "count": 1,
-    "games": [
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Teen",
-          "descriptors": [
-            {
-              "description": "Blood",
-              "name": "ESRB_BLOOD"
-            },
-            {
-              "description": "Game Experience May Change During Online Play",
-              "name": "ESRB_GAME_EXPERIENCE_MAY_CHANGE_DURING_ONLINE_PLAY"
-            },
-            {
-              "description": "Language",
-              "name": "ESRB_LANGUAGE"
-            },
-            {
-              "description": "Suggestive Themes",
-              "name": "ESRB_SUGGESTIVE_THEMES"
-            },
-            {
-              "description": "Use of Tobacco",
-              "name": "ESRB_USE_OF_TOBACCO"
-            },
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_TEEN",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
-        },
-        "conceptId": 205353,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/205353",
-        "device": [
-          "PS4"
-        ],
-        "genre": [
-          "ACTION",
-          "ADVENTURE"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202011/1101/zC3kulm2Ho3ZE38ZUYHW7WMK.png",
-        "name": "UNCHARTED™ The Nathan Drake Collection",
-        "nameEn": "UNCHARTED™ The Nathan Drake Collection",
-        "productId": "UP9000-CUSA02320_00-UNCHARTEDTRILOGY",
-        "releaseDate": "2015-10-09T04:00:00Z",
-        "streamingSupported": false
-      }
-    ]
+    "count": 0,
+    "games": []
   },
   {
     "catalogKey": "V",
@@ -6276,8 +6177,8 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202204/2813/OR4HwTYY1fUjHtPVgtYHtRcg.png",
         "name": "Worms Armageddon [PS1 Emulation]",
         "nameEn": "Worms Armageddon [PS1 Emulation]",
-        "productId": "UP4064-PPSA07309_00-SLUS008880000000",
-        "releaseDate": "2025-07-24T09:00:00Z",
+        "productId": "UP4064-CUSA33246_00-SLUS008880000000",
+        "releaseDate": "2022-06-13T12:00:00Z",
         "streamingSupported": true
       },
       {
@@ -6368,8 +6269,8 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202306/0716/e41d253b508f813b83efe92920a463d24fcfd40f93061bb5.png",
         "name": "Worms [PS1 Emulation]",
         "nameEn": "Worms [PS1 Emulation]",
-        "productId": "UP4064-CUSA33244_00-SLUS003360000000",
-        "releaseDate": "2023-06-20T15:00:00Z",
+        "productId": "UP4064-PPSA07307_00-SLUS003360000000",
+        "releaseDate": "2025-07-24T09:00:00Z",
         "streamingSupported": true
       }
     ]

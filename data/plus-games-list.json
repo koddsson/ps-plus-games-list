@@ -388,8 +388,8 @@
           "SIMULATION"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202212/1519/4VflW4eIDaJxRKQjgoQn7NhX.png",
-        "name": "Anno 1800™ Console Edition - Standard",
-        "nameEn": "Anno 1800™ Console Edition - Standard",
+        "name": "Anno 1800",
+        "nameEn": "Anno 1800",
         "productId": "UP0001-PPSA04716_00-ANNO1800PS000000",
         "releaseDate": "2023-03-16T04:00:00Z",
         "streamingSupported": true
@@ -9532,7 +9532,8 @@
         "conceptId": 233202,
         "conceptUrl": "https://store.playstation.com/en-us/concept/233202",
         "device": [
-          "PS4"
+          "PS4",
+          "PS5"
         ],
         "genre": [
           "ACTION",
@@ -9542,8 +9543,8 @@
         "imageUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA14538_00/7/i_1dbc60bd015bfb1ecb0990b9484ad19b4ba86ea0e8d183138bfbf89d78d18d98/i/icon0.png",
         "name": "Maneater PS4 & PS5",
         "nameEn": "Maneater PS4 & PS5",
-        "productId": "UP0115-CUSA14519_00-MANEATER00000001",
-        "releaseDate": "2020-05-22T04:00:00Z",
+        "productId": "UP0115-PPSA01861_00-MANEATER00000001",
+        "releaseDate": "2020-11-12T05:00:00Z",
         "streamingSupported": true
       },
       {
@@ -18365,7 +18366,7 @@
         "conceptId": 234709,
         "conceptUrl": "https://store.playstation.com/en-us/concept/234709",
         "device": [
-          "PS4"
+          "PS5"
         ],
         "genre": [
           "UNIQUE"
@@ -18373,9 +18374,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202106/0715/VFixb2toiP73l3rExKbjGeH1.png",
         "name": "Werewolf: The Apocalypse – Earthblood",
         "nameEn": "Werewolf: The Apocalypse – Earthblood",
-        "productId": "UP4008-CUSA16865_00-WTASIEA000000000",
+        "productId": "UP4008-PPSA02114_00-WTASIEA000000000",
         "releaseDate": "2021-02-04T09:00:00Z",
-        "streamingSupported": false
+        "streamingSupported": true
       },
       {
         "ageRating": {
