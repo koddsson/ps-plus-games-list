@@ -335,8 +335,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
           "SHOOTER",
+          "ACTION",
           "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP9000/CUSA04181_00/OF5YtjnzlJpOh4r5j4Iu2UBi9h9IeYLu.png",
@@ -7308,8 +7308,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
-          "ADVENTURE"
+          "ADVENTURE",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202010/2320/UQRzoZKzI3PjOYfPa2XOqS19.png",
         "name": "Gravity Rush™ 2",
@@ -13331,8 +13331,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
           "ADVENTURE",
+          "ACTION",
           "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP9000/CUSA02871_00/S9atQ5NmGS6zvug7FavM6SOEqAF3lKhF.png",
@@ -14359,7 +14359,7 @@
           "ACTION",
           "HORROR"
         ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1516/e7de31353c4f10f9a9de88c2494e6ad3c366d47684ee3551.png",
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/1412/222e2b7c624a2025ec34a5a36fa61f3dbc77afddbf31e5fa.png",
         "name": "Still Wakes the Deep",
         "nameEn": "Still Wakes the Deep",
         "productId": "UP7076-PPSA07906_00-STILLWAKES00DEEP",
@@ -14682,7 +14682,7 @@
   },
   {
     "catalogKey": "T",
-    "count": 62,
+    "count": 63,
     "games": [
       {
         "ageRating": {
@@ -15721,6 +15721,37 @@
         "nameEn": "The Lord of the Rings: Return to Moria™",
         "productId": "UP7583-PPSA16617_00-0214089695784057",
         "releaseDate": "2023-12-05T05:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Teen",
+          "descriptors": [
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_TEEN",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
+        },
+        "conceptId": 10009390,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10009390",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "HORROR",
+          "ADVENTURE"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202409/1110/b0815b75af7073ee06d73f71eef4d84f8b1c64b07a34cb53.png",
+        "name": "The Midnight Walk",
+        "nameEn": "The Midnight Walk",
+        "productId": "EP2907-PPSA24864_00-0657719756865376",
+        "releaseDate": "2025-05-08T04:00:00Z",
         "streamingSupported": true
       },
       {
