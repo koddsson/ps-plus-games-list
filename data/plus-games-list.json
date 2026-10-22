@@ -3596,7 +3596,7 @@
   },
   {
     "catalogKey": "D",
-    "count": 31,
+    "count": 30,
     "games": [
       {
         "ageRating": {
@@ -3998,36 +3998,6 @@
         "nameEn": "Death end reQuest",
         "productId": "UP0031-CUSA13132_00-DEATHENDREQUEST0",
         "releaseDate": "2019-02-19T05:00:00Z",
-        "streamingSupported": false
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Everyone",
-          "descriptors": [
-            {
-              "description": "Alcohol Reference",
-              "name": "ESRB_ALCOHOL_REFERENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_EVERYONE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
-        },
-        "conceptId": 225086,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/225086",
-        "device": [
-          "PS4"
-        ],
-        "genre": [
-          "PUZZLE"
-        ],
-        "imageUrl": "https://image.api.playstation.com/cdn/UP3490/CUSA07764_00/kDZrvTkCs430iF2EDF5yCBQf7HLMGv7j.png",
-        "name": "Death Squared",
-        "nameEn": "Death Squared",
-        "productId": "UP3490-CUSA07764_00-1111212111112112",
-        "releaseDate": "2017-03-14T00:00:00Z",
         "streamingSupported": false
       },
       {
@@ -6815,7 +6785,7 @@
   },
   {
     "catalogKey": "G",
-    "count": 15,
+    "count": 14,
     "games": [
       {
         "ageRating": {
@@ -6900,51 +6870,6 @@
         "productId": "UP3824-CUSA16697_00-GIGANTOBASEGAME0",
         "releaseDate": "2020-03-27T04:00:00Z",
         "streamingSupported": false
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Teen",
-          "descriptors": [
-            {
-              "description": "Fantasy Violence",
-              "name": "ESRB_FANTASY_VIOLENCE"
-            },
-            {
-              "description": "Mild Blood",
-              "name": "ESRB_MILD_BLOOD"
-            }
-          ],
-          "interactiveElements": [
-            {
-              "description": "In-Game Purchases",
-              "name": "ESRB_IN_GAME_PURCHASES"
-            },
-            {
-              "description": "Users Interact",
-              "name": "ESRB_USERS_INTERACT"
-            }
-          ],
-          "name": "ESRB_TEEN",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
-        },
-        "conceptId": 10005240,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10005240",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "STRATEGY",
-          "ROLE_PLAYING_GAMES"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202310/0213/d440735da53ed87dd3b8e9a1a098e31732a1da3b5b3e1b8c.png",
-        "name": "Gloomhaven Mercenaries Edition",
-        "nameEn": "Gloomhaven Mercenaries Edition",
-        "productId": "UP4744-PPSA08115_00-GLOOMHAVENMERC01",
-        "releaseDate": "2023-09-18T08:00:00Z",
-        "streamingSupported": true
       },
       {
         "ageRating": {
@@ -7477,65 +7402,8 @@
   },
   {
     "catalogKey": "H",
-    "count": 18,
+    "count": 17,
     "games": [
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Everyone",
-          "descriptors": [],
-          "interactiveElements": [
-            {
-              "description": "In-Game Purchases",
-              "name": "ESRB_IN_GAME_PURCHASES"
-            }
-          ],
-          "name": "ESRB_EVERYONE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
-        },
-        "conceptId": 10000379,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10000379",
-        "device": [
-          "PS4"
-        ],
-        "genre": [
-          "SIMULATION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202101/1115/ZmQvBZr58iCipOQ3ex7bcvSL.png",
-        "name": "Harvest Moon: One World",
-        "nameEn": "Harvest Moon: One World",
-        "productId": "UP1014-CUSA18808_00-HARVESTMOONWORLD",
-        "releaseDate": "2021-03-02T05:00:00Z",
-        "streamingSupported": false
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Everyone",
-          "descriptors": [],
-          "interactiveElements": [],
-          "name": "ESRB_EVERYONE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
-        },
-        "conceptId": 230279,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/230279",
-        "device": [
-          "PS4"
-        ],
-        "genre": [
-          "ROLE_PLAYING_GAMES",
-          "ADVENTURE",
-          "SIMULATION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/cdn/UP1014/CUSA09973_00/jN71vv1rCkO4p0T57oCjezBbEaMLLD55.png",
-        "name": "Harvest Moon®: Light of Hope Special Edition",
-        "nameEn": "Harvest Moon®: Light of Hope Special Edition",
-        "productId": "UP1014-CUSA09973_00-HARVESTMOONLOHSE",
-        "releaseDate": "2018-05-29T04:00:00Z",
-        "streamingSupported": false
-      },
       {
         "ageRating": {
           "authority": "ESRB",
@@ -7788,6 +7656,54 @@
         "nameEn": "Hollow Knight Voidheart Edition",
         "productId": "UP1822-PPSA34970_00-HOLLOWKNIGHTPS50",
         "releaseDate": "2026-02-06T00:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Teen",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Language",
+              "name": "ESRB_LANGUAGE"
+            },
+            {
+              "description": "Use of Alcohol",
+              "name": "ESRB_USE_OF_ALCOHOL"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            }
+          ],
+          "name": "ESRB_TEEN",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
+        },
+        "conceptId": 10000886,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10000886",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202107/3100/HO8vkO9pfXhwbHi5WHECQJdN.png",
+        "name": "Horizon Forbidden West™",
+        "nameEn": "Horizon Forbidden West™",
+        "productId": "UP9000-PPSA04072_00-FORBIDDENWESTPS5",
+        "releaseDate": "2022-02-18T05:00:00Z",
         "streamingSupported": true
       },
       {
@@ -8462,7 +8378,7 @@
   },
   {
     "catalogKey": "J",
-    "count": 2,
+    "count": 1,
     "games": [
       {
         "ageRating": {
@@ -8493,42 +8409,6 @@
         "nameEn": "JUMANJI: The Video Game",
         "productId": "UP3824-CUSA14658_00-JUMANJIBASEGAME0",
         "releaseDate": "2019-11-08T05:00:00Z",
-        "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Teen",
-          "descriptors": [
-            {
-              "description": "Mild Blood",
-              "name": "ESRB_MILD_BLOOD"
-            },
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_TEEN",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
-        },
-        "conceptId": 10002577,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10002577",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "STRATEGY",
-          "SIMULATION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202107/2708/WZhQmSMCGEJgLHhnikOcuMnu.png",
-        "name": "Jurassic World Evolution 2",
-        "nameEn": "Jurassic World Evolution 2",
-        "productId": "UP2514-PPSA03287_00-JWEVOLUTION2AAAA",
-        "releaseDate": "2021-11-09T14:00:00Z",
         "streamingSupported": true
       }
     ]
@@ -8846,44 +8726,8 @@
   },
   {
     "catalogKey": "L",
-    "count": 15,
+    "count": 14,
     "games": [
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Mature",
-          "descriptors": [
-            {
-              "description": "Strong Language",
-              "name": "ESRB_STRONG_LANGUAGE"
-            },
-            {
-              "description": "Use of Drugs",
-              "name": "ESRB_USE_OF_DRUGS"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_MATURE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
-        },
-        "conceptId": 10003149,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10003149",
-        "device": [
-          "PS5"
-        ],
-        "genre": [
-          "UNIQUE",
-          "ADVENTURE",
-          "SIMULATION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202310/1816/b1604e488f92488c2ba4b6c84bf565f0bcf5b0e593792292.png",
-        "name": "Lake PS4 & PS5",
-        "nameEn": "Lake PS4 & PS5",
-        "productId": "UP5223-PPSA06334_00-LAKEPS5SIEAFULL0",
-        "releaseDate": "2022-04-08T16:00:00Z",
-        "streamingSupported": true
-      },
       {
         "ageRating": {
           "authority": "ESRB",
@@ -9378,8 +9222,60 @@
   },
   {
     "catalogKey": "M",
-    "count": 28,
+    "count": 30,
     "games": [
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature 17+",
+          "descriptors": [
+            {
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Suggestive Themes",
+              "name": "ESRB_SUGGESTIVE_THEMES"
+            },
+            {
+              "description": "Use of Alcohol",
+              "name": "ESRB_USE_OF_ALCOHOL"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            }
+          ],
+          "name": "ESRB_MATURE_17",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m17.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m17.png"
+        },
+        "conceptId": 10007134,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10007134",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "ACTION",
+          "ADVENTURE"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202504/2416/06f677b905f8794395b855a0de3e9fcb42b567e78c50aaed.png",
+        "name": "Mafia: The Old Country",
+        "nameEn": "Mafia: The Old Country",
+        "productId": "UP1001-PPSA14251_00-00000NEROPS5SIEA",
+        "releaseDate": "2025-08-08T04:00:00Z",
+        "streamingSupported": true
+      },
       {
         "ageRating": {
           "authority": "ESRB",
@@ -9532,7 +9428,8 @@
         "conceptId": 233202,
         "conceptUrl": "https://store.playstation.com/en-us/concept/233202",
         "device": [
-          "PS4"
+          "PS4",
+          "PS5"
         ],
         "genre": [
           "ACTION",
@@ -9542,8 +9439,8 @@
         "imageUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA14538_00/7/i_1dbc60bd015bfb1ecb0990b9484ad19b4ba86ea0e8d183138bfbf89d78d18d98/i/icon0.png",
         "name": "Maneater PS4 & PS5",
         "nameEn": "Maneater PS4 & PS5",
-        "productId": "UP0115-CUSA14519_00-MANEATER00000001",
-        "releaseDate": "2020-05-22T04:00:00Z",
+        "productId": "UP0115-PPSA01861_00-MANEATER00000001",
+        "releaseDate": "2020-11-12T05:00:00Z",
         "streamingSupported": true
       },
       {
@@ -10500,6 +10397,41 @@
         "nameEn": "My Friend Peppa Pig",
         "productId": "UP3824-PPSA03705_00-8652666117318371",
         "releaseDate": "2022-01-11T05:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 10018765,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10018765",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "ACTION",
+          "SHOOTER"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/1321/6dafd54c5f7bff9737d2b0c462a8e0852f645571418a3163.png",
+        "name": "Mycopunk",
+        "nameEn": "Mycopunk",
+        "productId": "UP3643-PPSA36332_00-0420289286760563",
+        "releaseDate": "2026-10-20T17:00:00Z",
         "streamingSupported": true
       },
       {
@@ -12063,7 +11995,7 @@
   },
   {
     "catalogKey": "R",
-    "count": 23,
+    "count": 22,
     "games": [
       {
         "ageRating": {
@@ -12791,52 +12723,6 @@
       {
         "ageRating": {
           "authority": "ESRB",
-          "description": "ESRB Teen",
-          "descriptors": [
-            {
-              "description": "Alcohol Reference",
-              "name": "ESRB_ALCOHOL_REFERENCE"
-            },
-            {
-              "description": "Blood",
-              "name": "ESRB_BLOOD"
-            },
-            {
-              "description": "Fantasy Violence",
-              "name": "ESRB_FANTASY_VIOLENCE"
-            },
-            {
-              "description": "Suggestive Themes",
-              "name": "ESRB_SUGGESTIVE_THEMES"
-            },
-            {
-              "description": "Use of Tobacco",
-              "name": "ESRB_USE_OF_TOBACCO"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_TEEN",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
-        },
-        "conceptId": 10000504,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10000504",
-        "device": [
-          "PS4"
-        ],
-        "genre": [
-          "ADVENTURE"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202111/0513/ypvQEl55fsAilYe6RgE2FpUR.png",
-        "name": "Rogue Lords",
-        "nameEn": "Rogue Lords",
-        "productId": "UP4008-CUSA19310_00-RLSIEA0000000000",
-        "releaseDate": "2022-05-12T08:00:00Z",
-        "streamingSupported": false
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
           "description": "ESRB Everyone 10+",
           "descriptors": [
             {
@@ -12992,7 +12878,7 @@
   },
   {
     "catalogKey": "S",
-    "count": 42,
+    "count": 41,
     "games": [
       {
         "ageRating": {
@@ -13474,48 +13360,6 @@
         "productId": "UP3643-CUSA05617_00-SHADOWWARRIOR200",
         "releaseDate": "2017-05-19T04:00:00Z",
         "streamingSupported": false
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Mature 17+",
-          "descriptors": [
-            {
-              "description": "Blood and Gore",
-              "name": "ESRB_BLOOD_AND_GORE"
-            },
-            {
-              "description": "Language",
-              "name": "ESRB_LANGUAGE"
-            },
-            {
-              "description": "Sexual Themes",
-              "name": "ESRB_SEXUAL_THEMES"
-            },
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_MATURE_17",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m17.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m17.png"
-        },
-        "conceptId": 10005529,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10005529",
-        "device": [
-          "PS5"
-        ],
-        "genre": [
-          "HORROR"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202210/2000/IgwsFz9BiBrFvyV7pIWpoVgd.png",
-        "name": "SILENT HILL 2",
-        "nameEn": "SILENT HILL 2",
-        "productId": "UP0101-PPSA08710_00-MAINGAME00000000",
-        "releaseDate": "2024-10-08T04:00:00Z",
-        "streamingSupported": true
       },
       {
         "ageRating": {
@@ -19057,55 +18901,8 @@
   },
   {
     "catalogKey": "Y",
-    "count": 5,
+    "count": 4,
     "games": [
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Mature 17+",
-          "descriptors": [
-            {
-              "description": "Blood",
-              "name": "ESRB_BLOOD"
-            },
-            {
-              "description": "Intense Violence",
-              "name": "ESRB_INTENSE_VIOLENCE"
-            },
-            {
-              "description": "Sexual Themes",
-              "name": "ESRB_SEXUAL_THEMES"
-            },
-            {
-              "description": "Strong Language",
-              "name": "ESRB_STRONG_LANGUAGE"
-            },
-            {
-              "description": "Use of Alcohol",
-              "name": "ESRB_USE_OF_ALCOHOL"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_MATURE_17",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m17.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m17.png"
-        },
-        "conceptId": 235238,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/235238",
-        "device": [
-          "PS4",
-          "PS5"
-        ],
-        "genre": [
-          "UNIQUE"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202007/0917/fid2e7IysrUvFqmppIxi48GT.png",
-        "name": "Yakuza: Like a Dragon PS4 & PS5",
-        "nameEn": "Yakuza: Like a Dragon PS4 & PS5",
-        "productId": "UP0177-PPSA02383_00-LIKEADRAGON00000",
-        "releaseDate": "2021-03-02T05:00:00Z",
-        "streamingSupported": true
-      },
       {
         "ageRating": {
           "authority": "ESRB",
