@@ -8030,7 +8030,7 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202212/1423/ceiwbi2grLMGYXWlZCduDvuI.png",
         "name": "HUMANITY",
         "nameEn": "HUMANITY",
-        "productId": "UP0751-CUSA14150_00-HUMANITYGAME0000",
+        "productId": "UP0751-PPSA03771_00-HUMANITYGAME0001",
         "releaseDate": "2023-05-16T14:00:00Z",
         "streamingSupported": true
       },
@@ -10868,7 +10868,6 @@
         "conceptId": 227431,
         "conceptUrl": "https://store.playstation.com/en-us/concept/227431",
         "device": [
-          "PS4",
           "PS5"
         ],
         "genre": [
@@ -10877,7 +10876,7 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202111/1114/x11L6rvYTz3IvbuvlDnryUJO.png",
         "name": "Oddworld: Soulstorm Enhanced Edition",
         "nameEn": "Oddworld: Soulstorm Enhanced Edition",
-        "productId": "UP4134-CUSA08126_00-OWSOULSTORM00001",
+        "productId": "UP4134-PPSA01590_00-8013847526978797",
         "releaseDate": "2021-04-06T04:00:00Z",
         "streamingSupported": true
       },
@@ -18707,7 +18706,7 @@
         "conceptId": 230658,
         "conceptUrl": "https://store.playstation.com/en-us/concept/230658",
         "device": [
-          "PS5"
+          "PS4"
         ],
         "genre": [
           "SHOOTER",
@@ -18716,9 +18715,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202108/1609/H7gbJJRlxx0gh6L40A0kkZ5x.png",
         "name": "World War Z: Aftermath",
         "nameEn": "World War Z: Aftermath",
-        "productId": "UP6856-PPSA05424_00-WWZGAME000000PS5",
-        "releaseDate": "2023-01-24T14:00:00Z",
-        "streamingSupported": true
+        "productId": "UP2746-CUSA14046_00-WWZAFTMTBUN000US",
+        "releaseDate": "2021-09-19T04:00:00Z",
+        "streamingSupported": false
       },
       {
         "ageRating": {
