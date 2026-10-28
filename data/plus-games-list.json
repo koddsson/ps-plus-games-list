@@ -3494,8 +3494,8 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202310/1119/4b2bc50a0bb1fa4a27273cd583b59e922de33a3d9da23a59.png",
         "name": "Crow Country",
         "nameEn": "Crow Country",
-        "productId": "UP6093-CUSA45567_00-0160994265024834",
-        "releaseDate": "2024-10-22T15:00:00Z",
+        "productId": "UP6093-PPSA19067_00-0438761103283229",
+        "releaseDate": "2024-05-09T15:00:00Z",
         "streamingSupported": true
       },
       {
@@ -3819,7 +3819,7 @@
           "HORROR",
           "ACTION"
         ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0113/e98238835ada32e22b4e21455b4206cacd19070ea359763f.png",
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/2118/4448362515c1c03644cae01d08e4784b30224f81e6c25514.png",
         "name": "Dead by Daylight PS4® & PS5®",
         "nameEn": "Dead by Daylight PS4® & PS5®",
         "productId": "UP3509-PPSA02048_00-DEADBYDAYLIGHT00",
@@ -9222,7 +9222,7 @@
   },
   {
     "catalogKey": "M",
-    "count": 30,
+    "count": 31,
     "games": [
       {
         "ageRating": {
@@ -10035,6 +10035,46 @@
         "nameEn": "Monster Boy and the Cursed Kingdom",
         "productId": "UP0760-PPSA02787_00-0286229275301959",
         "releaseDate": "2021-12-02T05:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Everyone",
+          "descriptors": [
+            {
+              "description": "No Descriptors",
+              "name": "ESRB_NO_DESCRIPTORS"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            },
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_EVERYONE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
+        },
+        "conceptId": 10009931,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10009931",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "SPORTS",
+          "RACING"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1409/fa3f9b7d40c4b31a7247bf908a73e99391fe6c465926edd7.png",
+        "name": "Monster Energy Supercross 25 - The Official Video Game",
+        "nameEn": "Monster Energy Supercross 25 - The Official Video Game",
+        "productId": "EP4356-PPSA20435_00-SUPERCROSS25GAME",
+        "releaseDate": "2025-04-10T04:00:00Z",
         "streamingSupported": true
       },
       {
@@ -11109,7 +11149,7 @@
   },
   {
     "catalogKey": "P",
-    "count": 23,
+    "count": 24,
     "games": [
       {
         "ageRating": {
@@ -11777,6 +11817,40 @@
         "nameEn": "Poppy Playtime: Chapter 1",
         "productId": "UP8103-PPSA18454_00-0936750542714392",
         "releaseDate": "2023-12-20T15:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Teen",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_TEEN",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
+        },
+        "conceptId": 10010437,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10010437",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "HORROR"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202408/2820/7981c9f8f122ac08d5febb8b883578b895300f8248f8cb1a.png",
+        "name": "Poppy Playtime: Chapter 2",
+        "nameEn": "Poppy Playtime: Chapter 2",
+        "productId": "UP8103-PPSA21631_00-0349038686339467",
+        "releaseDate": "2024-09-20T14:00:00Z",
         "streamingSupported": true
       },
       {
@@ -14524,7 +14598,7 @@
   },
   {
     "catalogKey": "T",
-    "count": 63,
+    "count": 64,
     "games": [
       {
         "ageRating": {
@@ -14575,6 +14649,58 @@
         "nameEn": "Tails Noir",
         "productId": "UP2320-PPSA03217_00-BACKBONEOPS5SIEA",
         "releaseDate": "2021-10-28T00:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Teen",
+          "descriptors": [
+            {
+              "description": "Alcohol Reference",
+              "name": "ESRB_ALCOHOL_REFERENCE"
+            },
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Language",
+              "name": "ESRB_LANGUAGE"
+            },
+            {
+              "description": "Suggestive Themes",
+              "name": "ESRB_SUGGESTIVE_THEMES"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            }
+          ],
+          "name": "ESRB_TEEN",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
+        },
+        "conceptId": 234823,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/234823",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ROLE_PLAYING_GAMES"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202601/2118/150f9fec9ac91e05dbbff790696d036714f555944f9f436d.png",
+        "name": "Tales of ARISE - Beyond the Dawn Edition PS4 & PS5",
+        "nameEn": "Tales of ARISE - Beyond the Dawn Edition PS4 & PS5",
+        "productId": "UP0700-PPSA02794_00-BTDEDITION000000",
+        "releaseDate": "2023-09-19T22:00:00Z",
         "streamingSupported": true
       },
       {
@@ -18665,8 +18791,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
-          "SHOOTER"
+          "SHOOTER",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP2746/CUSA14046_00/0sdmApE8KNjQkMY5y3PFa7KJzf7MIx2K.png",
         "name": "World War Z",
