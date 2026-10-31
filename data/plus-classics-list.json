@@ -780,8 +780,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
-          "ROLE_PLAYING_GAMES"
+          "ROLE_PLAYING_GAMES",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP9000/CUSA02037_00/hIKSKqBMerypNW49TCECATZSBBUcSBph.png",
         "name": "Dark Cloud™ 2",
@@ -3474,8 +3474,8 @@
         ],
         "genre": [
           "ACTION",
-          "ADVENTURE",
-          "MUSIC/RHYTHM"
+          "MUSIC/RHYTHM",
+          "ADVENTURE"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP9000/CUSA06171_00/bKAJyJDYsueSeDz0VWXL5qD0PXIfMGFH.png",
         "name": "Patapon™ Remastered",
