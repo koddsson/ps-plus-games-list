@@ -247,8 +247,8 @@
         ],
         "genre": [
           "FAMILY",
-          "ADVENTURE",
-          "ROLE_PLAYING_GAMES"
+          "ROLE_PLAYING_GAMES",
+          "ADVENTURE"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP3824/CUSA11071_00/OlXPk6wOo9opxLFdArUkNmKjFaF56qmx.png",
         "name": "Adventure Time Pirates of the Enchiridion",
@@ -816,8 +816,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
-          "ADVENTURE"
+          "ADVENTURE",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP0001/CUSA11711_00/RG8gI6washJkOph8QGTweK5DJZe7WvnB.png",
         "name": "Assassin's Creed III: Remastered",
@@ -1111,8 +1111,8 @@
         ],
         "genre": [
           "ADVENTURE",
-          "ACTION",
-          "ADVENTURE"
+          "ADVENTURE",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP0001/CUSA00416_00/ua5ZZj07fKx0s26KH8BKGoBeNA577dMg.png",
         "name": "Assassin's Creed® Freedom Cry",
@@ -1348,8 +1348,8 @@
         ],
         "genre": [
           "ADVENTURE",
-          "ACTION",
-          "ADVENTURE"
+          "ADVENTURE",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP0001/CUSA05008_00/4M2SL5I24y6PCYbyFpQJOGzq14NJXGsw.png",
         "name": "Assassin’s Creed® The Ezio Collection",
@@ -2561,8 +2561,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
           "CASUAL",
+          "ACTION",
           "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP0283/CUSA04729_00/0lu6N9aNUFiWEJrWtlHFBjKDwQHeceCb.png",
@@ -3210,8 +3210,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
-          "ADVENTURE"
+          "ADVENTURE",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202011/1319/OAfdktSY0lt4WJhTyMVeX6Xe.png",
         "name": "Concrete Genie Digital Deluxe Edition",
@@ -3989,8 +3989,8 @@
           "PS4"
         ],
         "genre": [
-          "ROLE_PLAYING_GAMES",
           "UNIQUE",
+          "ROLE_PLAYING_GAMES",
           "ROLE_PLAYING_GAMES"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP0031/CUSA13132_00/nzAvCBRFHPE24MgKyJT8HVPa0gbD1uhK.png",
@@ -4338,9 +4338,9 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
+          "ROLE_PLAYING_GAMES",
           "ADVENTURE",
-          "ROLE_PLAYING_GAMES"
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP0082/CUSA01799_00/8gRSa3fSIAWC17rZwPDqz96cHOiGf7Qb.png",
         "name": "Deus Ex: Mankind Divided",
@@ -5460,9 +5460,9 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
+          "UNIQUE",
           "MUSIC/RHYTHM",
-          "UNIQUE"
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP9000/CUSA00571_00/ufEROfNhT8QuC4DYzZL8SuDaeqP8Izkg.png",
         "name": "Entwined™",
@@ -5986,8 +5986,8 @@
         ],
         "genre": [
           "SHOOTER",
-          "ACTION",
-          "ADVENTURE"
+          "ADVENTURE",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/img/cfn/113076px2b27B2ofcw5IzONcQEr6vlx2oSWvfJEutr9o7jAcP9vbVFjtbYjYoX2MOkkuepqwRRkk8Krf08MR2BKeTPw-FyY7.png",
         "name": "Far Cry® 4  ",
@@ -6057,8 +6057,8 @@
           "PS5"
         ],
         "genre": [
-          "ACTION",
-          "ADVENTURE"
+          "ADVENTURE",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202107/2813/Os6biEZBZHzt6GU8qqo5eSMT.png",
         "name": "FAR: Changing Tides PS4 & PS5",
@@ -8143,8 +8143,8 @@
         ],
         "genre": [
           "ACTION",
-          "PUZZLE",
-          "SIMULATION"
+          "SIMULATION",
+          "PUZZLE"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP4491/CUSA03083_00/O7nRpOcstykzPWEGzs4SzMxPnph07s0p.png",
         "name": "I am Bread",
@@ -8676,9 +8676,9 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
+          "ARCADE",
           "ADVENTURE",
-          "ARCADE"
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202111/1912/it7X1Mtx3bwEWJ2I2Iy4Bq1F.png",
         "name": "Kingdom: New Lands",
@@ -8744,9 +8744,9 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
+          "SPORTS",
           "SIMULATION",
-          "SPORTS"
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP0001/CUSA12845_00/BHXxKEq57K9LdohM6tdLZ9MKU575Vv2a.png",
         "name": "Legendary Fishing",
@@ -9313,8 +9313,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
           "ADVENTURE",
+          "ACTION",
           "ROLE_PLAYING_GAMES"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP4139/CUSA02421_00/265Ck6tK5gLBbLfunNxUzwht5LiJtybL.png",
@@ -9346,8 +9346,8 @@
         ],
         "genre": [
           "PUZZLE",
-          "ARCADE",
-          "PUZZLE"
+          "PUZZLE",
+          "ARCADE"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/EP4008/CUSA05079_00/LcxCyhRYpMabNCFbXAhHG4orJEP650IA.png",
         "name": "Mahjong",
@@ -9432,9 +9432,9 @@
           "PS5"
         ],
         "genre": [
-          "ACTION",
+          "ROLE_PLAYING_GAMES",
           "ADVENTURE",
-          "ROLE_PLAYING_GAMES"
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA14538_00/7/i_1dbc60bd015bfb1ecb0990b9484ad19b4ba86ea0e8d183138bfbf89d78d18d98/i/icon0.png",
         "name": "Maneater PS4 & PS5",
@@ -9957,7 +9957,8 @@
         "conceptId": 10009198,
         "conceptUrl": "https://store.playstation.com/en-us/concept/10009198",
         "device": [
-          "PS4"
+          "PS4",
+          "PS5"
         ],
         "genre": [
           "ACTION"
@@ -9965,9 +9966,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202410/2821/51d6eb5a4a96c0a546c0f7e475a6477a6c4a29196c95820b.png",
         "name": "Mighty Morphin Power Rangers: Rita's Rewind",
         "nameEn": "Mighty Morphin Power Rangers: Rita's Rewind",
-        "productId": "UP7818-CUSA45165_00-0153621143952723",
+        "productId": "UP7818-PPSA18528_00-0444976593126924",
         "releaseDate": "2024-12-10T05:00:00Z",
-        "streamingSupported": false
+        "streamingSupported": true
       },
       {
         "ageRating": {
@@ -10866,8 +10867,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
           "ADVENTURE",
+          "ACTION",
           "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP4134/CUSA00329_00/96a6Sx1QQqxs87GrtoqSYORytjuFbKfE.png",
@@ -10956,8 +10957,8 @@
           "PS4"
         ],
         "genre": [
-          "ADVENTURE",
-          "ROLE_PLAYING_GAMES"
+          "ROLE_PLAYING_GAMES",
+          "ADVENTURE"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP0031/CUSA01915_00/AbOoeWUkuW0bRi8lflDLvv9wvSeGw7yw.png",
         "name": "Omega Quintet",
@@ -11077,8 +11078,8 @@
           "PS5"
         ],
         "genre": [
-          "FAMILY",
-          "SIMULATION"
+          "SIMULATION",
+          "FAMILY"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202011/2700/hKBAhyUmI0fv5JrDxITp5rRJ.png",
         "name": "Overcooked! All You Can Eat",
@@ -11304,8 +11305,8 @@
           "PS5"
         ],
         "genre": [
-          "ACTION",
           "FAMILY",
+          "ACTION",
           "FAMILY"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202305/1909/93dd02b6676b8f34738166f248d60790c790df5fd993950f.png",
@@ -11499,8 +11500,8 @@
           "PS4"
         ],
         "genre": [
-          "ADVENTURE",
-          "PUZZLE"
+          "PUZZLE",
+          "ADVENTURE"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202009/2419/Wx4cGzMJgk9yklXbz4f0zg9Z.png",
         "name": "PHOGS!",
@@ -12015,9 +12016,9 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
+          "STRATEGY",
           "ADVENTURE",
-          "STRATEGY"
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202010/0918/c5opOseUwWTD41c0d8NVvCQ9.png",
         "name": "Prison Architect: PlayStation®4 Edition",
@@ -12543,8 +12544,8 @@
           "PS4"
         ],
         "genre": [
-          "ARCADE",
           "SHOOTER",
+          "ARCADE",
           "SHOOTER"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP9000/CUSA00038_00/FBm6pF4hb5b6oz8GnSTMR49K0xna4Ees.png",
@@ -13170,9 +13171,9 @@
           "PS5"
         ],
         "genre": [
-          "ADVENTURE",
+          "UNIQUE",
           "CASUAL",
-          "UNIQUE"
+          "ADVENTURE"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202206/0319/Ap7NdK7pk3Xw3tH4LJFuM6d9.png",
         "name": "SEASON: A letter to the future PS4 & PS5",
@@ -13324,8 +13325,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
-          "ADVENTURE"
+          "ADVENTURE",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202010/2319/XtqYrG2LWer39eExYBsh9J5x.png",
         "name": "SHADOW OF THE COLOSSUS",
@@ -13423,8 +13424,8 @@
         ],
         "genre": [
           "ACTION",
-          "ACTION",
-          "SHOOTER"
+          "SHOOTER",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP3643/CUSA05617_00/bzyDKfSpQsA6sFUi7IG6REIrzwz6oHJW.png",
         "name": "Shadow Warrior 2",
@@ -14110,8 +14111,8 @@
         ],
         "genre": [
           "SIMULATION",
-          "ACTION",
-          "UNIQUE"
+          "UNIQUE",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP0001/CUSA06979_00/yXdRe2c0zZG4dApyMb2k0pWJ96bBfwgg.png",
         "name": "Starlink: Battle For Atlas Digital Edition",
@@ -14510,8 +14511,8 @@
           "PS4"
         ],
         "genre": [
-          "SIMULATION",
-          "STRATEGY"
+          "STRATEGY",
+          "SIMULATION"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202110/2208/aCA7fmamlIIMLwNpcd529SQZ.png",
         "name": "Surviving the Aftermath",
@@ -15238,9 +15239,9 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
+          "HORROR",
           "ADVENTURE",
-          "HORROR"
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0100/iLBYSuHyeGG5CVXTkSm4MKTo.png",
         "name": "The Evil Within 2",
@@ -15469,8 +15470,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
-          "ADVENTURE"
+          "ADVENTURE",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202010/2618/w48z6bzefZPrRcJHc7L8SO66.png",
         "name": "The Last of Us Part II",
@@ -16973,8 +16974,8 @@
           "PS4"
         ],
         "genre": [
-          "ARCADE",
-          "RACING"
+          "RACING",
+          "ARCADE"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP0001/CUSA09338_00/5mpTa7QTvDxkqNnNkZKIWq4XZSguXusM.png",
         "name": "Trials Rising",
@@ -17395,8 +17396,8 @@
           "PS5"
         ],
         "genre": [
-          "ACTION",
-          "ADVENTURE"
+          "ADVENTURE",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202111/2000/gTUWTlvPHzxFJ2JAxtDyI2eS.png",
         "name": "UNCHARTED: Legacy of Thieves Collection",
@@ -17843,8 +17844,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
-          "ROLE_PLAYING_GAMES"
+          "ROLE_PLAYING_GAMES",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP4133/CUSA03293_00/kRjyb1KLVNAbBQp6s8LhcYep3WIwLD0B.png",
         "name": "Vampyr",
@@ -18267,9 +18268,9 @@
           "PS5"
         ],
         "genre": [
-          "ACTION",
+          "UNIQUE",
           "ADVENTURE",
-          "UNIQUE"
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202007/0217/OX5mEmwgRPeSQrhGFU3n4moZ.png",
         "name": "Watch Dogs®: Legion PS4 & PS5",
@@ -18324,8 +18325,8 @@
         ],
         "genre": [
           "ADVENTURE",
-          "ACTION",
-          "SHOOTER"
+          "SHOOTER",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/img/cfn/11307VppO1bgZfez_l4lWR2EjdOWtTKfd17OGDKMBFHO3fjct9kzA_QdZHSbkxImffz4zcTSPFARhvOlU89c528K5tYEdc9Z.png",
         "name": "Watch Dogs™ ",

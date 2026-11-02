@@ -68,8 +68,8 @@
           "PS5"
         ],
         "genre": [
-          "ADVENTURE",
-          "HORROR"
+          "HORROR",
+          "ADVENTURE"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202404/0811/10121f7f8758fa1e203f1f7738b40ba4ec18d38ba19ea1bc.png",
         "name": "Alone in the Dark: The New Nightmare (2001)",
@@ -749,8 +749,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
-          "ROLE_PLAYING_GAMES"
+          "ROLE_PLAYING_GAMES",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP9000/CUSA01728_00/fc44pKQzbUo20HPP2afNljL28Q0Akg2L.png",
         "name": "Dark Cloud™",
@@ -1402,8 +1402,8 @@
           "PS4"
         ],
         "genre": [
-          "PUZZLE",
-          "UNIQUE"
+          "UNIQUE",
+          "PUZZLE"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP9000/CUSA01724_00/4t01b7FJEjZV4us1jJDsaWGMLLNVxK6V.png",
         "name": "FantaVision™",
@@ -1517,8 +1517,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
           "ARCADE",
+          "ACTION",
           "FIGHTING"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP0576/CUSA06000_00/R3KMCUbECYzMKY2yz3pxNvmMuS069M0f.png",
@@ -2043,8 +2043,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
           "ADVENTURE",
+          "ACTION",
           "ADVENTURE"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP1642/CUSA04798_00/WJFDq83f1tcZ0E2PkEa1rXOba8laaZUV.png",
@@ -2093,9 +2093,9 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
+          "SHOOTER",
           "ADVENTURE",
-          "SHOOTER"
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP9000/CUSA07841_00/IssQbcmeqZ4HTYoQQmwySTmw2UXf9ZJF.png",
         "name": "Jak 3",
@@ -2219,8 +2219,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
           "ADVENTURE",
+          "ACTION",
           "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP9000/CUSA07840_00/uMvSf35f3V2yvynPFKWYpeddSEAMV5Wa.png",
@@ -2263,8 +2263,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
           "RACING",
+          "ACTION",
           "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP9000/CUSA07842_00/pDHkrDzDgKQvF9itpM7dlcfdZMS8J0dQ.png",
@@ -2991,8 +2991,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
           "ADVENTURE",
+          "ACTION",
           "ROLE_PLAYING_GAMES"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP1468/CUSA04045_00/L4RsvwBkFNQEbzqkiUsgHHitcsoSbXna.png",
@@ -3334,8 +3334,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
           "ADVENTURE",
+          "ACTION",
           "ADVENTURE"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP4008/CUSA07476_00/XO81bpOmmO9Rs9APRkDzlf6I1SUs5eAm.png",
@@ -3541,8 +3541,8 @@
         ],
         "genre": [
           "ADVENTURE",
-          "ACTION",
-          "ADVENTURE"
+          "ADVENTURE",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP9000/CUSA02035_00/knUKAGON0WAEfeQoCXePC69YuaPfkkhX.png",
         "name": "Primal™",
@@ -3690,8 +3690,8 @@
           "PS4"
         ],
         "genre": [
-          "ARCADE",
           "CASUAL",
+          "ARCADE",
           "ARCADE"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP2135/CUSA01280_00/IBLGvunXCVTg71WkUIhgYGKmOPEEVNNG.png",
@@ -3728,8 +3728,8 @@
           "PS4"
         ],
         "genre": [
-          "ARCADE",
           "SHOOTER",
+          "ARCADE",
           "SHOOTER"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP2038/CUSA14355_00/CltVqvV5VoFlNkvzwdaKv94EL6tDLg2a.png",
@@ -3794,8 +3794,8 @@
           "PS4"
         ],
         "genre": [
-          "ADVENTURE",
           "ROLE_PLAYING_GAMES",
+          "ADVENTURE",
           "ROLE_PLAYING_GAMES"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP2005/CUSA03443_00/Zb3Q55gaRLoz02AexPz16PaOyyII5ZO9.png",
@@ -4200,9 +4200,9 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
+          "ROLE_PLAYING_GAMES",
           "ADVENTURE",
-          "ROLE_PLAYING_GAMES"
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP9000/CUSA02195_00/BYCILeQV0o5k2FLk8CKFZCJURCp73vJ1.png",
         "name": "Rogue Galaxy™",
@@ -4713,8 +4713,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
           "ADVENTURE",
+          "ACTION",
           "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP1082/CUSA03473_00/PGRyqtcRKUoAsP4bJAhcoziTwL8940k1.png",
@@ -4745,8 +4745,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
           "ADVENTURE",
+          "ACTION",
           "RACING"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP1082/CUSA03474_00/Vc8gPSeTcQCpiVpPX2UCbAQWQAKtV7SS.png",
@@ -5252,8 +5252,8 @@
           "PS4"
         ],
         "genre": [
-          "ARCADE",
           "FIGHTING",
+          "ARCADE",
           "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP0576/CUSA04169_00/NgRoTvqbeW0B7dR42ROgHP635yMdlRIa.png",
@@ -5304,8 +5304,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
-          "ADVENTURE"
+          "ADVENTURE",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP9000/CUSA00553_00/cD5AHZbykr8FnShuY359Q6EFimjSRmB3.png",
         "name": "The Last of Us: Left Behind Stand Alone",
@@ -5355,8 +5355,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
-          "ADVENTURE"
+          "ADVENTURE",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202011/1020/FKgazVvG7BcWouCr39mIiXkW.png",
         "name": "The Last Of Us™ Remastered ",
@@ -5425,8 +5425,8 @@
           "PS4"
         ],
         "genre": [
-          "ACTION",
-          "ADVENTURE"
+          "ADVENTURE",
+          "ACTION"
         ],
         "imageUrl": "https://image.api.playstation.com/cdn/UP9000/CUSA01729_00/FGIsFUOxoGLxvNdNeump0tq7m3XV9VUr.png",
         "name": "The Mark of Kri™",
