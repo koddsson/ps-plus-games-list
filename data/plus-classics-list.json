@@ -2800,7 +2800,7 @@
   },
   {
     "catalogKey": "M",
-    "count": 8,
+    "count": 9,
     "games": [
       {
         "ageRating": {
@@ -2952,6 +2952,63 @@
         "nameEn": "Mega Man X: Command Mission",
         "productId": "UP0102-PPSA38464_00-CLASSICMXCM00001",
         "releaseDate": "2026-09-15T16:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature 17+",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            },
+            {
+              "description": "Nudity",
+              "name": "ESRB_NUDITY"
+            },
+            {
+              "description": "Sexual Content",
+              "name": "ESRB_SEXUAL_CONTENT"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Use of Drugs and Alcohol",
+              "name": "ESRB_USE_OF_DRUGS_AND_ALCOHOL"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            }
+          ],
+          "name": "ESRB_MATURE_17",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m17.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m17.png"
+        },
+        "conceptId": 202806,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/202806",
+        "device": [
+          "PS5",
+          "PS4"
+        ],
+        "genre": [
+          "SHOOTER",
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/2111/0280a6d70e309b7cb3509600a500b728ada3626192e19b74.png",
+        "name": "METRO Redux",
+        "nameEn": "METRO Redux",
+        "productId": "EP4062-PPSA40653_00-METRORDXGEN9BDLE",
+        "releaseDate": "2026-10-29T16:00:00Z",
         "streamingSupported": true
       },
       {

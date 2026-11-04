@@ -5894,58 +5894,6 @@
           "description": "ESRB Mature",
           "descriptors": [
             {
-              "description": "Blood and Gore",
-              "name": "ESRB_BLOOD_AND_GORE"
-            },
-            {
-              "description": "Intense Violence",
-              "name": "ESRB_INTENSE_VIOLENCE"
-            },
-            {
-              "description": "Nudity",
-              "name": "ESRB_NUDITY"
-            },
-            {
-              "description": "Strong Language",
-              "name": "ESRB_STRONG_LANGUAGE"
-            },
-            {
-              "description": "Strong Sexual Content",
-              "name": "ESRB_STRONG_SEXUAL_CONTENT"
-            },
-            {
-              "description": "Use of Drugs",
-              "name": "ESRB_USE_OF_DRUGS"
-            }
-          ],
-          "interactiveElements": [],
-          "name": "ESRB_MATURE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
-        },
-        "conceptId": 231486,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/231486",
-        "device": [
-          "PS4"
-        ],
-        "genre": [
-          "ACTION",
-          "SHOOTER",
-          "ACTION"
-        ],
-        "imageUrl": "https://image.api.playstation.com/cdn/UP0001/CUSA10357_00/YoJmqdJ3jDHz0ZQI6DrkzofAXaATiA8K.png",
-        "name": "Far Cry® 3 Classic Edition",
-        "nameEn": "Far Cry® 3 Classic Edition",
-        "productId": "UP0001-CUSA10357_00-FARCRY3REMASTER0",
-        "releaseDate": "2018-05-29T04:00:00Z",
-        "streamingSupported": false
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
-          "description": "ESRB Mature",
-          "descriptors": [
-            {
               "description": "Blood",
               "name": "ESRB_BLOOD"
             },
@@ -6066,6 +6014,58 @@
         "productId": "UP2514-PPSA03766_00-FARCHANGINGTIDES",
         "releaseDate": "2022-03-01T05:00:00Z",
         "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            },
+            {
+              "description": "Nudity",
+              "name": "ESRB_NUDITY"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Strong Sexual Content",
+              "name": "ESRB_STRONG_SEXUAL_CONTENT"
+            },
+            {
+              "description": "Use of Drugs",
+              "name": "ESRB_USE_OF_DRUGS"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 231486,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/231486",
+        "device": [
+          "PS4"
+        ],
+        "genre": [
+          "ACTION",
+          "SHOOTER",
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202606/2413/d1b2bc237dc9b35e0d592a994ef8c7c3b9697680f8e410e1.png",
+        "name": "FARCRY 3 Classic Edition",
+        "nameEn": "FARCRY 3 Classic Edition",
+        "productId": "UP0001-CUSA10357_00-FARCRY3REMASTER0",
+        "releaseDate": "2018-05-29T04:00:00Z",
+        "streamingSupported": false
       },
       {
         "ageRating": {
