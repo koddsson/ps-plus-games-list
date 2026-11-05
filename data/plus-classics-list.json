@@ -914,25 +914,21 @@
       {
         "ageRating": {
           "authority": "ESRB",
-          "description": "ESRB Teen",
+          "description": "ESRB Mature",
           "descriptors": [
             {
-              "description": "Blood",
-              "name": "ESRB_BLOOD"
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
             },
             {
-              "description": "Language",
-              "name": "ESRB_LANGUAGE"
-            },
-            {
-              "description": "Violence",
-              "name": "ESRB_VIOLENCE"
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
             }
           ],
           "interactiveElements": [],
-          "name": "ESRB_TEEN",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
         },
         "conceptId": 10018570,
         "conceptUrl": "https://store.playstation.com/en-us/concept/10018570",
@@ -2800,7 +2796,7 @@
   },
   {
     "catalogKey": "M",
-    "count": 9,
+    "count": 11,
     "games": [
       {
         "ageRating": {
@@ -2952,6 +2948,118 @@
         "nameEn": "Mega Man X: Command Mission",
         "productId": "UP0102-PPSA38464_00-CLASSICMXCM00001",
         "releaseDate": "2026-09-15T16:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Sexual Themes",
+              "name": "ESRB_SEXUAL_THEMES"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Use of Drugs",
+              "name": "ESRB_USE_OF_DRUGS"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            }
+          ],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 202807,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/202807",
+        "device": [
+          "PS5",
+          "PS4"
+        ],
+        "genre": [
+          "SHOOTER",
+          "ACTION",
+          "SHOOTER"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0908/4c217e661408017edc10e775d9fd6c74d17246395e10b338.png",
+        "name": "METRO 2033 Redux",
+        "nameEn": "METRO 2033 Redux",
+        "productId": "EP4062-PPSA38292_00-METRO2033R0PS5WW",
+        "releaseDate": "2026-10-29T16:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            },
+            {
+              "description": "Nudity",
+              "name": "ESRB_NUDITY"
+            },
+            {
+              "description": "Sexual Content",
+              "name": "ESRB_SEXUAL_CONTENT"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Use of Drugs and Alcohol",
+              "name": "ESRB_USE_OF_DRUGS_AND_ALCOHOL"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            }
+          ],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 226459,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/226459",
+        "device": [
+          "PS5",
+          "PS4"
+        ],
+        "genre": [
+          "SHOOTER",
+          "ACTION",
+          "SHOOTER"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0908/d0c2b40c5db44a73d3b3605fdd9a07f80df8fd33716a93c3.png",
+        "name": "METRO Last Light Redux",
+        "nameEn": "METRO Last Light Redux",
+        "productId": "EP4062-PPSA38240_00-METROLLR000PS5WW",
+        "releaseDate": "2026-10-29T16:00:00Z",
         "streamingSupported": true
       },
       {
