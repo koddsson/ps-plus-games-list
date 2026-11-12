@@ -5583,7 +5583,7 @@
   },
   {
     "catalogKey": "F",
-    "count": 28,
+    "count": 27,
     "games": [
       {
         "ageRating": {
@@ -6596,41 +6596,6 @@
       {
         "ageRating": {
           "authority": "ESRB",
-          "description": "ESRB Everyone",
-          "descriptors": [
-            {
-              "description": "Mild Language",
-              "name": "ESRB_MILD_LANGUAGE"
-            }
-          ],
-          "interactiveElements": [
-            {
-              "description": "In-Game Purchases",
-              "name": "ESRB_IN_GAME_PURCHASES"
-            }
-          ],
-          "name": "ESRB_EVERYONE",
-          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
-          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
-        },
-        "conceptId": 10014519,
-        "conceptUrl": "https://store.playstation.com/en-us/concept/10014519",
-        "device": [
-          "PS5"
-        ],
-        "genre": [
-          "SPORTS"
-        ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202509/0112/e1a7a09b0d6a2adbcd22d206e82aefa406d34723c9eb2b38.png",
-        "name": "Football Manager 26 Console",
-        "nameEn": "Football Manager 26 Console",
-        "productId": "EP0177-PPSA29707_00-FM26GLOBAL000000",
-        "releaseDate": "2025-11-04T16:00:00Z",
-        "streamingSupported": true
-      },
-      {
-        "ageRating": {
-          "authority": "ESRB",
           "description": "ESRB Mature 17+",
           "descriptors": [
             {
@@ -7402,7 +7367,7 @@
   },
   {
     "catalogKey": "H",
-    "count": 17,
+    "count": 18,
     "games": [
       {
         "ageRating": {
@@ -7449,6 +7414,45 @@
         "nameEn": "Hell is Us",
         "productId": "EP6665-PPSA09259_00-HIU0000000000000",
         "releaseDate": "2025-09-04T08:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature 17+",
+          "descriptors": [
+            {
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_MATURE_17",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m17.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m17.png"
+        },
+        "conceptId": 10001996,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10001996",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "SHOOTER"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202506/2316/86150b8e592e33e766539e1f4250ec79f097b8bd02509381.png",
+        "name": "Hell Let Loose",
+        "nameEn": "Hell Let Loose",
+        "productId": "UP4064-PPSA02422_00-1775940659903345",
+        "releaseDate": "2021-10-05T04:00:00Z",
         "streamingSupported": true
       },
       {
