@@ -1680,7 +1680,7 @@
           "ARCADE",
           "ACTION"
         ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202608/0616/83415751927d95046612da39ab5f997a0416087b402220fc.png",
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202508/1322/ed38f43e59207b000be12dd171ef864936a85d323b736a8a.png",
         "name": "BALL x PIT",
         "nameEn": "BALL x PIT",
         "productId": "UP3643-PPSA31872_00-0512776704708419",
@@ -7697,8 +7697,7 @@
         "conceptId": 10000886,
         "conceptUrl": "https://store.playstation.com/en-us/concept/10000886",
         "device": [
-          "PS4",
-          "PS5"
+          "PS4"
         ],
         "genre": [
           "ACTION"
@@ -7706,9 +7705,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202107/3100/HO8vkO9pfXhwbHi5WHECQJdN.png",
         "name": "Horizon Forbidden West™",
         "nameEn": "Horizon Forbidden West™",
-        "productId": "UP9000-PPSA04072_00-FORBIDDENWESTPS5",
+        "productId": "UP9000-CUSA28561_00-FORBIDDENWESTPS4",
         "releaseDate": "2022-02-18T05:00:00Z",
-        "streamingSupported": true
+        "streamingSupported": false
       },
       {
         "ageRating": {
@@ -11844,7 +11843,7 @@
         "conceptId": 10010437,
         "conceptUrl": "https://store.playstation.com/en-us/concept/10010437",
         "device": [
-          "PS5"
+          "PS4"
         ],
         "genre": [
           "HORROR"
@@ -11852,9 +11851,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202408/2820/7981c9f8f122ac08d5febb8b883578b895300f8248f8cb1a.png",
         "name": "Poppy Playtime: Chapter 2",
         "nameEn": "Poppy Playtime: Chapter 2",
-        "productId": "UP8103-PPSA21631_00-0349038686339467",
+        "productId": "UP8103-CUSA47693_00-0734550977773698",
         "releaseDate": "2024-09-20T14:00:00Z",
-        "streamingSupported": true
+        "streamingSupported": false
       },
       {
         "ageRating": {
@@ -12818,7 +12817,7 @@
         "conceptId": 10001348,
         "conceptUrl": "https://store.playstation.com/en-us/concept/10001348",
         "device": [
-          "PS5"
+          "PS4"
         ],
         "genre": [
           "ROLE_PLAYING_GAMES"
@@ -12826,9 +12825,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202111/1813/FHhoyE3vgSQ9MZqIlxK8XMT9.png",
         "name": "Roguebook",
         "nameEn": "Roguebook",
-        "productId": "UP4008-PPSA02077_00-RBK0000000000000",
+        "productId": "UP4008-CUSA24282_00-RBK0000000000000",
         "releaseDate": "2022-02-24T09:00:00Z",
-        "streamingSupported": true
+        "streamingSupported": false
       },
       {
         "ageRating": {
