@@ -1375,7 +1375,7 @@
   },
   {
     "catalogKey": "F",
-    "count": 2,
+    "count": 3,
     "games": [
       {
         "ageRating": {
@@ -1445,6 +1445,54 @@
         "nameEn": "Forbidden Siren",
         "productId": "UP9000-PPSA22947_00-SCUS973550000000",
         "releaseDate": "2024-10-15T16:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Teen",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Mild Language",
+              "name": "ESRB_MILD_LANGUAGE"
+            },
+            {
+              "description": "Mild Suggestive Themes",
+              "name": "ESRB_MILD_SUGGESTIVETHEMES"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_TEEN",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/t.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/t.png"
+        },
+        "conceptId": 10011083,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10011083",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202412/0409/ac0710144bc0e2854c0ebc6c9544e0f415d1f7b590ef0826.png",
+        "name": "FREEDOM WARS Remastered PS4 & PS5",
+        "nameEn": "FREEDOM WARS Remastered PS4 & PS5",
+        "productId": "JP0700-PPSA23221_00-MAINGAME00000000",
+        "releaseDate": "2025-01-10T05:00:00Z",
         "streamingSupported": true
       }
     ]
@@ -4421,7 +4469,7 @@
   },
   {
     "catalogKey": "S",
-    "count": 22,
+    "count": 23,
     "games": [
       {
         "ageRating": {
@@ -4660,6 +4708,41 @@
         "nameEn": "Sly Raccoon™",
         "productId": "UP9000-PPSA21300_00-SCUS971980000000",
         "releaseDate": "2024-06-11T15:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 10013858,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10013858",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0712/34a8ca5c16ad9bdaa0b364526a71862491bdb6952e6a067f.png",
+        "name": "Soul Reaver 2",
+        "nameEn": "Soul Reaver 2",
+        "productId": "UP8489-PPSA28003_00-0082415705264156",
+        "releaseDate": "2026-11-17T17:00:00Z",
         "streamingSupported": true
       },
       {
