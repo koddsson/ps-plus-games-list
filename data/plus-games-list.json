@@ -2424,7 +2424,7 @@
   },
   {
     "catalogKey": "C",
-    "count": 30,
+    "count": 31,
     "games": [
       {
         "ageRating": {
@@ -3420,6 +3420,41 @@
       {
         "ageRating": {
           "authority": "ESRB",
+          "description": "ESRB Everyone",
+          "descriptors": [],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases (Includes Random Items)",
+              "name": "ESRB_IN_GAME_PURCHASES_RANDOM"
+            },
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_EVERYONE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
+        },
+        "conceptId": 10013889,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10013889",
+        "device": [
+          "PS4",
+          "PS5"
+        ],
+        "genre": [
+          "SPORTS"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202510/1410/eade5a7a3e4292d77b5c60771f68c45870f8b6c33058c74b.png",
+        "name": "Cricket 26 - The Official Game of the Ashes",
+        "nameEn": "Cricket 26 - The Official Game of the Ashes",
+        "productId": "EP6665-PPSA28053_00-C260000000000000",
+        "releaseDate": "2025-11-19T14:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
           "description": "ESRB Mature 17+",
           "descriptors": [
             {
@@ -3503,8 +3538,8 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202310/1119/4b2bc50a0bb1fa4a27273cd583b59e922de33a3d9da23a59.png",
         "name": "Crow Country",
         "nameEn": "Crow Country",
-        "productId": "UP6093-CUSA45567_00-0160994265024834",
-        "releaseDate": "2024-10-22T15:00:00Z",
+        "productId": "UP6093-PPSA19067_00-0438761103283229",
+        "releaseDate": "2024-05-09T15:00:00Z",
         "streamingSupported": true
       },
       {
@@ -3828,7 +3863,7 @@
           "HORROR",
           "ACTION"
         ],
-        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202610/2118/4448362515c1c03644cae01d08e4784b30224f81e6c25514.png",
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202611/2418/858895e6d994bd1ea0b70e4782258ea548eb9b8710b25e73.png",
         "name": "Dead by Daylight PS4® & PS5®",
         "nameEn": "Dead by Daylight PS4® & PS5®",
         "productId": "UP3509-PPSA02048_00-DEADBYDAYLIGHT00",
@@ -8680,7 +8715,7 @@
   },
   {
     "catalogKey": "L",
-    "count": 14,
+    "count": 15,
     "games": [
       {
         "ageRating": {
@@ -9114,6 +9149,55 @@
       {
         "ageRating": {
           "authority": "ESRB",
+          "description": "ESRB Mature 17+",
+          "descriptors": [
+            {
+              "description": "Blood",
+              "name": "ESRB_BLOOD"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            },
+            {
+              "description": "Suggestive Themes",
+              "name": "ESRB_SUGGESTIVE_THEMES"
+            },
+            {
+              "description": "Violence",
+              "name": "ESRB_VIOLENCE"
+            }
+          ],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            }
+          ],
+          "name": "ESRB_MATURE_17",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m17.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m17.png"
+        },
+        "conceptId": 10011704,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10011704",
+        "device": [
+          "PS5",
+          "PS4"
+        ],
+        "genre": [
+          "ADVENTURE",
+          "ACTION"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202408/1401/5cbfb4502807fef739169f7e9bdd0cd615d7a86ce4e6af82.png",
+        "name": "Like a Dragon: Pirate Yakuza in Hawaii PS4 & PS5",
+        "nameEn": "Like a Dragon: Pirate Yakuza in Hawaii PS4 & PS5",
+        "productId": "JP0177-PPSA24478_00-MAINGAME00000000",
+        "releaseDate": "2025-02-21T05:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
           "description": "ESRB Everyone",
           "descriptors": [
             {
@@ -9176,7 +9260,7 @@
   },
   {
     "catalogKey": "M",
-    "count": 30,
+    "count": 31,
     "games": [
       {
         "ageRating": {
@@ -9911,7 +9995,8 @@
         "conceptId": 10009198,
         "conceptUrl": "https://store.playstation.com/en-us/concept/10009198",
         "device": [
-          "PS4"
+          "PS4",
+          "PS5"
         ],
         "genre": [
           "ACTION"
@@ -9919,9 +10004,9 @@
         "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202410/2821/51d6eb5a4a96c0a546c0f7e475a6477a6c4a29196c95820b.png",
         "name": "Mighty Morphin Power Rangers: Rita's Rewind",
         "nameEn": "Mighty Morphin Power Rangers: Rita's Rewind",
-        "productId": "UP7818-CUSA45165_00-0153621143952723",
+        "productId": "UP7818-PPSA18528_00-0444976593126924",
         "releaseDate": "2024-12-10T05:00:00Z",
-        "streamingSupported": false
+        "streamingSupported": true
       },
       {
         "ageRating": {
@@ -10322,6 +10407,41 @@
         "nameEn": "Mortal Kombat™ 1",
         "productId": "UP1018-PPSA07570_00-MKONE00000000000",
         "releaseDate": "2023-09-19T04:00:00Z",
+        "streamingSupported": true
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Everyone",
+          "descriptors": [],
+          "interactiveElements": [
+            {
+              "description": "In-Game Purchases",
+              "name": "ESRB_IN_GAME_PURCHASES"
+            },
+            {
+              "description": "Users Interact",
+              "name": "ESRB_USERS_INTERACT"
+            }
+          ],
+          "name": "ESRB_EVERYONE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/e.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/e.png"
+        },
+        "conceptId": 10016581,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10016581",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "SPORTS",
+          "RACING"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202602/2015/bb1ac61cfe78e0f00e4ee4b3112050f93d6978a150c59cda.png",
+        "name": "MotoGP™26",
+        "nameEn": "MotoGP™26",
+        "productId": "EP4356-PPSA32557_00-MOTOGP26FULLGAME",
+        "releaseDate": "2026-04-29T04:00:00Z",
         "streamingSupported": true
       },
       {
@@ -14453,7 +14573,7 @@
   },
   {
     "catalogKey": "T",
-    "count": 62,
+    "count": 63,
     "games": [
       {
         "ageRating": {
@@ -16640,6 +16760,44 @@
         "productId": "UP0001-CUSA09609_00-TRANSFERENCE0000",
         "releaseDate": "2018-09-18T04:00:00Z",
         "streamingSupported": false
+      },
+      {
+        "ageRating": {
+          "authority": "ESRB",
+          "description": "ESRB Mature",
+          "descriptors": [
+            {
+              "description": "Blood and Gore",
+              "name": "ESRB_BLOOD_AND_GORE"
+            },
+            {
+              "description": "Intense Violence",
+              "name": "ESRB_INTENSE_VIOLENCE"
+            },
+            {
+              "description": "Strong Language",
+              "name": "ESRB_STRONG_LANGUAGE"
+            }
+          ],
+          "interactiveElements": [],
+          "name": "ESRB_MATURE",
+          "url": "https://image.api.playstation.com/grc/images/ratings/hd/esrb/m.png",
+          "url4k": "https://image.api.playstation.com/grc/images/ratings/4k/esrb/m.png"
+        },
+        "conceptId": 10007968,
+        "conceptUrl": "https://store.playstation.com/en-us/concept/10007968",
+        "device": [
+          "PS5"
+        ],
+        "genre": [
+          "SHOOTER"
+        ],
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202307/2710/1c5dddf0d4c21ee17b1595b02d4aaf03840a2df70ef80f63.png",
+        "name": "Trepang2",
+        "nameEn": "Trepang2",
+        "productId": "UP4064-PPSA15350_00-TREPANG200000000",
+        "releaseDate": "2023-10-02T04:00:00Z",
+        "streamingSupported": true
       },
       {
         "ageRating": {
